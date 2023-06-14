@@ -1,4 +1,5 @@
 import React from 'react';
+import {Route, BrowserRouter as Router,Routes} from 'react-router-dom'
 import {
   ChakraProvider,
   Box,
@@ -11,14 +12,17 @@ import {
   Button,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { GiHamburgerMenu } from 'react-icons/gi';
 import './styles/App.css'
+import Header from './components/Header';
 
 function App() {
-  return(<div className='hi'>
-    <Button color='white' backgroundColor='transparent' variant='solid'>
-      <GiHamburgerMenu/>
-    </Button>
+  return(<div>
+  <Router>
+  <Header/>
+    <Routes>
+      <Route />
+    </Routes>
+  </Router>
   </div>);
 }
 
