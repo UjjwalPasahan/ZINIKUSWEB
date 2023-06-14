@@ -14,13 +14,15 @@ import {
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import './styles/App.css'
 import Header from './components/Header';
+import Home from './components/Home';
+
 
 function App() {
   return(<div>
   <Router>
   <Header/>
     <Routes>
-      <Route />
+      <Route path='/' element={<Home />} />
     </Routes>
   </Router>
   </div>);
