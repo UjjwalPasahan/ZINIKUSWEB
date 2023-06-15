@@ -1,0 +1,19 @@
+.hometext h2{
+    font-size:7rem;
+    font-weight: 600;
+    line-height: 6.2rem;
+    color: white !important;
+}
+
+.hometext h5{
+    font-size:2rem;
+    font-weight: 200;
+    margin-bottom: 1.2rem;
+    color: white !important;
+}
+
+.home{
+    background-color: royalblue;
+    background-image: url(../assets/homepage/bg.png);
+    background-repeat: repeat;
+}

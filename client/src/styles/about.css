@@ -1,0 +1,26 @@
+.about{
+    background-color: royalblue;
+    justify-content: center;
+    background-image: url(../assets/homepage/bg.png);
+    padding: 10rem;
+    width: 100vw;
+}
+
+.about h2{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 800;
+    color: white !important;
+
+}
+
+.about p{
+    text-align: center;
+    font-size: 1.2rem;
+    color: white !important;
+    font-weight: 600;
+}
+
+.imgs{
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 54px 55px, rgba(0, 0, 0, 0.9) 0px -12px 30px, rgba(0, 0, 0, 0.9) 0px 4px 6px, rgba(0, 0, 0, 0.9) 0px 12px 13px, rgba(0, 0, 0, 0.9) 0px -3px 5px;
+}

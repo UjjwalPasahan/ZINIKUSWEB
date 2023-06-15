@@ -32,7 +32,8 @@ const Header = () => {
   }
 
   return (
-    <div>
+    <>
+    <div className='header'>
       <Button
         color="white"
         backgroundColor="transparent"
@@ -70,11 +71,9 @@ const Header = () => {
         </DrawerContent>
       </Drawer>
 
-      <div><Image src={img2} pos='fixed' top='0.3' left={['23%','40%']} h={['12','110']}/></div>
-
-
-
+      <div><Image src={img2} pos='absolute' top='0.3' left={['23%','40%']} h={['12','110']}/></div>
     </div>
+    </>
   );
 };
 
