@@ -1,6 +1,6 @@
 import React from 'react'
 import img from '../assets/homepage/Subtract.png'
-import { Box, Image, VStack,HStack, Button } from '@chakra-ui/react'
+import { Box, Image, VStack,HStack, Button, flexbox, Center } from '@chakra-ui/react'
 import '../styles/home.css'
 import { Link } from 'react-router-dom'
 import img3 from '../assets/homepage/bg.png'
@@ -12,9 +12,11 @@ const Home = () => {
     <Box
   backgroundImage={img} 
   backgroundSize='cover'
+  display='flex'
+  justifyContent='center'
   backgroundRepeat={'no-repeat'}
   w="100%" 
-  h="85rem">
+  h="65rem">
 
   <VStack pos='absolute' top={['32','72']} left={['15','60']}>
     <div className='hometext'>
