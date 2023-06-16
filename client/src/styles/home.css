@@ -1,19 +1,38 @@
 .hometext h2{
-    font-size:7rem;
+    font-size:5rem;
     font-weight: 600;
     line-height: 6.2rem;
+    text-align: left;
     color: white !important;
 }
 
 .hometext h5{
     font-size:2rem;
     font-weight: 200;
+    text-align: left;
     margin-bottom: 1.2rem;
     color: white !important;
 }
 
 .home{
-    background-color: royalblue;
+    background-color: #251B58;
     background-image: url(../assets/homepage/bg.png);
     background-repeat: repeat;
+}
+.gradient {
+    background: url(../assets/homepage/Group\ 7.png);
+    position: absolute;
+    z-index: -100;
+}
+
+.headImage{
+    background: url(../assets/homepage/Subtract.png);
+    background-size:'cover';
+    display:'flex';
+    z-index: -150;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80rem;
+    background-position: left top;
 }
