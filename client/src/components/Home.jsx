@@ -5,6 +5,7 @@ import '../styles/home.css'
 import { Link } from 'react-router-dom'
 import img3 from '../assets/homepage/bg.png'
 import About from './About'
+import Achievements from './Achievements'
 
 const Home = () => {
   return (
@@ -31,8 +32,9 @@ const Home = () => {
 
         </Box>
         <About />
+        <Achievements/>
       </div>
     </div>)
 }
 
-export default Home
+export default Home;
