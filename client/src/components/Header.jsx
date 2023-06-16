@@ -72,6 +72,7 @@ const Header = () => {
       </Drawer>
 
       <div ><Image src={img2} className='mainLogo' /></div>
+      
     </div>
     </>
   );

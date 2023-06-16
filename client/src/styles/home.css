@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
 .hometext h2{
     font-size:5rem;
     font-weight: 600;
     line-height: 6.2rem;
     text-align: left;
     color: white !important;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .hometext h5{
@@ -12,12 +17,14 @@
     text-align: left;
     margin-bottom: 1.2rem;
     color: white !important;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .home{
     background-color: #251B58;
     background-image: url(../assets/homepage/bg.png);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .gradient {
     background: url(../assets/homepage/Group\ 7.png);
