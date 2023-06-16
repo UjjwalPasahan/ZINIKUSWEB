@@ -52,7 +52,7 @@ const Header = () => {
           <DrawerCloseButton onClick={onClose} />
           <DrawerHeader h='container.sm'>
           <div>
-            <Image src={img2} />
+            <Image src={img2}  />
             <Button onClick={handleClick} colorScheme='facebook'> <ImSearch onClick={!handleClick}/> </Button>
             {showInput && <Input placeholder='Type here...' colorScheme='facebook'/>}
           </div>
@@ -71,7 +71,7 @@ const Header = () => {
         </DrawerContent>
       </Drawer>
 
-      <div><Image src={img2} pos='absolute' top='0.3' left={['23%','40%']} h={['12','110']}/></div>
+      <div ><Image src={img2} className='mainLogo' /></div>
     </div>
     </>
   );

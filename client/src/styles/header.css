@@ -13,3 +13,9 @@
 .header{
     border-bottom: 20px;
 }
+.mainLogo {
+    position: absolute;
+    left: 45%;
+    margin-top: 0.5rem;
+    height: 50px;
+}
