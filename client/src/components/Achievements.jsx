@@ -4,7 +4,9 @@ const Achievements = () => {
   return (
     <div>
         <h2>Achievements</h2>
-        <div className='achieveImage'></div>
+        <div className='achieveImage'>
+          
+        </div>
     </div>
   )
 }

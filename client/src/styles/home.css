@@ -32,14 +32,13 @@
     z-index: -100;
 }
 
-.headImage{
+/* .headImage{
     background: url(../assets/homepage/Subtract.png);
-    background-size:'cover';
+    background-size:'contain';
     display:'flex';
     z-index: -150;
     justify-content: center;
     background-repeat: no-repeat;
     width: 100%;
     height: 80rem;
-    background-position: left top;
-}
+} */

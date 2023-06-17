@@ -12,14 +12,14 @@ const Home = () => {
     <div className='gradient'>
       <div className='home'>
         <Box className='headImage'
-          // backgroundImage={headImg}
-          // backgroundSize='cover'
-          // display='flex'
-          // zIndex='-150'
-          // justifyContent='center'
-          // backgroundRepeat={'no-repeat'}
-          // w="100%"
-          // h="65rem"
+          backgroundImage={headImg}
+          backgroundSize='cover'
+          display='flex'
+          zIndex='-150'
+          justifyContent='center'
+          backgroundRepeat={'no-repeat'}
+          w="100%"
+          h="65rem"
           >
           
           <VStack pos='absolute' top={['32', '72']} left={['15', '60']}>
