@@ -1,3 +1,15 @@
 .achieveImage{
     background-image: url('../assets/homepage/DIPP.png');
+    height: 1000px;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+.Achieve h2{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 800;
+    color: white !important;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 2rem 0 2rem 0;
 }

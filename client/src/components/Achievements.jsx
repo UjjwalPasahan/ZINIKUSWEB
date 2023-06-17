@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/Achievements.css'
 const Achievements = () => {
   return (
-    <div>
+    <div className='Achieve'>
         <h2>Achievements</h2>
         <div className='achieveImage'>
           
