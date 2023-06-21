@@ -17,6 +17,7 @@ const Home = () => {
           display='flex'
           zIndex='-150'
           justifyContent='center'
+          backgroundPosition='center bottom'
           backgroundRepeat={'no-repeat'}
           w="100%"
           h="65rem"
