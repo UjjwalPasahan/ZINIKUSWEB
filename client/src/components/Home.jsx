@@ -1,5 +1,5 @@
 import React from 'react'
-import headImg from '../assets/homepage/Subtract.png'
+import headImg from '../assets/homepage/mainImage.jpg'
 import { Box, Image, VStack, HStack, Button, flexbox, Center } from '@chakra-ui/react'
 import '../styles/home.css'
 import { Link } from 'react-router-dom'
