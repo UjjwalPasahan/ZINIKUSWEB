@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 
-.hometext h2{
-    font-size:5rem;
+.hometext h2 {
+    font-size: 5rem;
     font-weight: 600;
     line-height: 6.2rem;
     text-align: left;
@@ -11,8 +11,8 @@
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-.hometext h5{
-    font-size:2rem;
+.hometext h5 {
+    font-size: 2rem;
     font-weight: 200;
     text-align: left;
     margin-bottom: 1.2rem;
@@ -20,12 +20,13 @@
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-.home{
+.home {
     background-color: #251B58;
     /* background-image: url(../assets/homepage/bg.png); */
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .gradient {
     background: url(../assets/homepage/Group\ 7.png);
     position: absolute;
@@ -41,4 +42,38 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 80rem;
+} */
+
+.divider::after,
+.divider::before {
+    display: block;
+    height: 4px;
+    border-width: 4px 0;
+    margin-bottom: 4px;
+    border-style: dotted;
+    content: "";
+    /* opacity: 0.8; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .divider::before{
+    margin-top: 20px;
+} */
+
+.upperDivider::after,
+.upperDivider::before {
+    display: block;
+    height: 4px;
+    border-width: 4px 0;
+    margin-bottom: 4px;
+    border-style: dotted;
+    content: "";
+    /* opacity: 0.8; */
+    /* width: 80%;
+    margin-left: auto;
+    margin-right: auto; */
+}
+/* .upperDivider::before{
+    margin-top: 20px;
 } */

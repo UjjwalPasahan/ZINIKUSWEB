@@ -32,6 +32,8 @@ const Home = () => {
           </VStack>
 
         </Box>
+        <div className='upperDivider'></div>
+        <div className='divider'></div>
         <About />
         <Achievements/>
       </div>
