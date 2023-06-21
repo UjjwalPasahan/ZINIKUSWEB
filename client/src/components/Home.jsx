@@ -22,11 +22,11 @@ const Home = () => {
           h="65rem"
           >
           
-          <VStack pos='absolute' top={['32', '72']} left={['15', '60']}>
+          <VStack pos='absolute' top={['32', '56']} left={['15', '56']}>
             <div className='hometext'>
               <h2>Translation by <br /> H.Rackham</h2>
               <h5>Sit nostrud officia eu adipisicing<br /> occaecat voluptate labore.</h5>
-              <Button colorScheme='facebook' borderRadius='3xl' variant='outline' h='16' w='36' fontSize='3xl'><Link to='#login'>Login</Link></Button>
+              <Button colorScheme='facebook' borderRadius='3xl' variant='outline' h='16' w='36' fontSize='3xl'><Link to='/login'>Login</Link></Button>
             </div>
           </VStack>
 

@@ -32,8 +32,8 @@ const Header = () => {
   }
 
   return (
-    <>
-    <div className='header'>
+    <div className='headerTop'>
+    <div className='header' >
       <Button
         color="white"
         backgroundColor="transparent"
@@ -42,6 +42,7 @@ const Header = () => {
         top={'15'}
         left={['3', '10']}
         onClick={onOpen}
+        backdropFilter={'auto'}
       >
         <GiHamburgerMenu />
       </Button>
@@ -58,15 +59,15 @@ const Header = () => {
           </div>
           </DrawerHeader>
           <VStack className='links'>
-            <Button  onClick={onClose} w='40' colorScheme='facebook'><Link to='#sevices'>Our Services</Link></Button>
-            <Button onClick={onClose}  w='40' colorScheme='facebook'><Link to='#team'>Our Team</Link></Button>
-            <Button onClick={onClose}  w='40' colorScheme='facebook'><Link to='#product'>Products</Link></Button>
-            <Button onClick={onClose}  w='40' colorScheme='facebook'><Link to='#contact'>Contact Us</Link></Button>
+            <Button  onClick={onClose} w='40' colorScheme='facebook'><Link to={'/sevices'}>Our Services</Link></Button>
+            <Button onClick={onClose}  w='40' colorScheme='facebook'><Link to={'/team'}>Our Team</Link></Button>
+            <Button onClick={onClose}  w='40' colorScheme='facebook'><Link to={'/product'}>Products</Link></Button>
+            <Button onClick={onClose}  w='40' colorScheme='facebook'><Link to={'/contact'}>Contact Us</Link></Button>
           </VStack>
 
           <Stack direction={["column","row"]} className='ls' justifyContent='space-around'>
-            <Button onClick={onClose}  w='20' colorScheme='facebook'><Link to='#login'>Login</Link></Button>
-            <Button onClick={onClose}  w='20' colorScheme='facebook' variant='outline'><Link to='#signup'>SignUp</Link></Button>
+            <Button onClick={onClose}  w='20' colorScheme='facebook'><Link to={'/login'}>Login</Link></Button>
+            <Button onClick={onClose}  w='20' colorScheme='facebook' variant='outline'><Link to={'/signup'}>SignUp</Link></Button>
           </Stack>
         </DrawerContent>
       </Drawer>
@@ -74,7 +75,7 @@ const Header = () => {
       <div ><Image src={img2} className='mainLogo' /></div>
       
     </div>
-    </>
+    </div> 
   );
 };
 

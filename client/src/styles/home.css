@@ -22,7 +22,7 @@
 
 .home{
     background-color: #251B58;
-    background-image: url(../assets/homepage/bg.png);
+    /* background-image: url(../assets/homepage/bg.png); */
     background-repeat: no-repeat;
     background-size: contain;
 }

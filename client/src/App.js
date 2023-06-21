@@ -15,6 +15,10 @@ import { ColorModeSwitcher } from './ColorModeSwitcher';
 import './styles/App.css'
 import Header from './components/Header';
 import Home from './components/Home';
+import Login from './components/Login';
+import Signup from './components/signup'
+import Products from './components/Products';
+import Team from './components/Team'
 
 
 function App() {
@@ -23,6 +27,12 @@ function App() {
   <Header/>
     <Routes>
       <Route path='/' element={<Home />} />
+      <Route path='/login' element={<Login />} />
+      <Route path='/signup' element={<Signup />} />
+      <Route path='/product' element={<Products />} />
+      <Route path='/team' element={<Team />} />
+      <Route path='/product' element={<Products />} />
+      <Route path='/product' element={<Products />} />
     </Routes>
   </Router>
   </div>);
