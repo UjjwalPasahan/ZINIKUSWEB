@@ -33,15 +33,12 @@ const Header = () => {
 
   return (
     <div className='headerContainer' style={{
-      // background: 'inherit rgba(0,0,0,0.5)',
+      // background: 'inherit rgba(255,255,255,0.25)',
       // backdropFilter: 'blur(5px)',
-      // filter: 'blur(10px)',
       // padding: '20px',
       // width: '100%',
       // position: 'absolute',
       // height: '5rem',
-      // boxShadow: 'inset 0 0 2000px rgba(255,255,255,0.5)',
-      // backgroundAttachment: 'fixed'
     }}>
   <div className='header' >
     <Button
@@ -49,6 +46,7 @@ const Header = () => {
       backgroundColor="transparent"
       variant="solid"
       pos="fixed"
+      zIndex={'10'}
       top={'15'}
       left={['3', '10']}
       onClick={onOpen}
