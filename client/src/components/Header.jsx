@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link ,HashLink } from 'react-router-dom';
+import { Link, HashLink } from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { ImSearch } from 'react-icons/im';
 import {
@@ -24,64 +24,68 @@ import '../styles/header.css'
 
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const [showInput,setShowInput] = useState(false);
+  const [showInput, setShowInput] = useState(false);
 
-  const handleClick = ()=>{
+  const handleClick = () => {
     setShowInput(true);
     setShowInput(!showInput);
   }
 
   return (
-    <div style={{
-      background: 'rgba(255, 255, 255, 0.25)',
-      backdropFilter: 'blur(1px)',
-      padding: '20px',
-      width: '100%',
-      height: '5rem',
-      }}>
-    <div className='header' >
-      <Button
-        color="white"
-        backgroundColor="transparent"
-        variant="solid"
-        pos="fixed"
-        top={'15'}
-        left={['3', '10']}
-        onClick={onOpen}
-        backdropFilter={'auto'}
-      >
-        <GiHamburgerMenu />
-      </Button>
+    <div className='headerContainer' style={{
+      // background: 'inherit rgba(0,0,0,0.5)',
+      // backdropFilter: 'blur(5px)',
+      // filter: 'blur(10px)',
+      // padding: '20px',
+      // width: '100%',
+      // position: 'absolute',
+      // height: '5rem',
+      // boxShadow: 'inset 0 0 2000px rgba(255,255,255,0.5)',
+      // backgroundAttachment: 'fixed'
+    }}>
+  <div className='header' >
+    <Button
+      color="white"
+      backgroundColor="transparent"
+      variant="solid"
+      pos="fixed"
+      top={'15'}
+      left={['3', '10']}
+      onClick={onOpen}
+      backdropFilter={'auto'}
+    >
+      <GiHamburgerMenu />
+    </Button>
 
-      <Drawer isOpen={isOpen} onClose={onClose} placement="left" >
-        <DrawerOverlay />
-        <DrawerContent>
-          <DrawerCloseButton onClick={onClose} />
-          <DrawerHeader h='container.sm'>
+    <Drawer isOpen={isOpen} onClose={onClose} placement="left" >
+      <DrawerOverlay />
+      <DrawerContent>
+        <DrawerCloseButton onClick={onClose} />
+        <DrawerHeader h='container.sm'>
           <div>
-            <Image src={img2}  />
-            <Button onClick={handleClick} colorScheme='facebook'> <ImSearch onClick={!handleClick}/> </Button>
-            {showInput && <Input placeholder='Type here...' colorScheme='facebook'/>}
+            <Image src={img2} />
+            <Button onClick={handleClick} colorScheme='facebook'> <ImSearch onClick={!handleClick} /> </Button>
+            {showInput && <Input placeholder='Type here...' colorScheme='facebook' />}
           </div>
-          </DrawerHeader>
-          <VStack className='links'>
-            <Button  onClick={onClose} w='40' colorScheme='facebook'><Link to={'/sevices'}>Our Services</Link></Button>
-            <Button onClick={onClose}  w='40' colorScheme='facebook'><Link to={'/team'}>Our Team</Link></Button>
-            <Button onClick={onClose}  w='40' colorScheme='facebook'><Link to={'/product'}>Products</Link></Button>
-            <Button onClick={onClose}  w='40' colorScheme='facebook'><Link to={'/contact'}>Contact Us</Link></Button>
-          </VStack>
+        </DrawerHeader>
+        <VStack className='links'>
+          <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/sevices'}>Our Services</Link></Button>
+          <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/team'}>Our Team</Link></Button>
+          <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/product'}>Products</Link></Button>
+          <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/contact'}>Contact Us</Link></Button>
+        </VStack>
 
-          <Stack direction={["column","row"]} className='ls' justifyContent='space-around'>
-            <Button onClick={onClose}  w='20' colorScheme='facebook'><Link to={'/login'}>Login</Link></Button>
-            <Button onClick={onClose}  w='20' colorScheme='facebook' variant='outline'><Link to={'/signup'}>SignUp</Link></Button>
-          </Stack>
-        </DrawerContent>
-      </Drawer>
+        <Stack direction={["column", "row"]} className='ls' justifyContent='space-around'>
+          <Button onClick={onClose} w='20' colorScheme='facebook'><Link to={'/login'}>Login</Link></Button>
+          <Button onClick={onClose} w='20' colorScheme='facebook' variant='outline'><Link to={'/signup'}>SignUp</Link></Button>
+        </Stack>
+      </DrawerContent>
+    </Drawer>
 
-      <div ><Image src={img2} className='mainLogo' pos={'fixed'} top={'0.5'}/></div>
-      
-    </div>
-    </div> 
+    <div ><Image src={img2} className='mainLogo' pos={'fixed'} top={'0.5'} /></div>
+
+  </div>
+    </div >
   );
 };
 

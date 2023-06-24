@@ -1,13 +1,13 @@
-.links{
+.links {
     position: absolute;
     top: 25%;
-    left:30%
+    left: 30%
 }
 
-.ls{
+.ls {
     position: absolute;
     top: 90%;
-    left:28%;
+    left: 28%;
 }
 
 
@@ -17,5 +17,18 @@
     margin-top: 0.5rem;
     height: 50px;
     cursor: pointer;
+    z-index: 1;
 }
 
+.headerContainer{
+    background: inherit rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    filter: blur(10px);
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    /* z-index: -5; */
+    height: 5rem;
+    box-shadow: inset 0 0 2000px rgba(255,255,255,0.5);
+    background-attachment: fixed;
+}
