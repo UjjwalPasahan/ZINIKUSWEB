@@ -1,14 +1,24 @@
 import React from 'react'
-import { Input , Stack } from '@chakra-ui/react'
+import { Button, Input , VStack } from '@chakra-ui/react'
+import '../styles/login.css'
 
 const login = () => {
-  return (
-    <div id='login'>
-      <Stack spacing={3}>
-  <Input variant='filled' placeholder='Filled' colorScheme='facebook'/>
-  <Input variant='filled' placeholder='Filled' colorScheme='facebook'/>
-</Stack>
+  return (<>
+  <div>
+    <h2 className='j'>j</h2>
+  </div>
+    <div class='login'>
+      <VStack spacing={'1.5'} w={'72'} pos={'absolute'} left={['40%']} top={'56'}>
+      <label className='logintext'>Login Form</label>
+      <label className='loginlabel'>Username</label>
+  <Input variant='filled' placeholder='username...' type='text' colorScheme='facebook'/>
+  <label className='loginlabel'>Password</label>
+  <Input variant='filled' placeholder='password...' type='password' colorScheme='facebook'/>
+
+  <Button colorScheme='facebook' m={'10'} variant={'ghost'}>Submit</Button>
+</VStack>
     </div>
+    </>
   )
 }
 

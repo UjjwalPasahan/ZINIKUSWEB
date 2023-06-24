@@ -15,7 +15,7 @@ import { ColorModeSwitcher } from './ColorModeSwitcher';
 import './styles/App.css'
 import Header from './components/Header';
 import Home from './components/Home';
-import Login from './components/login';
+import Login from './components/Login';
 import Signup from './components/signup'
 import Products from './components/Products';
 import Team from './components/Team'

@@ -72,7 +72,7 @@ const Header = () => {
         </DrawerContent>
       </Drawer>
 
-      <div ><Image src={img2} className='mainLogo' /></div>
+      <div ><Image src={img2} className='mainLogo' pos={'fixed'}/></div>
       
     </div>
     </div> 
