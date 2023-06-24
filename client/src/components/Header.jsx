@@ -32,7 +32,13 @@ const Header = () => {
   }
 
   return (
-    <div className='headerTop'>
+    <div style={{
+      background: 'rgba(255, 255, 255, 0.25)',
+      backdropFilter: 'blur(1px)',
+      padding: '20px',
+      width: '100%',
+      height: '5rem',
+      }}>
     <div className='header' >
       <Button
         color="white"
@@ -72,7 +78,7 @@ const Header = () => {
         </DrawerContent>
       </Drawer>
 
-      <div ><Image src={img2} className='mainLogo' pos={'fixed'}/></div>
+      <div ><Image src={img2} className='mainLogo' pos={'fixed'} top={'0.5'}/></div>
       
     </div>
     </div> 
