@@ -83,8 +83,8 @@ const Header = () => {
           </DrawerContent>
         </Drawer>
       </div>
-        <div ><Image src={img2} className='mainLogo' pos={'relative'}  top={'0.5'} /></div>
-
+        <div ><Image src={img2} className='mainLogo' pos={'relative'}  top={'0.3'} /></div>
+      <hr className='defaultHR'/>
     </div>
   );
 };

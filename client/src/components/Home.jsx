@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 import img3 from '../assets/homepage/bg.png'
 import About from './About'
 import Achievements from './Achievements'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -34,8 +35,10 @@ const Home = () => {
         </Box>
         <div className='upperDivider'></div>
         <div className='divider'></div>
+        <hr className='defaultHR'/>
         <About />
         <Achievements/>
+        <Footer/>
       </div>
     </div>)
 }

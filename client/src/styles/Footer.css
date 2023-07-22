@@ -1,0 +1,13 @@
+.footer{
+    background-color: #251B58;
+}
+.defaultHR{
+    color: #D0D0D0;
+}
+
+.vertical {
+    border-left: 6px solid blue;
+    height: 200px;
+    position:absolute;
+    left: 50%;
+  }
