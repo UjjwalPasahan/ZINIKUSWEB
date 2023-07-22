@@ -29,7 +29,7 @@
     position: absolute;
     z-index: -1;
     height: 5rem;
-    box-shadow: inset 0 0 2000px rgba(255,255,255,0.5);
+    box-shadow: inset 0 0 2000px rgba(255,255,255,0);
     background-attachment: fixed;
 }
 .header{
