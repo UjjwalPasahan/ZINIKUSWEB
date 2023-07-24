@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+
+.glassyEffect{
+    height: 70px;
+    width: 100%;
+    background: rgba(218, 218, 218, 0.162);
+    position: absolute;
+    z-index: 1000;
+    float: left;
+
+}
 .defaultHR{
     width: 100%;
     position: absolute;
@@ -8,15 +18,16 @@
     color: #D0D0D0;
 }
 .spaceMaker{
-    background: #251B58;
-    height: 3rem;
+    background:linear-gradient(rgba(0, 0, 0) 1%, #251B58 99%);
+    height: 5rem;
     width: 100%;
     margin: 0;
     padding: 0%;
+    box-shadow: 0 0 10px 20px black;
 }
 
 .hometext h2 {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 600;
     line-height: 6.2rem;
     text-align: left;
@@ -25,7 +36,7 @@
 }
 
 .hometext h5 {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 200;
     text-align: left;
     margin-bottom: 1.2rem;
@@ -38,6 +49,7 @@
     /* background-image: url(../assets/homepage/bg.png); */
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
 }
 
 .gradient {
