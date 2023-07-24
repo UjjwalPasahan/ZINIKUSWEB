@@ -2,7 +2,11 @@
 
 .flex {
     display: flex;
-    
+    justify-content: space-around;
+}
+
+.margin {
+    margin-top: 30px;
 }
 .footer {
     background-color: #251B58;

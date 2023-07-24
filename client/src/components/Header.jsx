@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, HashLink } from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { ImSearch } from 'react-icons/im';
+
 import {
   Box,
   VStack,

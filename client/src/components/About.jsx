@@ -47,6 +47,7 @@ const About = () => {
             <div className='imgs'><Image src={img5} w='container.md'/>
             </div>
         </HStack>
+        
     </div>
   );
 };

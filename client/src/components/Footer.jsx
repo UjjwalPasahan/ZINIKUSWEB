@@ -1,5 +1,7 @@
 import React from 'react'
 import '../styles/Footer.css'
+import zini from '../assets/homepage/zinikus.png'
+import {AiFillGithub,AiFillLinkedin,AiFillInstagram,AiFillYoutube} from 'react-icons/ai'
 const Footer = () => {
   return (
     <div className='footer' >
@@ -18,8 +20,15 @@ const Footer = () => {
         <div class="footerAbout">About Us</div>
         <div class="terms">Terms & Conditions</div>
         <div class="phone">+91 9810031799</div>
-        <div className='footerIcons'>Icons</div>
-        <div className='footerLogo'>Zinikus</div>
+        <div className='footerIcons'>
+          <div className='flex margin'>
+            <a><AiFillLinkedin size={40}/></a>
+            <a><AiFillYoutube size={40}/></a>
+            <a><AiFillInstagram size={40}/></a>
+            <a><AiFillGithub size={40}/></a>
+          </div>
+        </div>
+        <div className='footerLogo' style={{paddingLeft:'20px',paddingTop:'20px'}}><img src={zini}/></div>
       </div>
       <div className='footerDivider'></div>
 
