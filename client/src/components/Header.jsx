@@ -32,27 +32,40 @@ const Header = () => {
   }
 
   return (
-    <div className='headerContainer' style={{
-      // background: 'inherit rgba(255,255,255,0.25)',
-      // backdropFilter: 'blur(5px)',
-      // padding: '20px',
-      // width: '100%',
-      // position: 'absolute',
-      // height: '5rem',
-    }}>
-  <div className='header' >
+     <div className='headerContainer'   
+    //   position: 'absolute',
+    //   top: '0',
+    //   left: '0',
+    //   right: '0',
+    //   bottom: '0',
+    //   background: 'rgba(255, 255, 255, 0.25)',
+    //   backdropFilter: 'blur(10px)',
+    //   border: '1px solid rgba(255, 255, 255, 0.25)',
+    //   borderRadius: '10px',
+    //   padding: '20px',
+    //   margin: '20px',
+    >
+  <div className='header' 
+          // position: 'fixed',
+          // top: '0',
+          // left: '0',
+          // right: '0',
+          // height: '50px',
+          // background: 'rgba(255, 255, 255, 0.8)',
+          // zIndex: '100',
+        >
     <Button
       color="white"
       backgroundColor="transparent"
       variant="solid"
       pos="fixed"
-      zIndex={'10'}
+      zIndex='10'
       top={'15'}
       left={['3', '10']}
       onClick={onOpen}
       backdropFilter={'auto'}
     >
-      <GiHamburgerMenu />
+      <GiHamburgerMenu style={{zIndex:'100'}} />
     </Button>
 
     <Drawer isOpen={isOpen} onClose={onClose} placement="left" >
@@ -80,7 +93,7 @@ const Header = () => {
       </DrawerContent>
     </Drawer>
 
-    <div ><Image src={img2} className='mainLogo' pos={'fixed'} top={'0.5'} /></div>
+    <div ><Image src={img2} className='mainLogo' pos={'fixed'} top={'0.5'} style={{zIndex:100}} /></div>
 
   </div>
     </div >
