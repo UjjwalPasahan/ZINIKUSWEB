@@ -16,9 +16,9 @@
 .defaultHR {
     color: #D0D0D0;
     height: 0.8px;
-    border: 0.8px solid;
-    border-bottom: 0;
+    border-top: 0.8px solid;
 }
+
 .footerDivider{
     background: #251B58;
     height: 5px;
