@@ -28,7 +28,7 @@ const Footer = () => {
             <a><AiFillGithub size={40}/></a>
           </div>
         </div>
-        <div className='footerLogo' style={{paddingLeft:'20px',paddingTop:'20px' ,width:'30rem'}}><img src={zini}/></div>
+        <div className='footerLogo' style={{paddingLeft:'55px',paddingTop:'20px'}}><img style={{width:'170px'}} src={zini}/></div>
       </div>
       <div className='footerDivider'></div>
 

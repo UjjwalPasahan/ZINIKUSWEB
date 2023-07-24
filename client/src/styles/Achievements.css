@@ -1,9 +1,12 @@
 .achieveImage{
     background-image: url('../assets/homepage/DIPP.png');
-    height: 1000px;
+    height: 500px;
+    background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
     background-position: center;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
 
 }
 .Achieve h2{
