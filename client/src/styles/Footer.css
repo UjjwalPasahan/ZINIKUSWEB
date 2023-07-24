@@ -42,9 +42,9 @@
     color: #FFF;
     text-align: center;
     font-family: Ubuntu;
-    font-size: 20px;
+    font-size: 1.15rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: lighter;
     line-height: normal;
 }
 
@@ -57,9 +57,9 @@
     color: #FFF;
     text-align: center;
     font-family: Ubuntu;
-    font-size: 20px;
+    font-size: 1.15rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: lighter;
     line-height: normal;
 }
 
@@ -72,9 +72,9 @@
     color: #FFF;
     text-align: center;
     font-family: Ubuntu;
-    font-size: 20px;
+    font-size: 1.15rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: lighter;
     line-height: normal;
 }
 
@@ -87,9 +87,9 @@
     color: #FFF;
     text-align: center;
     font-family: Ubuntu;
-    font-size: 20px;
+    font-size: 1.15rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: lighter;
     line-height: normal;
 }
 
@@ -102,9 +102,9 @@
     color: #FFF;
     text-align: center;
     font-family: Ubuntu;
-    font-size: 20px;
+    font-size: 1.15rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: lighter;
     line-height: normal;
 }
 
@@ -119,9 +119,9 @@
     color: #FFF;
     text-align: center;
     font-family: Ubuntu;
-    font-size: 20px;
+    font-size: 1.15rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: lighter;
     line-height: normal;
 }
 
@@ -134,9 +134,9 @@
     color: #FFF;
     text-align: center;
     font-family: Ubuntu;
-    font-size: 20px;
+    font-size: 1.15rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: lighter;
     line-height: normal;
 }
 
@@ -149,32 +149,32 @@
     color: #FFF;
     text-align: center;
     font-family: Ubuntu;
-    font-size: 20px;
+    font-size: 1.15rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: lighter;
     line-height: normal;
 }
 
 
 
 .vertical {
-    display: inline-block;
+    display: inline-flex;
     position: absolute;
+    bottom: 30px;
     
 }
 
 .vertical1 {
     border-left: 6px solid blue;
     height: 200px;
-    position: absolute;
+    position: relative;
 
-    left: 33%;
+    left: 34vw;
 }
 
 .vertical2 {
     border-left: 6px solid blue;
-    height: 200px;
-    position: absolute;
-
-    left: 66%;
+    height: 250px;
+    position: relative;
+    left: 64vw;
 }
