@@ -1,25 +1,180 @@
-.footer{
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+.footer {
     background-color: #251B58;
 }
-.defaultHR{
+
+.defaultHR {
     color: #D0D0D0;
 }
 
-.vertical{
-    display: inline-block;
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 5rem);
+    grid-template-areas: "contact products address"
+        "feedback newsletter email"
+        "about  terms  phone";
+    padding: 40px;
+
 }
+
+.contact {
+    background: rgba(255, 154, 72, 0.5);
+    grid-area: contact;
+    text-align: center;
+    padding-top: 1rem;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 1.15rem;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: normal;
+}
+
+.products {
+    background: rgba(255, 0, 0, 0.5);
+    grid-area: products;
+    text-align: center;
+    padding-top: 1rem;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.address {
+    background: rgba(0, 128, 0, 0.5);
+    grid-area: address;
+    text-align: center;
+    padding-top: 1rem;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feedback {
+    background: rgba(5, 239, 36, 0.5);
+    grid-area: feedback;
+    text-align: center;
+    padding-top: 1rem;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.newsletter {
+    background: rgba(27, 112, 127, 0.5);
+    grid-area: newsletter;
+    text-align: center;
+    padding-top: 1rem;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.email {
+    background: rgba(233, 9, 113, 0.5);
+    grid-area: email;
+    text-align: center;
+    padding-top: 1rem;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footerAbout {
+    background: rgba(111, 5, 154, 0.5);
+    grid-area: about;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    text-align: center;
+    padding-top: 1rem;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.terms {
+    background: rgba(197, 211, 6, 0.5);
+    grid-area: terms;
+    text-align: center;
+    padding-top: 1rem;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.phone {
+    background: rgb(255, 0, 0);
+    grid-area: phone;
+    text-align: center;
+    padding-top: 1rem;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.vertical {
+    display: inline-block;
+    position: absolute;
+    
+}
+
 .vertical1 {
     border-left: 6px solid blue;
     height: 200px;
-    position:absolute;
+    position: absolute;
 
     left: 33%;
-  }
-  
-  .vertical2 {
+}
+
+.vertical2 {
     border-left: 6px solid blue;
     height: 200px;
-    position:absolute;
+    position: absolute;
 
     left: 66%;
-  }
+}
