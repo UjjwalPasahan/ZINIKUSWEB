@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Footer from './Footer.jsx'
 import '../styles/services.css'
 const Services = () => {
   return (
@@ -7,6 +7,7 @@ const Services = () => {
       <div>
         uasgdhjask
       </div>
+      <Footer />
     </div>
   )
 }
