@@ -29,7 +29,7 @@ const Home = () => {
             <div className='hometext'>
               <h2>Translation by <br /> H.Rackham</h2>
               <h5>Sit nostrud officia eu adipisicing<br /> occaecat voluptate labore.</h5>
-              <Button colorScheme='facebook' borderRadius='3xl' variant='outline' h='16' w='36' fontSize='3xl'><Link to='/login'>Login</Link></Button>
+              <Button colorScheme='grey' borderRadius='3xl' variant='outline' h='12' w='36' fontSize='2xl'><Link to='/login'>Login</Link></Button>
             </div>
           </VStack>
 
