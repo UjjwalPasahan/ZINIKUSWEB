@@ -12,16 +12,17 @@ const Home = () => {
   return (
     <div className='gradient'>
       <div className='home'>
+        <div className='glassyEffect'></div>
         <Box className='headImage'
           backgroundImage={headImg}
           backgroundSize='cover'
           display='flex'
           zIndex='-150'
           justifyContent='center'
-          backgroundPosition='center bottom'
+          backgroundPosition='60% 60%'
           backgroundRepeat={'no-repeat'}
           w="100%"
-          h="65rem"
+          h="50rem"
           >
           
           <VStack pos='absolute' top={['32', '56']} left={['15', '56']}>
@@ -38,7 +39,8 @@ const Home = () => {
         <Achievements/>
         <Footer/>
       </div>
-    </div>)
+    </div>
+    )
 }
 
 export default Home;

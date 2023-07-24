@@ -22,6 +22,8 @@ import {
 } from '@chakra-ui/react';
 import img2 from '../assets/homepage/zinikus.png'
 import '../styles/header.css'
+import img3 from '../assets/homepage/signUpButton.svg'
+import img4 from '../assets/homepage/searchIcon.svg'
 
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -49,7 +51,7 @@ const Header = () => {
           color="white"
           backgroundColor="transparent"
           variant="solid"
-          pos="fixed"
+          pos="absolute"
           zIndex={'10'}
           top={'15'}
           left={['3', '10']}
@@ -84,8 +86,11 @@ const Header = () => {
           </DrawerContent>
         </Drawer>
       </div>
-        <div ><Image src={img2} className='mainLogo' pos={'relative'}  top={'0.3'} /></div>
-      <hr className='defaultHR'/>
+        <div ><Image src={img4} className='headerSearch' pos={'absolute'}  top={'0.3'} /></div>
+        <div ><Image src={img2} className='mainLogo' pos={'absolute'}  top={'0.3'} /></div>
+        <div ><Image src={img3} className='signUpButton' pos={'absolute'}  top={'0.3'} /></div>
+        <div className='loginButton' >Login</div>
+      <hr className='headerHR'/>
     </div>
   );
 };
