@@ -32,71 +32,60 @@ const Header = () => {
   }
 
   return (
-     <div className='headerContainer'   
-    //   position: 'absolute',
-    //   top: '0',
-    //   left: '0',
-    //   right: '0',
-    //   bottom: '0',
-    //   background: 'rgba(255, 255, 255, 0.25)',
-    //   backdropFilter: 'blur(10px)',
-    //   border: '1px solid rgba(255, 255, 255, 0.25)',
-    //   borderRadius: '10px',
-    //   padding: '20px',
-    //   margin: '20px',
-    >
-  <div className='header' 
-          // position: 'fixed',
-          // top: '0',
-          // left: '0',
-          // right: '0',
-          // height: '50px',
-          // background: 'rgba(255, 255, 255, 0.8)',
-          // zIndex: '100',
+    <div  style={{
+      // background: 'inherit rgba(255,255,255,0.25)',
+      // backdropFilter: 'blur(5px)',
+      // padding: '20px',
+      // width: '100%',
+      // position: 'absolute',
+      // height: '5rem',
+    }}>
+      
+      <div className='headerContainer'>
+      </div>
+      <div className='header' >
+        <Button
+          color="white"
+          backgroundColor="transparent"
+          variant="solid"
+          pos="fixed"
+          zIndex={'10'}
+          top={'15'}
+          left={['3', '10']}
+          onClick={onOpen}
+          backdropFilter={'auto'}
         >
-    <Button
-      color="white"
-      backgroundColor="transparent"
-      variant="solid"
-      pos="fixed"
-      zIndex='10'
-      top={'15'}
-      left={['3', '10']}
-      onClick={onOpen}
-      backdropFilter={'auto'}
-    >
-      <GiHamburgerMenu style={{zIndex:'100'}} />
-    </Button>
+          <GiHamburgerMenu />
+        </Button>
 
-    <Drawer isOpen={isOpen} onClose={onClose} placement="left" >
-      <DrawerOverlay />
-      <DrawerContent>
-        <DrawerCloseButton onClick={onClose} />
-        <DrawerHeader h='container.sm'>
-          <div>
-            <Image src={img2} />
-            <Button onClick={handleClick} colorScheme='facebook'> <ImSearch onClick={!handleClick} /> </Button>
-            {showInput && <Input placeholder='Type here...' colorScheme='facebook' />}
-          </div>
-        </DrawerHeader>
-        <VStack className='links'>
-          <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/sevices'}>Our Services</Link></Button>
-          <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/team'}>Our Team</Link></Button>
-          <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/product'}>Products</Link></Button>
-          <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/contact'}>Contact Us</Link></Button>
-        </VStack>
+        <Drawer isOpen={isOpen} onClose={onClose} placement="left" >
+          <DrawerOverlay />
+          <DrawerContent>
+            <DrawerCloseButton onClick={onClose} />
+            <DrawerHeader h='container.sm'>
+              <div>
+                <Image src={img2} />
+                <Button onClick={handleClick} colorScheme='facebook'> <ImSearch onClick={!handleClick} /> </Button>
+                {showInput && <Input placeholder='Type here...' colorScheme='facebook' />}
+              </div>
+            </DrawerHeader>
+            <VStack className='links'>
+              <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/sevices'}>Our Services</Link></Button>
+              <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/team'}>Our Team</Link></Button>
+              <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/product'}>Products</Link></Button>
+              <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/contact'}>Contact Us</Link></Button>
+            </VStack>
 
-        <Stack direction={["column", "row"]} className='ls' justifyContent='space-around'>
-          <Button onClick={onClose} w='20' colorScheme='facebook'><Link to={'/login'}>Login</Link></Button>
-          <Button onClick={onClose} w='20' colorScheme='facebook' variant='outline'><Link to={'/signup'}>SignUp</Link></Button>
-        </Stack>
-      </DrawerContent>
-    </Drawer>
-
-    <div ><Image src={img2} className='mainLogo' pos={'fixed'} top={'0.5'} style={{zIndex:100}} /></div>
-
-  </div>
-    </div >
+            <Stack direction={["column", "row"]} className='ls' justifyContent='space-around'>
+              <Button onClick={onClose} w='20' colorScheme='facebook'><Link to={'/login'}>Login</Link></Button>
+              <Button onClick={onClose} w='20' colorScheme='facebook' variant='outline'><Link to={'/signup'}>SignUp</Link></Button>
+            </Stack>
+          </DrawerContent>
+        </Drawer>
+      </div>
+        <div ><Image src={img2} className='mainLogo' pos={'relative'}  top={'0.3'} /></div>
+      <hr className='defaultHR'/>
+    </div>
   );
 };
 

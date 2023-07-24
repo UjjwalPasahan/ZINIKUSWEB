@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+.defaultHR{
+    width: 100%;
+    position: absolute;
+    size: 5px;
+    color: #D0D0D0;
+}
 
 .hometext h2 {
     font-size: 5rem;
