@@ -7,9 +7,7 @@ const Achievements = () => {
     <div className='Achieve'>
       <div className='divider'></div>
         <h2>Achievements</h2>
-        <div className='achieveImage'>
-          
-        </div>
+        <div className='achieveImage'></div>
     </div>
     
   )

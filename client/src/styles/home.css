@@ -7,6 +7,13 @@
     size: 5px;
     color: #D0D0D0;
 }
+.spaceMaker{
+    background: #251B58;
+    height: 3rem;
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+}
 
 .hometext h2 {
     font-size: 5rem;

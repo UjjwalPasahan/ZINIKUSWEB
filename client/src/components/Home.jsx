@@ -33,9 +33,7 @@ const Home = () => {
           </VStack>
 
         </Box>
-        <div className='upperDivider'></div>
-        <div className='divider'></div>
-        <hr className='defaultHR'/>
+        <div className='spaceMaker'></div>
         <About />
         <Achievements/>
         <Footer/>
