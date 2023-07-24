@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
 
+.flex {
+    display: flex;
+    
+}
 .footer {
     background-color: #251B58;
 }

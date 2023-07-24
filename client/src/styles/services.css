@@ -1,4 +1,6 @@
 .imageCalling{
-    background-image: url(../assets/homepage/callingLady.png);
-z-index: 100;
+    background-image: url(../assets/homepage/login.png);
+    height: 100%;
+    width: 100vw;
+    color: aliceblue;
 }

@@ -19,7 +19,7 @@ import Login from './components/Login.jsx';
 import Signup from './components/signup'
 import Products from './components/Products';
 import Team from './components/Team'
-
+import Service from './components/Service'
 
 function App() {
   return(<div>
@@ -32,7 +32,7 @@ function App() {
       <Route path='/product' element={<Products />} />
       <Route path='/team' element={<Team />} />
       <Route path='/product' element={<Products />} />
-      <Route path='/product' element={<Products />} />
+      <Route path='/service' element={<Service />} />
     </Routes>
   </Router>
   </div>);
