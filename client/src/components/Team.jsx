@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Footer from './Footer.jsx'
 const Team = () => {
   return (
-    <div>Team</div>
+    <div>Team<Footer /></div>
   )
 }
 

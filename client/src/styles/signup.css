@@ -1,9 +1,12 @@
 .signUppage{
     background-color: #251B58;
-    background-image: url('../assets/homepage/pngwing5.png');
+    background-image: url('../assets/homepage/pngwing52.png');
     background-size: contain;
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 650px;
+    position: absolute;
+    top: 10;
+
 }
