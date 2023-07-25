@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 
+
 .glassyEffect{
     height: 70px;
     width: 100%;
@@ -79,7 +80,7 @@
 .gradC1{
     border-radius: 286px;
     background: #2B00FF;
-    filter: blur(186px);width: 286px;
+    -webkit-filter: blur(186px);width: 286px;
     height: 286px;
     flex-shrink: 0;
     position: absolute;
