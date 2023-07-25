@@ -51,7 +51,7 @@ const Header = () => {
           color="white"
           backgroundColor="transparent"
           variant="solid"
-          pos="absolute"
+          pos="fixed"
           zIndex={'10'}
           top={'15'}
           left={['3', '10']}

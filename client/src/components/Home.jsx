@@ -35,6 +35,7 @@ const Home = () => {
 
         </Box>
         <div className='spaceMaker'></div>
+        <div className='lowerSpaceMaker'></div>
         <About />
         <Achievements/>
         <Footer/>

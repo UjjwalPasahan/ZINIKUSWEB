@@ -25,6 +25,13 @@
     padding: 0%;
     box-shadow: 0 0 10px 20px black;
 }
+.lowerSpaceMaker{
+    background-color: #251B58;
+    height: 2rem;
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+}
 
 .hometext h2 {
     font-size: 4rem;
