@@ -43,9 +43,10 @@
     background: url('../assets/homepage/ContactUsWhiteBackground2.svg');
     background-position: center bottom;
     background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     height: 65rem;
-    width: 100vw;
+    width: 100%;
     top: 50rem;
 }
 .ourServices h1{

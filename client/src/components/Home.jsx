@@ -24,7 +24,8 @@ const Home = () => {
           w="100%"
           h="50rem"
           >
-          
+          <div className='gradC1'></div>
+          <div className='gradE1'></div>
           <VStack pos='absolute' top={['32', '56']} left={['15', '56']}>
             <div className='hometext'>
               <h2>Translation by <br /> H.Rackham</h2>

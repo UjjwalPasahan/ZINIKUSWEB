@@ -75,3 +75,34 @@
     width: 100%;
     height: 80rem;
 } */
+
+.gradC1{
+    border-radius: 286px;
+    background: #2B00FF;
+    filter: blur(186px);width: 286px;
+    height: 286px;
+    flex-shrink: 0;
+    position: absolute;
+    left: -10vw;
+}
+
+.gradE1{
+    /* width: 111.32px;
+    height: 948.19px;
+    border-radius: 50%; 
+    background-image: radial-gradient(circle, #2B00FF 0.1%, rgba(255, 204, 0, 0) 65%);
+    opacity: 25%;
+    position: absolute;
+    left: 50vw;
+    top: 100vh;
+    transform: rotate(-37.5deg);
+     */
+     border-radius: 60px;
+     background: #2B00FF;
+filter: blur(201.5px);width: 111.317px;
+height: 948.189px;
+transform: rotate(37.147deg);
+flex-shrink: 0;
+position: absolute;
+left: 80vw;
+}

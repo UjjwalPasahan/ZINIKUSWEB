@@ -20,7 +20,6 @@ import Signup from './components/signup'
 import Products from './components/Products';
 import Team from './components/Team'
 import Service from './components/Service'
-
 function App() {
   return(<div>
   <Router>
