@@ -76,6 +76,7 @@ const Header = () => {
               <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/sevices'}>Our Services</Link></Button>
               <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/team'}>Our Team</Link></Button>
               <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/product'}>Products</Link></Button>
+              <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/contact'}>Research</Link></Button>
               <Button onClick={onClose} w='40' colorScheme='facebook'><Link to={'/contact'}>Contact Us</Link></Button>
             </VStack>
 
