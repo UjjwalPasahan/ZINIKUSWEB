@@ -1,8 +1,22 @@
 import React from 'react'
-import Footer from './Footer.jsx'
+import prodata from '../data/productdata.json'
+import Cards from './Cards'
 const Products = () => {
   return (
-    <div ><Footer /></div>
+    <div>
+        {
+            prodata.map((element) => {
+                return(
+                    <Cards
+                    key={element.key}
+                    image={element.image}
+                    name={element.name}
+                    description={element.description}
+                    price={element.price}
+                />)
+            })
+        }
+    </div>
   )
 }
 

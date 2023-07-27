@@ -1,97 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Ubuntu:wght@300;400&display=swap');
 
-
-.servicesGlassyEffect{
-    height: 70px;
-    width: 100%;
-    background: rgba(8, 8, 8, 0.418);
-    z-index: -1;
-    float: left;
-
+.servicesGlassyEffect {
+  height: 70px;
+  width: 100%;
+  background: rgba(8, 8, 8, 0.418);
+  z-index: -1;
+  float: left;
 }
-.callingLady{
-    background-image: url('../assets/homepage/contact-us-modified.png');
-    background-repeat: no-repeat;
-    z-index: 0;
-    height: 55rem;
-    width: 100vw;
+.callingLady {
+  background-image: url('../assets/homepage/contact-us-modified.png');
+  background-repeat: no-repeat;
+  z-index: 0;
+  height: 55rem;
+  width: 100vw;
 }
-.callHeading{
-    height: 55rem;
-    padding-top: 17rem;
-    padding-left: 50%;
+.callHeading {
+  height: 55rem;
+  padding-top: 17rem;
+  padding-left: 50%;
 }
-.callHeading h1{
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 60px;
+.callHeading h1 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 60px;
 }
-.callHeading p{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 25px;
+.callHeading p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
 }
 
-.ContactspaceMaker{
-    background-color: #251B58; 
-    height: 55rem;
-    width: 100%;
-    margin: 0;
-    padding: 0%;
-    /* box-shadow: 0 0 10px 20px black; */
+.ContactspaceMaker {
+  background-color: #251b58;
+  height: 55rem;
+  width: 100%;
+  margin: 0;
+  padding: 0%;
 }
 
-.ourServices{
-    background: url('../assets/homepage/ContactUsWhiteBackground2.svg');
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    height: 65rem;
-    width: 100%;
-    top: 50rem;
+.ourServices {
+  background: url('../assets/homepage/ContactUsWhiteBackground2.svg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 65rem;
+  width: 100%;
+  top: 50rem;
 }
-.ourServices h1{
-    text-align: center;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    color: #6D6B6B;
-    padding-top: 2rem;
+.ourServices h1 {
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #6d6b6b;
+  padding-top: 2rem;
 }
 
-.serviceContainer{
-    margin: 0px 150px 100px 150px;
-    padding: 60px;
-    position: absolute;
-    z-index: 1000;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 20rem 20rem;
-    grid-template-areas: 'graph  text1'
-                        'text2  envelope';
-    grid-column-gap: 30px;
+.serviceContainer {
+  margin: 0px 150px 100px 150px;
+  padding: 60px;
+  position: absolute;
+  z-index: 1000;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20rem 20rem;
+  grid-template-areas:
+    'graph  text1'
+    'text2  envelope';
+  grid-column-gap: 30px;
 }
-.el1{
-    background-image: url('../assets/homepage/serviceObj1.svg');
-    background-repeat: no-repeat;
-    background-size: 20rem;
+.el1 {
+  background-image: url('../assets/homepage/serviceObj1.svg');
+  background-repeat: no-repeat;
+  background-size: 20rem;
 
-    grid-area: graph;
+  grid-area: graph;
 }
-.el2{
-    grid-area: text1;
-    color: black;
-    font-family: 'Merriweather Sans', sans-serif;
+.el2 {
+  grid-area: text1;
+  color: black;
+  font-family: 'Merriweather Sans', sans-serif;
 }
-.el3{
-    grid-area: text2;
-    color: black;
-    font-family: 'Merriweather Sans', sans-serif;
-    text-align: right;
+.el3 {
+  grid-area: text2;
+  color: black;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: right;
 }
-.el4{
-    background-image: url('../assets/homepage/serviceObj2.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-size: 20rem;
-    grid-area: envelope;
+.el4 {
+  background-image: url('../assets/homepage/serviceObj2.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 20rem;
+  grid-area: envelope;
 }

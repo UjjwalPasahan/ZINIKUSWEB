@@ -1,184 +1,184 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
 
 .flex {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .margin {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .footer {
-    background-color: #251B58;
-    /* background: transparent; */
+  background-color: #251b58;
 }
 
 .defaultHR {
-    color: #D0D0D0;
-    height: 0.8px;
-    border-top: 0.8px solid;
+  color: #d0d0d0;
+  height: 0.8px;
+  border-top: 0.8px solid;
 }
 
-.footerDivider{
-    background: #251B58;
-    height: 5px;
-    width: 100%;
-    margin: 0;
-    padding: 0%;
+.footerDivider {
+  background: #251b58;
+  height: 5px;
+  width: 100%;
+  margin: 0;
+  padding: 0%;
 }
 .container {
-    display: grid;
-    background: #8b8b8b;
-    grid-template-columns: repeat(3, 33.3%);
-    grid-template-rows: repeat(4, 5rem);
-    grid-template-areas: "contact products address"
-        "feedback newsletter email"
-        "about  terms  phone"
-        "icon icon logo";
-        margin: 40px;
-    grid-column-gap: 1px;
+  display: grid;
+  background: #8b8b8b;
+  grid-template-columns: repeat(3, 33.3%);
+  grid-template-rows: repeat(4, 5rem);
+  grid-template-areas:
+    'contact products address'
+    'feedback newsletter email'
+    'about  terms  phone'
+    'icon icon logo';
+  margin: 40px;
+  grid-column-gap: 1px;
 }
 
 .contact {
-    background: #251B58;
-    grid-area: contact;
-    text-align: center;
-    padding-top: 1rem;
-    cursor: pointer;
-    color: #FFF;
-    text-align: center;
-    font-family: Ubuntu;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: lighter;
-    line-height: normal;
+  background: #251b58;
+  grid-area: contact;
+  text-align: center;
+  padding-top: 1rem;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: normal;
 }
 
 .products {
-    background: #251B58;
-    grid-area: products;
-    text-align: center;
-    padding-top: 1rem;
-    cursor: pointer;
-    color: #FFF;
-    text-align: center;
-    font-family: Ubuntu;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: lighter;
-    line-height: normal;
+  background: #251b58;
+  grid-area: products;
+  text-align: center;
+  padding-top: 1rem;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: normal;
 }
 
 .address {
-    background: #251B58;
-    grid-area: address;
-    padding-top: 1rem;
-    padding-left: 4rem;
-    cursor: pointer;
-    color: #FFF;
-    font-family: Ubuntu;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: lighter;
-    line-height: normal;
+  background: #251b58;
+  grid-area: address;
+  padding-top: 1rem;
+  padding-left: 4rem;
+  cursor: pointer;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: normal;
 }
 
 .feedback {
-    background: #251B58;
-    grid-area: feedback;
-    text-align: center;
-    padding-top: 1rem;
-    cursor: pointer;
-    color: #FFF;
-    text-align: center;
-    font-family: Ubuntu;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: lighter;
-    line-height: normal;
+  background: #251b58;
+  grid-area: feedback;
+  text-align: center;
+  padding-top: 1rem;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: normal;
 }
 
 .newsletter {
-    background: #251B58;
-    grid-area: newsletter;
-    text-align: center;
-    padding-top: 1rem;
-    cursor: pointer;
-    color: #FFF;
-    text-align: center;
-    font-family: Ubuntu;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: lighter;
-    line-height: normal;
+  background: #251b58;
+  grid-area: newsletter;
+  text-align: center;
+  padding-top: 1rem;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: normal;
 }
 
 .email {
-    background: #251B58;
-    grid-area: email;
-    padding-left: 4rem;
-    padding-top: 1rem;
-    cursor: pointer;
-    color: #FFF;
-    font-family: Ubuntu;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: lighter;
-    line-height: normal;
+  background: #251b58;
+  grid-area: email;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  cursor: pointer;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: normal;
 }
 
 .footerAbout {
-    background: #251B58;
-    grid-area: about;
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-    text-align: center;
-    padding-top: 1rem;
-    cursor: pointer;
-    color: #FFF;
-    text-align: center;
-    font-family: Ubuntu;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: lighter;
-    line-height: normal;
+  background: #251b58;
+  grid-area: about;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  text-align: center;
+  padding-top: 1rem;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: normal;
 }
 
 .terms {
-    background: #251B58;
-    grid-area: terms;
-    text-align: center;
-    padding-top: 1rem;
-    cursor: pointer;
-    color: #FFF;
-    text-align: center;
-    font-family: Ubuntu;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: lighter;
-    line-height: normal;
+  background: #251b58;
+  grid-area: terms;
+  text-align: center;
+  padding-top: 1rem;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: normal;
 }
 
 .phone {
-    background: #251B58;
-    grid-area: phone;
-    padding-left: 4rem;
-    padding-top: 1rem;
-    cursor: pointer;
-    color: #FFF;
+  background: #251b58;
+  grid-area: phone;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  cursor: pointer;
+  color: #fff;
 
-    font-family: Ubuntu;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: lighter;
-    line-height: normal;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: normal;
 }
 
-.footerIcons{
-    background: #251B58;
-    grid-area: icon;
+.footerIcons {
+  background: #251b58;
+  grid-area: icon;
 }
-.footerLogo{
-    background: #251B58;
-    grid-area: logo;
+.footerLogo {
+  background: #251b58;
+  grid-area: logo;
 }

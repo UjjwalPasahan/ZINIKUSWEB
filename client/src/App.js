@@ -10,6 +10,7 @@ import {
   Grid,
   theme,
   Button,
+  extendTheme
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import './styles/App.css'
@@ -20,7 +21,9 @@ import Signup from './components/signup'
 import Products from './components/Products';
 import Team from './components/Team'
 import Service from './components/Service'
+import darkTheme from "./components/darkTheme";
 function App() {
+
   return(<div>
   <Router>
   <Header/>
@@ -29,7 +32,6 @@ function App() {
       <Route path='/login' element={<Login />} />
       <Route path='/signup' element={<Signup />} />
       <Route path='/product' element={<Products />} />
-      <Route path='/team' element={<Team />} />
       <Route path='/product' element={<Products />} />
       <Route path='/service' element={<Service />} />
     </Routes>
