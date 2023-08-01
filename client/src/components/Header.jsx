@@ -116,8 +116,8 @@ const Header = () => {
         colorScheme="facebook"
         variant="solid"
         pos={'absolute'}
-        top={'15px'}
-        left={'1230px'}
+        top={'2.0080321285140563vh'}
+        left={'164.6586345381526vh'}
       >
         <Link to={'/signup'}>SignUp</Link>
       </Button>
@@ -128,8 +128,8 @@ const Header = () => {
         colorScheme="facebook"
         variant="link"
         pos={'absolute'}
-        top={'23px'}
-        left={'1320px'}
+        top={'3.0789825970548863vh'}
+        left={'176.70682730923696vh'}
       >
         <Link to={'/login'}>Login</Link>
       </Button>
