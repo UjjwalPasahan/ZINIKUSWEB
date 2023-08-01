@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
         <div class="footerAbout">About Us</div>
         <div class="terms">Terms & Conditions</div>
-        <div class="phone">+91 9810031799</div>
+        <div class="phone"><a href='tel:+91 98110031799'>+91 9810031799</a></div>
         <div className="footerIcons">
           <div className="flex margin">
             <a>

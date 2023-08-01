@@ -6,8 +6,10 @@
 }
 
 html{
-    scroll-behavior: smooth;
+
+  overflow-x: hidden;
 }
+
 .wrapp {
   overflow-x: hidden;
   width: 100%;

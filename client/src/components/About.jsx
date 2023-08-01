@@ -1,11 +1,6 @@
 import React from 'react';
 import {
-  Box,
-  VStack,
-  theme,
-  Button,
   Image,
-  Stack,
   HStack,
 } from '@chakra-ui/react';
 import img4 from '../assets/homepage/bg.png';

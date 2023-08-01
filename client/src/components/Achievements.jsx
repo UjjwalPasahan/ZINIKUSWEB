@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/Achievements.css'
-import { Box } from '@chakra-ui/react';
 const Achievements = () => {
   return (
     

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, HashLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { ImSearch } from 'react-icons/im';
 
@@ -56,7 +56,7 @@ const Header = () => {
           variant="solid"
           pos="fixed"
           zIndex={'10'}
-          top={'15'}
+          top={'4'}
           left={['3', '10']}
           onClick={onOpen}
           backdropFilter={'auto'}
@@ -76,13 +76,13 @@ const Header = () => {
                   <ImSearch onClick={!handleClick} />{' '}
                 </Button>
                 {showInput && (
-                  <Input placeholder="Type here..." colorScheme="facebook" />
+                  <Input placeholder="Type here..." colorScheme="twitter" />
                 )}
               </div>
             </DrawerHeader>
             <VStack className="links">
-              <Button onClick={onClose} w="40" colorScheme="facebook">
-                <Link to={'/sevices'}>Our Services</Link>
+              <Button onClick={onClose} w="40" colorScheme="facebook" >
+                <Link to={'/services'}>Our Services</Link>
               </Button>
               <Button onClick={onClose} w="40" colorScheme="facebook">
                 <a href="#ourteam" >Our Team</a>

@@ -2,18 +2,10 @@ import React from 'react';
 import Footer from './Footer.jsx';
 import {
   Card,
-  CardHeader,
   CardBody,
   CardFooter,
-  Box,
   Image,
-  VStack,
-  HStack,
   Button,
-  flexbox,
-  Center,
-  carousel,
-  calc,
   Stack,
   Heading,
   Text,
