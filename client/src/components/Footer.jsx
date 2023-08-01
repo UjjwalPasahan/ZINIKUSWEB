@@ -50,9 +50,9 @@ const Footer = () => {
         </div>
         <div
           className="footerLogo"
-          style={{ paddingLeft: '7.362784471218206vh', paddingTop: '2.677376171352075vh' }}
+          style={{ paddingLeft: '55px', paddingTop: '20px' }}
         >
-          <img style={{ width: '22.757697456492636vh' }} src={zini} />
+          <img style={{ width: '170px' }} src={zini} />
         </div>
       </div>
       <div className="footerDivider"></div>
