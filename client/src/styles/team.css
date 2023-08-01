@@ -5,16 +5,16 @@
     justify-content: center;
     margin-left:6%;
     margin-right: 6%;
-    margin-bottom: 12.048192771084338vh;
+    margin-bottom: 90px;
 }
 
 .teams{
-    padding: 2.677376171352075vh;
+    padding: 20px;
     background-color: rgba(255, 255, 255, 0.2); 
     backdrop-filter: blur(100px); 
-    border-radius: 2.677376171352075vh;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 40.16064257028113vh;
+    width: 300px;
     margin: 5%;
     padding: 6%;
     text-align: center;
@@ -22,8 +22,8 @@
 }
 
 .teamimg{
-    width: 13.386880856760374vh;
-    height: 13.386880856760374vh;
+    width: 100px;
+    height: 100px;
     margin-left: 30.1%;
     border-radius: 50%;
 }

@@ -6,8 +6,7 @@
 }
 
 .margin {
-  margin-top:  4.01vh
-  ;
+  margin-top: 30px;
 }
 .footer {
   background-color: #251b58;
@@ -15,13 +14,13 @@
 
 .defaultHR {
   color: #d0d0d0;
-  height: 0.107095046854083vh;
-  border-top: 0.107095046854083vh solid;
+  height: 0.8px;
+  border-top: 0.8px solid;
 }
 
 .footerDivider {
   background: #251b58;
-  height: 0.6693440428380187vh;
+  height: 5px;
   width: 100%;
   margin: 0;
   padding: 0%;
@@ -36,8 +35,8 @@
     'feedback newsletter email'
     'about  terms  phone'
     'icon icon logo';
-  margin: 0.13386880856760375vh;
-  grid-column-gap: 0.13386880856760375vh;
+  margin: 40px;
+  grid-column-gap: 1px;
 }
 
 .contact {
@@ -49,7 +48,7 @@
   color: #fff;
   text-align: center;
   font-family: Ubuntu;
-  font-size:  2.14190093708166vh;
+  font-size: 16px;
   font-style: normal;
   font-weight: lighter;
   line-height: normal;
@@ -64,7 +63,7 @@
   color: #fff;
   text-align: center;
   font-family: Ubuntu;
-  font-size:  2.14190093708166vh;
+  font-size: 16px;
   font-style: normal;
   font-weight: lighter;
   line-height: normal;
@@ -78,7 +77,7 @@
   cursor: pointer;
   color: #fff;
   font-family: Ubuntu;
-  font-size:  1.8741633199464525vh;
+  font-size: 14px;
   font-style: normal;
   font-weight: lighter;
   line-height: normal;
@@ -93,7 +92,7 @@
   color: #fff;
   text-align: center;
   font-family: Ubuntu;
-  font-size:  2.14190093708166vh;
+  font-size: 16px;
   font-style: normal;
   font-weight: lighter;
   line-height: normal;
@@ -108,7 +107,7 @@
   color: #fff;
   text-align: center;
   font-family: Ubuntu;
-  font-size:  2.14190093708166vh;
+  font-size: 16px;
   font-style: normal;
   font-weight: lighter;
   line-height: normal;
@@ -122,7 +121,7 @@
   cursor: pointer;
   color: #fff;
   font-family: Ubuntu;
-  font-size:  1.8741633199464525vh;
+  font-size: 14px;
   font-style: normal;
   font-weight: lighter;
   line-height: normal;
@@ -139,7 +138,7 @@
   color: #fff;
   text-align: center;
   font-family: Ubuntu;
-  font-size:  2.14190093708166vh;
+  font-size: 16px;
   font-style: normal;
   font-weight: lighter;
   line-height: normal;
@@ -154,7 +153,7 @@
   color: #fff;
   text-align: center;
   font-family: Ubuntu;
-  font-size:  2.14190093708166vh;
+  font-size: 16px;
   font-style: normal;
   font-weight: lighter;
   line-height: normal;
@@ -169,7 +168,7 @@
   color: #fff;
 
   font-family: Ubuntu;
-  font-size:  1.8741633199464525vh;
+  font-size: 14px;
   font-style: normal;
   font-weight: lighter;
   line-height: normal;

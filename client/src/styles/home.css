@@ -16,7 +16,7 @@ html{
 }
 
 .glassyEffect {
-  height: 9.370816599732262vh;
+  height: 70px;
   width: 100%;
   background: rgba(218, 218, 218, 0.162);
   position: absolute;
@@ -26,7 +26,7 @@ html{
 .defaultHR {
   width: 100%;
   position: absolute;
-  size: 0.6693440428380187vh;
+  size: 5px;
   color: #d0d0d0;
 }
 .spaceMaker {
@@ -77,25 +77,25 @@ html{
 }
 
 .gradC1 {
-  border-radius: 38.28647925033467vh;
+  border-radius: 286px;
   background: #2b00ff;
   filter: blur(200px);
   width: 286px;
   height: 286px;
   -webkit-filter: blur(186px);
-  width: 38.28647925033467vh;
-  height: 38.28647925033467vh;
+  width: 286px;
+  height: 286px;
   flex-shrink: 0;
   position: absolute;
   left: -10vw;
 }
 
 .gradE1 {
-  border-radius: 8.032128514056225vh;
+  border-radius: 60px;
   background: #2b00ff;
   filter: blur(201.5px);
-  width: 13.429317269076304vh;
-  height: 87.04002677376171vh;
+  width: 100.317px;
+  height: 650.189px;
   transform: rotate(37.147deg);
   flex-shrink: 0;
   position: absolute;
@@ -105,7 +105,7 @@ html{
 .ourteam{
     font-family: 'Merriweather Sans', sans-serif;
     padding: 2rem 0 -4rem 0;
-    margin-bottom: 2.677376171352075vh;
+    margin-bottom: 20px;
 }
 
 .teamheading{

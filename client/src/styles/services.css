@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Ubuntu:wght@300;400&display=swap');
 
 .servicesGlassyEffect {
-  height: 9.370816599732262vh;
+  height: 70px;
   width: 100%;
   background: rgba(8, 8, 8, 0.418);
   z-index: -1;
@@ -21,11 +21,11 @@
 }
 .callHeading h1 {
   font-family: 'Merriweather Sans', sans-serif;
-  font-size: 8.032128514056225vh;
+  font-size: 60px;
 }
 .callHeading p {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 3.3467202141900936vh;
+  font-size: 25px;
 }
 
 .ContactspaceMaker {
@@ -49,7 +49,7 @@
 .ourServices h1 {
   text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
-  font-size: 6.693440428380187vh;
+  font-size: 50px;
   font-weight: 700;
   color: #6d6b6b;
   padding-top: 2rem;
@@ -57,7 +57,7 @@
 
 .serviceContainer {
   margin: 0px 150px 100px 150px;
-  padding: 8.032128514056225vh;
+  padding: 60px;
   position: absolute;
   z-index: 1000;
   display: grid;
@@ -66,7 +66,7 @@
   grid-template-areas:
     'graph  text1'
     'text2  envelope';
-  grid-column-gap: 4.016064257028113vh;
+  grid-column-gap: 30px;
 }
 .el1 {
   background-image: url('../assets/homepage/serviceObj1.svg');
