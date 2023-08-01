@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { GiHamburgerMenu } from 'react-icons/gi';
+import { GiHamburgerMenu } from "react-icons/gi";
 import { ImSearch } from 'react-icons/im';
 
 import {
@@ -37,16 +37,6 @@ const Header = () => {
 
   return (
     <div
-      style={
-        {
-          // background: 'inherit rgba(255,255,255,0.25)',
-          // backdropFilter: 'blur(5px)',
-          // padding: '20px',
-          // width: '100%',
-          // position: 'absolute',
-          // height: '5rem',
-        }
-      }
     >
       <div className="headerContainer"></div>
       <div className="header">
@@ -64,7 +54,7 @@ const Header = () => {
           <GiHamburgerMenu />
         </Button>
 
-        <Drawer isOpen={isOpen} onClose={onClose} placement="left">
+        <Drawer isOpen={isOpen} onClose={onClose} placement="left" className="drawer">
           <DrawerOverlay />
           <DrawerContent>
             <DrawerCloseButton onClick={onClose} />
@@ -92,9 +82,6 @@ const Header = () => {
               </Button>
               <Button onClick={onClose} w="40" colorScheme="facebook">
                 <Link to={'/contact'}>Research</Link>
-              </Button>
-              <Button onClick={onClose} w="40" colorScheme="facebook">
-                <Link to={'/contact'}>Contact Us</Link>
               </Button>
             </VStack>
 
