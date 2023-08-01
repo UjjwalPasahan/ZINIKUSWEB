@@ -15,37 +15,37 @@
 .headerHR {
   width: 100%;
   position: relative;
-  top: 70px;
+  top: 12.522361359570661vh;
   color: #d0d0d0;
-  border-top: 0.8px solid;
+  border-top: 0.14311270125223613vh solid;
 }
 
 .headerSearch {
   position: fixed;
   left: 8%;
-  margin-top: 22px;
-  height: 25px;
+  margin-top: 3.9355992844364938vh;
+  height: 4.47227191413238vh;
   cursor: pointer;
 }
 
 .mainLogo {
   position: absolute;
   left: 44%;
-  margin-top: 12px;
-  height: 52px;
+  margin-top: 2.146690518783542vh;
+  height: 9.30232558139535vh;
   cursor: pointer;
 }
 
 .signUpButton {
   position: fixed;
   left: 77%;
-  margin-top: 18px;
-  height: 35px;
+  margin-top: 3.2200357781753133vh;
+  height: 6.261180679785331vh;
   cursor: pointer;
 }
 .loginButton {
   position: absolute;
-  margin-top: 22px;
+  margin-top: 3.9355992844364938vh;
   left: 87%;
   text-decoration: underline;
 }

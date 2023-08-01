@@ -65,7 +65,11 @@ const Home = () => {
           </Box>
           <div className="spaceMaker"></div>
           <div className="lowerSpaceMaker"></div>
+          <div className="gradC1"></div>
+          <div className="gradE1"></div>
           <About />
+          <div className="gradC1"></div>
+            <div className="gradE1"></div>
           <div id='ourteam'><h2 className='teamheading'>OUR TEAM</h2></div>
           {team.map(element => {
             return (
@@ -78,7 +82,11 @@ const Home = () => {
               />
             );
           })}
+          <div className="gradC1"></div>
+          <div className="gradE1"></div>
           <Achievements />
+          <div className="gradC1"></div>
+          <div className="gradE1" style={{maxHeight: '400px'}}></div>
           <Footer />
         </div>
       </div>
