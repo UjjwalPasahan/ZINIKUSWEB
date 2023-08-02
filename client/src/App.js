@@ -22,6 +22,7 @@ import Products from './components/Products';
 import Team from './components/Team'
 import Service from './components/Service'
 import darkTheme from "./components/darkTheme";
+import 'bootstrap/dist/css/bootstrap.css';
 function App() {
 
   return(<div>
