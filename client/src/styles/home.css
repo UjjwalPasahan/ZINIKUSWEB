@@ -100,16 +100,24 @@ html{
   left: 70vw;
 }
 
-.ourteam{
+
+.teamSection{
+  display: grid;
+  grid-template-columns: repeat(2,50%);
+  grid-template-rows:repeat(2,5rem);
+  grid-template-areas: 'heading  empty'
+                        'empty  carousal';
+}
+.teamSectionHeading{
     font-family: 'Merriweather Sans', sans-serif;
     padding: 2rem 0 -4rem 0;
     margin-bottom: 20px;
-}
-
-.teamheading{
+    grid-area: heading;
     text-align: center;
     font-size: 5rem;
     font-weight: 800;
     color: white !important;
-    
+}
+.teamSectionCarousal{
+  
 }
