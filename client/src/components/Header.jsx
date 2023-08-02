@@ -36,17 +36,16 @@ const Header = () => {
   };
 
   return (
-    <div
-    >
+    <div  >
       <div className="headerContainer"></div>
-      <div className="header">
+      <div className="header ">
         <Button
           color="white"
           backgroundColor="transparent"
           variant="solid"
           pos="fixed"
           zIndex={'10'}
-          top={'4'}
+          top={'3.5vh'}
           left={['3', '10']}
           onClick={onOpen}
           backdropFilter={'auto'}
@@ -84,6 +83,7 @@ const Header = () => {
                 <Link to={'/contact'}>Research</Link>
               </Button>
             </VStack>
+            
 
             <Stack
               direction={['column', 'row']}
@@ -99,6 +99,7 @@ const Header = () => {
                 colorScheme="facebook"
                 variant="outline"
               >
+            
                 <Link to={'/signup'}>SignUp</Link>
               </Button>
             </Stack>
@@ -106,6 +107,7 @@ const Header = () => {
         </Drawer>
       </div>
       {/* <div ><Image src={img4} className='headerSearch' pos={'absolute'}  top={'0.3'} /></div> */}
+<div className="flex">
       <div>
         <Link to={'/'}><Image src={img2} className="mainLogo" pos={'absolute'} top={'0.3'} /></Link>
       </div>
@@ -116,9 +118,9 @@ const Header = () => {
         colorScheme="facebook"
         variant="solid"
         pos={'absolute'}
-        top={'15px'}
+        top={'3vh'}
         left={'83%'}
-      >
+      >   
         <Link to={'/signup'}>SignUp</Link>
       </Button>
 
@@ -128,12 +130,13 @@ const Header = () => {
         colorScheme="facebook"
         variant="link"
         pos={'absolute'}
-        top={'23px'}
+        top={'3.7vh'}
         left={'90%'}
       >
         <Link to={'/login'}>Login</Link>
       </Button>
 
+</div>
       <hr className="headerHR" />
     </div>
   );
