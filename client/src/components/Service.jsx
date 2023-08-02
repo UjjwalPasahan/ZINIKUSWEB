@@ -7,6 +7,8 @@ const Service = () => {
   return (
     <div className="services">
       <div className="callingLady">
+      <div className="gradC1"></div>
+          <div className="gradE1"></div>
         <div className="servicesGlassyEffect"></div>
         <div className="callHeading">
           <h1>How can we help?</h1>
@@ -17,6 +19,8 @@ const Service = () => {
       </div>
       <div className="ourServices">
         <h1>Our Services</h1>
+        <div className="gradC1"></div>
+          <div className="gradE1"></div>
         <div className="serviceContainer">
           <div className="el1"></div>
           <div className="el2">
@@ -42,10 +46,15 @@ const Service = () => {
               that it has a more-or-
             </p>
           </div>
+          <div className="gradC1"></div>
+          <div className="gradE1"></div>
           <div className="el4"></div>
         </div>
       </div>
+      
       <div className="ContactspaceMaker"></div>
+      <div className="gradC1"></div>
+          <div className="gradE1" style={{maxHeight: '71.55635062611807vh'}}></div>
       <Footer />
     </div>
   );

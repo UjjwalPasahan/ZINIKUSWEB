@@ -16,7 +16,7 @@ html{
 }
 
 .glassyEffect {
-  height: 70px;
+  height: 12.522361359570661vh;
   width: 100%;
   background: rgba(218, 218, 218, 0.162);
   position: absolute;
@@ -26,12 +26,12 @@ html{
 .defaultHR {
   width: 100%;
   position: absolute;
-  size: 5px;
+  size: 0.8944543828264758vh;
   color: #d0d0d0;
 }
 .spaceMaker {
   background: linear-gradient(rgba(0, 0, 0) 1%, #251b58 99%);
-  height: 5rem;
+  height: 14.311270125223613vh;
   width: 100%;
   margin: 0;
   padding: 0%;
@@ -39,7 +39,7 @@ html{
 }
 .lowerSpaceMaker {
   background-color: #251b58;
-  height: 2rem;
+  height: 5.724508050089446vh;
   width: 100%;
   margin: 0;
   padding: 0%;
@@ -80,8 +80,6 @@ html{
   border-radius: 286px;
   background: #2b00ff;
   filter: blur(200px);
-  width: 286px;
-  height: 286px;
   -webkit-filter: blur(186px);
   width: 286px;
   height: 286px;

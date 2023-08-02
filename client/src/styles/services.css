@@ -93,3 +93,27 @@
   background-size: 20rem;
   grid-area: envelope;
 }
+
+.gradC1 {
+  border-radius: 286px;
+  background: #2b00ff;
+  filter: blur(200px);
+  -webkit-filter: blur(186px);
+  width: 286px;
+  height: 286px;
+  flex-shrink: 0;
+  position: absolute;
+  left: -10vw;
+}
+
+.gradE1 {
+  border-radius: 60px;
+  background: #2b00ff;
+  filter: blur(201.5px);
+  width: 100.317px;
+  height: 650.189px;
+  transform: rotate(37.147deg);
+  flex-shrink: 0;
+  position: absolute;
+  left: 70vw;
+}

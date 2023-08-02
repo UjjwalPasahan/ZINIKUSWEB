@@ -117,7 +117,7 @@ const Header = () => {
         variant="solid"
         pos={'absolute'}
         top={'15px'}
-        left={'1230px'}
+        left={'83%'}
       >
         <Link to={'/signup'}>SignUp</Link>
       </Button>
@@ -129,7 +129,7 @@ const Header = () => {
         variant="link"
         pos={'absolute'}
         top={'23px'}
-        left={'1320px'}
+        left={'90%'}
       >
         <Link to={'/login'}>Login</Link>
       </Button>
