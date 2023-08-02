@@ -69,34 +69,24 @@ const Home = () => {
           <div className="gradE1"></div>
           <About />
           <div className="gradC1"></div>
-          <div className="gradE1"></div>
-
-
-          <div className='teamSection'>
-            <div className='teamSectionHeading'>OUR TEAM</div>
-            <div className='teamSectionCarousal'>
-              {team.map(element => {
-                return (
-                  <Team
-                    name={element.name}
-                    image={element.image}
-                    working
-                    area={element.working_area}
-                    description={element.description}
-                  />
-                );
-              })}
-            </div>
-          </div>
-
-
-
-
+            <div className="gradE1"></div>
+          <div id='ourteam'><h2 className='teamheading'>OUR TEAM</h2></div>
+          {team.map(element => {
+            return (
+              <Team
+                name={element.name}
+                image={element.image}
+                working
+                area={element.working_area}
+                description={element.description}
+              />
+            );
+          })}
           <div className="gradC1"></div>
           <div className="gradE1"></div>
           <Achievements />
           <div className="gradC1"></div>
-          <div className="gradE1" style={{ maxHeight: '400px' }}></div>
+          <div className="gradE1" style={{maxHeight: '400px'}}></div>
           <Footer />
         </div>
       </div>
