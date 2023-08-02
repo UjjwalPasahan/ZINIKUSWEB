@@ -86,7 +86,7 @@ const Home = () => {
           <div className="gradE1"></div>
           <Achievements />
           <div className="gradC1"></div>
-          <div className="gradE1" style={{maxHeight: '71.55635062611807vh'}}></div>
+          <div className="gradE1" style={{maxHeight: '400px'}}></div>
           <Footer />
         </div>
       </div>
