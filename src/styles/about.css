@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.about {
+  background-color: #251b58;
+  justify-content: center;
+  padding: 10rem;
+  padding-top: 0rem !important;
+  width: 100vw;
+
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 800;
+  color: white !important;
+  font-family: 'Merriweather Sans', 'sans-serif';
+  margin-right: 2.5rem;
+}
+
+.about p {
+  text-align: center;
+  font-size: 1rem;
+  color: white !important;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  margin-top: 1rem;
+}
+
+.imgs {
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 54px 55px,
+    rgba(0, 0, 0, 0.9) 0px -12px 30px, rgba(0, 0, 0, 0.9) 0px 4px 6px,
+    rgba(0, 0, 0, 0.9) 0px 12px 13px, rgba(0, 0, 0, 0.9) 0px -3px 5px;
+}
