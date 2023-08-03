@@ -1,6 +1,7 @@
 import React from 'react'
 import prodata from '../data/productdata.json'
 import Cards from './Cards'
+import Footer from './Footer'
 const Products = () => {
   return (
     <div>
@@ -16,6 +17,8 @@ const Products = () => {
                 />)
             })
         }
+
+        <Footer />
     </div>
   )
 }

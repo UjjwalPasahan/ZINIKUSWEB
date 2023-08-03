@@ -1,51 +1,32 @@
 import React from 'react';
-import Footer from './Footer.jsx';
-import {
-  Card,
-  CardBody,
-  CardFooter,
-  Image,
-  Button,
-  Stack,
-  Heading,
-  Text,
-  Divider,
-  ButtonGroup,
-} from '@chakra-ui/react';
 import '../data/productdata.json'
-const Cards = (props) => {
+import '../styles/cards.css'
+
+const Card = (props) => {
   return (
-    <div>
-      <Card maxW="container.sm" >
-        <CardBody maxH="container.md">
-          <Image
-            src={props.image}
-            alt="Green double couch with wooden legs"
-            borderRadius="lg"
-            width={'72'}
-          />
-          <Stack mt="6" spacing="3">
-            <Heading size="md">{props.name}</Heading>
-            <Text>
-              {props.description}
-            </Text>
-            <Text color="blue.600" fontSize="2xl">
-              {props.price}
-            </Text>
-          </Stack>
-        </CardBody>
-        <Divider />
-        <CardFooter>
-          <ButtonGroup spacing="2">
-            <Button variant="solid" colorScheme="blue">
-              Read more
-            </Button>
-          </ButtonGroup>
-        </CardFooter>
-      </Card>
-      <Footer />
+    <div className='flexed'>
+
+    <article className="card">
+      <img
+        className="card__background"
+        src={props.image}
+        alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+        width="1920"
+        height="2193"
+      />
+      <div className="card__content | flow">
+        <div className="card__content--container | flow">
+          <h2 className="card__title">{props.name}</h2>
+          <p className="card__description">
+           {props.description}
+          </p>
+        </div>
+        <button className="card__button new_button ">{props.price}</button>
+        <button className="card__button"><a href='/productDetail'>Read more</a></button>
+      </div>
+    </article>
     </div>
   );
 };
 
-export default Cards;
+export default Card;
