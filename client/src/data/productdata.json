@@ -1,37 +1,29 @@
 [
-  {
-    "id": 1,
-    "name": "Product 1",
-    "description": "This is the description for Product 1.",
-    "price": 19.99,
-    "image": "https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8SFVNQU5PSUR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
-  },
+
   {
     "id": 2,
     "name": "Product 2",
-    "description": "This is the description for Product 2.",
-    "price": 29.99,
-    "image": "product2.jpg"
+    "description": "Nulla facilisi. Vestibulum tincidunt, elit a feugiat.",
+    "price": 49.99,
+    "category": "Home & Kitchen",
+    "image": "https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8SFVNQU5PSUR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
   },
   {
     "id": 3,
     "name": "Product 3",
-    "description": "This is the description for Product 3.",
-    "price": 24.99,
-    "image": "https://images.unsplash.com/photo-1535378620166-273708d44e4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEhVTUFOT0lEfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    "description": "Mauris euismod mauris quis augue facilisis sodales.",
+    "price": 19.99,
+    "category": "Clothing",
+    "image": "https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8SFVNQU5PSUR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
   },
   {
     "id": 4,
     "name": "Product 4",
-    "description": "This is the description for Product 4.",
-    "price": 39.99,
-    "image": "product4.jpg"
-  },
-  {
-    "id": 5,
-    "name": "Product 5",
-    "description": "This is the description for Product 5.",
+    "description": "Etiam ultrices aliquam nibh, at efficitur nunc varius eu.",
     "price": 14.99,
-    "image": "product5.jpg"
+    "category": "Books",
+    "image": "https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8SFVNQU5PSUR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    
   }
+  
 ]
