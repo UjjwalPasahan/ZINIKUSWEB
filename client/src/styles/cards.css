@@ -29,7 +29,8 @@
     display: grid;
     place-items: center;
     height: 50vh;
-    margin: 20vh 5vw;
+    margin: 20vh 2vw 20vh 3vw;
+
   }
   
   .card__title {
@@ -206,4 +207,5 @@
     align-items:center !important;
     margin-top: 20px;
     margin-bottom: -3%;
+    flex-wrap: wrap;
   }
