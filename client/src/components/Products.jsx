@@ -4,7 +4,9 @@ import Cards from './Cards'
 import Footer from './Footer'
 const Products = () => {
   return (
-    <div>
+    <div style={{background:'#251b58'}}>
+      <div className="gradC1"></div>
+            <div className="gradE1"></div>
         {
             prodata.map((element) => {
                 return(
@@ -17,7 +19,8 @@ const Products = () => {
                 />)
             })
         }
-
+        <div className="gradC1"></div>
+            <div className="gradE1" style={{height:'400px'}}></div>
         <Footer />
     </div>
   )
