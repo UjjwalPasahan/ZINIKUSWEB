@@ -80,8 +80,8 @@ const Header = () => {
                 <Link to={'/product'}>Products</Link>
               </Button>
               <Button onClick={onClose} w="40" colorScheme="facebook">
-                <Link to={'/contact'}>Research</Link>
-              </Button>
+                <Link to={'/research'}>Research</Link>
+              </Button> 
             </VStack>
             
 
