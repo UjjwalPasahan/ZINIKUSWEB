@@ -2,13 +2,15 @@ import React from 'react';
 import { Box, Button, Input, VStack } from '@chakra-ui/react';
 import '../styles/signup.css';
 import Footer from './Footer.jsx';
-import Header from './Header'
+
 
 const signup = () => {
   return (
     <div className="signUppage">
-    {/* <Header /> */}
-    <div className="servicesGlassyEffect"></div>
+
+    <div className="servicesGlassyEffect">
+
+    </div>
       <div class="signUp" style={{ marginBottom: '45rem' }}>
         <VStack
           spacing={'1.5'}
@@ -51,7 +53,6 @@ const signup = () => {
           </Button>
         </VStack>
       </div>
-      <Footer />
     </div>
   );
 };
