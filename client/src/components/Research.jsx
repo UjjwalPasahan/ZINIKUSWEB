@@ -41,7 +41,6 @@ const Research = props => {
                 </div>
             </div>
             </div>
-            <div className='lowerResearchSpaceMaker'></div>
             <Footer />
         </div>
 

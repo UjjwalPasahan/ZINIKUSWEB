@@ -141,20 +141,15 @@
     left: 35%;
     text-align: center;
 }
-.lowerResearchSpaceMaker {
-    background-color: #251b58;
-    height: 0vh;
-    width: 100%;
-    margin: 0;
-    padding: 0%;
-  }
 #listContainer{
-    background: rgba(218, 218, 218, 0.162);
+    /* background: rgba(218, 218, 218, 0.162); */
+    background: #f3f3f3ec;
     border-radius: 20px;
     position: absolute;
     top: 25%;
     left: 42%;
     height: 50%;
+    overflow: hidden;
 
 }
 #box {
@@ -175,7 +170,7 @@
  }
  @keyframes move {
     0% {
-       transform:translateY(0);
+       transform:translateY(1200%);
     }
     100% {
        transform:translateY(-250%);
