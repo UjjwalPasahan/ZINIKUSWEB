@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 .researchPage{
     background-color: #251b58;
@@ -81,7 +82,8 @@
 }
 
 .onoffswitch3-active .onoffswitch3-switch {
-    background: #27A1CA;
+    /* background: #27A1CA; */
+    background: linear-gradient(#251b58,#2b00ff);
     left: 0;
     width: 200px;
 }
@@ -118,7 +120,6 @@
     position: relative;
     top: 12.5vh;
     padding: 40px;
-    background-color: aqua;
 }
 .scroll-parent{
     height: 400px;
@@ -153,16 +154,17 @@
 
 }
 #box {
-    background-color: aqua;
+    color: #000;
+    font-family: 'Inter', sans-serif;
     width: 200px;
     margin: 10px ;
     -webkit-overflow: hidden;
     position: relative;
     -webkit-animation-name: move;
-    -webkit-animation-duration: 10s;
+    -webkit-animation-duration: 20s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: up;
-    -webkit-animation-timing-function:linear;
+    -webkit-animation-timing-function: ease;
     margin-top:10%;
  }
  #box:hover {

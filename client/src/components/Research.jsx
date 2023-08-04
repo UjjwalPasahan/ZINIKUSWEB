@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Research.css';
 import zini from '../assets/homepage/zinikus.png';
 import Footer from './Footer.jsx';
-import '../data/researchData.json'
+import data from '../data/data.json'
 const Research = props => {
     return (
         <div className='researchPage'>
@@ -31,15 +31,28 @@ const Research = props => {
             <div className="gradC1"></div>
             <div className="gradE1"></div>
             <div id='mainContainer'>
-            <h1>Our Research Documents</h1>
-            <div id="listContainer">
-                <div id="box">
-                <ul className='listing'>
-                        <li className='elements'>{`${props.info}`}</li>
+                <h1>Our Research Documents</h1>
+                <div id="listContainer">
+                    <div id="box">
+                        <ul className='listing'>
+                            <li className='elements'>
+                                <div>
+                                    <div>1 : {data.name1}</div>
+                                    <div>2 : {data.name2}</div>
+                                    <div>3 : {data.name3}</div>
+                                    {/* <div><label>Country :</label>
+                                        <select>
+                                            {data.country.map((country) => {
+                                                return <option key={country.id} value={country.id}>{country.name}</option>
+                                            })}
+                                        </select>
+                                    </div> */}
+                                </div>
+                            </li>
 
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
-            </div>
             </div>
             <Footer />
         </div>
