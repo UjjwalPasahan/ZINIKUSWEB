@@ -53,6 +53,7 @@ const signup = () => {
           </Button>
         </VStack>
       </div>
+      <Footer />
     </div>
   );
 };

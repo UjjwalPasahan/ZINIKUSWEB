@@ -82,7 +82,7 @@
 }
 
 .onoffswitch3-active .onoffswitch3-switch {
-    /* background: #27A1CA; */
+   
     background: linear-gradient(#251b58,#2b00ff);
     left: 0;
     width: 200px;
@@ -143,12 +143,12 @@
     text-align: center;
 }
 #listContainer{
-    /* background: rgba(218, 218, 218, 0.162); */
+    
     background: #f3f3f3ec;
     border-radius: 20px;
     position: absolute;
     top: 25%;
-    left: 42%;
+    left: 33%;
     height: 50%;
     overflow: hidden;
 
@@ -156,7 +156,7 @@
 #box {
     color: #000;
     font-family: 'Inter', sans-serif;
-    width: 200px;
+    width: 30vw;
     margin: 10px ;
     -webkit-overflow: hidden;
     position: relative;
@@ -177,4 +177,6 @@
     100% {
        transform:translateY(-250%);
     }
- }
+ } 
+
+ 

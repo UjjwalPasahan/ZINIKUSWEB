@@ -72,7 +72,7 @@ const Home = () => {
             <div className="gradE1"></div>
           <div id='ourteam'><h2 className='teamheading'>OUR TEAM</h2></div>
           <div className="lowerSpaceMaker"></div>
-          {team.map(element => {
+           {/* {team.map(element => {
             return (
               <Team
                 name={element.name}
@@ -82,7 +82,7 @@ const Home = () => {
                 description={element.description}
               />
             );
-          })}
+          })} */}
           <div className="gradC1"></div>
           <div className="gradE1"></div>
           <Achievements />
