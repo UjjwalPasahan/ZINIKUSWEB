@@ -14,3 +14,15 @@
 .j {
   color: transparent;
 }
+.back{
+  margin: 1vw 3vh;
+  width:40px;
+  padding: 0.2vw 0.7vh 0vw;
+}
+.back:hover{
+  margin: 1vw 3vh;
+  width:40px;
+  background: rgba(218, 218, 218, 0.162);
+  border-radius: 7px;
+  padding: 0.2vw 0.7vh 0vw;
+}

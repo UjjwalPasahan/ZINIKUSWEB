@@ -10,8 +10,9 @@ import img5 from '../assets/homepage/dubai3.png';
 const About = () => {
   return (
     <div className="about" id="about">
-      <h2>ABOUT US</h2>
-      <p>
+      <div className='upperAbout'>
+      <div className='abouth2'><h2  >ABOUT US</h2></div>
+      <div><p className='aboutp' >
         Amet incididunt Lorem sunt cupidatat fugiat fugiat amet mollit laborum
         minim eiusmod. Veniam eu exercitation sunt voluptate consequat nisi
         dolore. Excepteur reprehenderit labore amet occaecat eu aliquip labore.
@@ -39,7 +40,8 @@ const About = () => {
         nostrud reprehenderit velit adipisicing ex culpa qui. Quis dolore tempor
         ipsum sint ex est aliquip ullamco. Adipisicing non eu dolore irure quis
         nostrud nostrud labore esse in anim esse.
-      </p>
+      </p></div>
+      </div>
       <HStack mt="40">
         <div>
           <h2>lorem ipsum</h2>

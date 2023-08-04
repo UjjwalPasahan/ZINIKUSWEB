@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 .about {
   background-color: #251b58;
   justify-content: center;
@@ -33,3 +33,16 @@
     rgba(0, 0, 0, 0.9) 0px -12px 30px, rgba(0, 0, 0, 0.9) 0px 4px 6px,
     rgba(0, 0, 0, 0.9) 0px 12px 13px, rgba(0, 0, 0, 0.9) 0px -3px 5px;
 }
+.upperAbout{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+}
+
+.abouth2{
+transform: rotate(-90deg);
+word-wrap: break-word;
+white-space: nowrap;
+max-height: 4vh;
+margin-left: -50vh;
+-webkit-font-family: 'Rubik Mono One', sans-serif;}

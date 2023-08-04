@@ -36,9 +36,9 @@ const Header = () => {
   };
 
   return (
-    <div  >
+    <div className='borderb' >
       <div className="headerContainer"></div>
-      <div className="header ">
+      <div className="header">
         <Button
           color="white"
           backgroundColor="transparent"

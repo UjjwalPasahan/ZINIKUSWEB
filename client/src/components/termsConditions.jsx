@@ -2,9 +2,12 @@ import React from 'react';
 import termsData from '../data/termsConditionsData.json';
 import '../styles/termsConditions.css';
 import Footer from './Footer';
+import Header from './Header';
+
 const termsConditions = () => {
   return (
     <div className="termsConditions">
+    <Header/>
       <div className='termsContainer'>
         <div className='termsText'>
         Amet incididunt Lorem sunt cupidatat fugiat fugiat amet mollit laborum

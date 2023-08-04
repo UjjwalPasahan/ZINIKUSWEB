@@ -1,14 +1,19 @@
 import React from 'react'
 import { Button, Input , VStack } from '@chakra-ui/react'
 import '../styles/login.css'
-import Footer from './Footer.jsx'
+import {MdKeyboardBackspace} from 'react-icons/md'
+import {Link} from 'react-router-dom'
+
 const Feedback = () => {
+
   return (
   <>
-  {/* <div>
-    <h2 className='j'>j</h2>
-  </div> */}
-    <div class='login' style={{marginBottom:'30rem'}}>
+   <div className='back' > 
+  <Link to={'/'}>
+  <MdKeyboardBackspace size={30}/>
+  </Link>
+  </div> 
+ <div class='login' style={{marginBottom:'30rem'}}>
       <VStack spacing={'1.5'} w={'72'} pos={'absolute'} marginBlock={'2rem'} left={['40vw']} top={'6rem'} justifyContent={'center'}>
       <label className='logintext'>Feedback Form</label>
       <label className='loginlabel'>Username</label>

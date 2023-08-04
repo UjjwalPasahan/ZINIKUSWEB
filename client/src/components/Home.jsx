@@ -17,12 +17,13 @@ import img3 from '../assets/homepage/bg.png';
 import About from './About';
 import Achievements from './Achievements';
 import Footer from './Footer';
-
+import Header from './Header';
 
 
 const Home = () => {
   return (
     <div className="wrapp">
+    <Header/>
       <div className="gradient">
         <div className="home">
           <div className="glassyEffect"></div>

@@ -17,7 +17,7 @@
   position: relative;
   top: 12.522361359570661vh;
   color: #d0d0d0;
-  border-top: 0.14311270125223613vh solid;
+  /* border-top: 2px solid; */
 }
 
 .headerSearch {

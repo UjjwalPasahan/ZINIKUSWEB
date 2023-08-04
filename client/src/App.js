@@ -14,7 +14,6 @@ import {
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import './styles/App.css'
-import Header from './components/Header';
 import Home from './components/Home';
 import Feedback from './components/Feedback.jsx';
 import Signup from './components/signup'
@@ -27,7 +26,6 @@ function App() {
 
   return(<div>
   <Router>
-  <Header/>
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/feedback' element={<Feedback />} />

@@ -3,10 +3,11 @@ import '../styles/Research.css';
 import zini from '../assets/homepage/zinikus.png';
 import Footer from './Footer.jsx';
 import data from '../data/data.json';
-
+import Header from './Header';
 const Research = (props) => {
   return (
     <div className="researchPage">
+    <Header/>
       <div className="onoffswitch3">
         <input
           type="checkbox"

@@ -2,9 +2,12 @@ import React from 'react'
 import prodata from '../data/productdata.json'
 import Cards from './Cards'
 import Footer from './Footer'
+import Header from './Header';
+
 const Products = () => {
   return (
     <div style={{background:'#251b58'}}>
+    <Header/>
       <div className="gradC1"></div>
             <div className="gradE1"></div>
         {

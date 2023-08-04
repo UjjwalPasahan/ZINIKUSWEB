@@ -1,12 +1,12 @@
 import React from 'react';
 import Footer from './Footer.jsx';
-
+import Header from './Header';
 import mouseScroll from '../assets/homepage/mouseScroll.svg';
 import '../styles/services.css';
 const Service = () => {
   return (
     <div className="services">
-    
+    <Header/>
       <div className="callingLady">
       <div className="gradC1"></div>
           <div className="gradE1"></div>
