@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .about {
   background-color: #251b58;
   justify-content: center;
@@ -10,7 +10,7 @@
 
 }
 
-.about h2 {
+.faltu {
   text-align: center;
   font-size: 5rem;
   font-weight: 800;
@@ -33,16 +33,37 @@
     rgba(0, 0, 0, 0.9) 0px -12px 30px, rgba(0, 0, 0, 0.9) 0px 4px 6px,
     rgba(0, 0, 0, 0.9) 0px 12px 13px, rgba(0, 0, 0, 0.9) 0px -3px 5px;
 }
-.upperAbout{
+/* .upperAbout{
   display: flex;
   align-items: center;
  justify-content: center;
-}
+} */
 
-.abouth2{
+/* .abouth2{
+  text-align: center;
+  font-size: 10rem;
+  font-weight: 800;
+  color: white !important;
+  margin-right: -0rem;
 transform: rotate(-90deg);
+z-index: 1000000000000;
 word-wrap: break-word;
 white-space: nowrap;
-max-height: 4vh;
+max-height: 3vh;
+opacity: 0.7;
 margin-left: -50vh;
--webkit-font-family: 'Rubik Mono One', sans-serif;}
+font-family: 'Bebas Neue', sans-serif;
+} */
+.h22{
+
+font-family: 'Merriweather Sans', sans-serif;
+-webkit-text-stroke: 4px white;
+color: transparent;
+/* letter-spacing: 10px; */
+text-align: center;
+font-size: 5rem;
+font-weight: 800;
+color: white !important;
+margin-right: 2.5rem;
+
+}

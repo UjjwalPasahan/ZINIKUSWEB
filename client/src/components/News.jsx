@@ -1,12 +1,18 @@
 import React from 'react';
 import { Box, Button, Input, VStack } from '@chakra-ui/react';
-import '../styles/signup.css';
-
+import '../styles/news.css';
+import {MdKeyboardBackspace} from 'react-icons/md'
+import {Link} from 'react-router-dom'
 
 const signup = () => {
   return (
-    <div className="signUppage">
-      <div class="signUp">
+    <div className="newspage">
+       <div className='back backbtn' > 
+  <Link to={'/'}>
+  <MdKeyboardBackspace size={30}/>
+  </Link>
+  </div> 
+      <div class="news">
         <VStack 
           className='newsletterContent'
           spacing={'1.5'}
@@ -39,7 +45,7 @@ const signup = () => {
             type="tel "
             colorScheme="facebook"
           />
-          <Button colorScheme="facebook" m={'10'} variant={'solid'}>
+          <Button colorScheme="twitter" m={'10'} variant={'solid'}>
             Submit
           </Button>
         </VStack>

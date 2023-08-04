@@ -11,7 +11,8 @@ const About = () => {
   return (
     <div className="about" id="about">
       <div className='upperAbout'>
-      <div className='abouth2'><h2  >ABOUT US</h2></div>
+      {/* <div className='abouth2'><h2>ABOUT US</h2></div> */}
+      <div className='h22'><h2>ABOUT US</h2></div>
       <div><p className='aboutp' >
         Amet incididunt Lorem sunt cupidatat fugiat fugiat amet mollit laborum
         minim eiusmod. Veniam eu exercitation sunt voluptate consequat nisi
@@ -44,7 +45,7 @@ const About = () => {
       </div>
       <HStack mt="40">
         <div>
-          <h2>lorem ipsum</h2>
+          <h2 className='faltu'>lorem ipsum</h2>
           <h4>Occaecat esse irure et occaecat tempor.</h4>
         </div>
         <div className="imgs">
