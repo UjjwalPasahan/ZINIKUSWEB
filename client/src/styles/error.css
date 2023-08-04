@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap'); 
+
+.error{
+    background-color: white;
+}
+.page_404{
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-color: white;
+    overflow: hidden;
+} 
+.errorHeading{
+    font-family: 'Zeyada', cursive;
+    color: black;
+    font-size: 10rem;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+}
