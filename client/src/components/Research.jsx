@@ -12,7 +12,7 @@ const Research = props => {
                     <span className="onoffswitch3-inner">
                         <span className="onoffswitch3-active">
                             <marquee className="scroll-text">******ZINIKUS will do great!******  <span className="glyphicon glyphicon-forward"></span> ZINIKUS showcases its reception robot in dubai tech expo. <span className="glyphicon glyphicon-forward"></span>  ZINIKUS strikes a deal with a MNC in dubai.</marquee>
-                            <span className="onoffswitch3-switch">BREAKING NEWS
+                            <span className="onoffswitch3-switch">HEADLINE
                                 {/* <span className="glyphicon glyphicon-remove"></span> */}
                             </span>
                         </span>
