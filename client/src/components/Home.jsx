@@ -58,7 +58,7 @@ const Home = () => {
                   w="36"
                   fontSize="2xl"
                 >
-                  <Link to="/login">Login</Link>
+                  <Link to="/feedback">Feedback</Link>
                 </Button>
               </div>
             </VStack>
