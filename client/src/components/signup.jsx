@@ -1,51 +1,42 @@
 import React from 'react';
 import { Box, Button, Input, VStack } from '@chakra-ui/react';
 import '../styles/signup.css';
-import Footer from './Footer.jsx';
 
 
 const signup = () => {
   return (
     <div className="signUppage">
-
-    <div className="servicesGlassyEffect">
-
-    </div>
-      <div class="signUp" style={{ marginBottom: '45rem' }}>
-        <VStack
+      <div class="signUp">
+        <VStack 
+          className='newsletterContent'
           spacing={'1.5'}
           w={'72'}
           pos={'absolute'}
           left={['40%']}
           top={'44'}
         >
-          <label className="logintext">SignUp Form</label>
-          <label className="loginlabel">Username</label>
+          <label className="logintext">Subscribe to our Newsletter </label>
+          {/* <label className="loginlabel">Name</label> */}
           <Input
             variant="flushed"
-            placeholder="username..."
+            placeholder="Name*"
             type="text"
             colorScheme="facebook"
+            required
           />
-          <label className="loginlabel">EmailID</label>
+          {/* <label className="loginlabel">EmailID</label> */}
           <Input
             variant="flushed"
-            placeholder="email..."
+            placeholder="E-mail*"
             type="email"
             colorScheme="facebook"
+            required
           />
-          <label className="loginlabel">Mobile number</label>
+          {/* <label className="loginlabel">Mobile number</label> */}
           <Input
             variant="flushed"
-            placeholder="password..."
+            placeholder="Mobile Number"
             type="tel "
-            colorScheme="facebook"
-          />
-          <label className="loginlabel">Password</label>
-          <Input
-            variant="flushed"
-            placeholder="password..."
-            type="password"
             colorScheme="facebook"
           />
           <Button colorScheme="facebook" m={'10'} variant={'solid'}>
@@ -53,7 +44,6 @@ const signup = () => {
           </Button>
         </VStack>
       </div>
-      <Footer />
     </div>
   );
 };
