@@ -22,6 +22,7 @@ import Service from './components/Service'
 import darkTheme from "./components/darkTheme";
 import Research from './components/Research';
 import TermsConditions from './components/TermsConditions';
+import Error from './components/Error';
 function App() {
 
   return(<div>
@@ -34,6 +35,7 @@ function App() {
       <Route path='/services' element={<Service />} />
       <Route path='/research' element={<Research />} />
       <Route path='/termsConditions' element={<TermsConditions />} />
+      <Route path='/Error' element={<Error />} />
     </Routes>
   </Router>
   </div>);
