@@ -17,8 +17,7 @@ import img3 from '../assets/homepage/bg.png';
 import About from './About';
 import Achievements from './Achievements';
 import Footer from './Footer';
-import team from '../data/teamdata.json';
-import Team from './Team';
+
 
 
 const Home = () => {
@@ -70,19 +69,7 @@ const Home = () => {
           <About />
           <div className="gradC1"></div>
             <div className="gradE1"></div>
-          <div id='ourteam'><h2 className='teamheading'>OUR TEAM</h2></div>
           <div className="lowerSpaceMaker"></div>
-           {/* {team.map(element => {
-            return (
-              <Team
-                name={element.name}
-                image={element.image}
-                working
-                area={element.working_area}
-                description={element.description}
-              />
-            );
-          })} */}
           <div className="gradC1"></div>
           <div className="gradE1"></div>
           <Achievements />

@@ -74,13 +74,10 @@ const Header = () => {
                 <Link to={'/services'}>Our Services</Link>
               </Button>
               <Button onClick={onClose} w="40" colorScheme="facebook">
-                <a href="#ourteam" >Our Team</a>
-              </Button>
-              <Button onClick={onClose} w="40" colorScheme="facebook">
                 <Link to={'/product'}>Products</Link>
               </Button>
               <Button onClick={onClose} w="40" colorScheme="facebook">
-                <Link to={'/research'}>Research</Link>
+                <Link to={'/researc'}>Research</Link>
               </Button> 
             </VStack>
             
@@ -106,36 +103,11 @@ const Header = () => {
           </DrawerContent>
         </Drawer>
       </div>
-      {/* <div ><Image src={img4} className='headerSearch' pos={'absolute'}  top={'0.3'} /></div> */}
+      
 <div className="flex">
       <div>
         <Link to={'/'}><Image src={img2} className="mainLogo" pos={'absolute'} top={'0.3'} /></Link>
       </div>
-      {/* <div ><Image src={img3} className='signUpButton' pos={'absolute'}  top={'0.3'} /></div> */}
-      <Button
-        onClick={onClose}
-        w="20"
-        colorScheme="facebook"
-        variant="solid"
-        pos={'absolute'}
-        top={'3vh'}
-        left={'83%'}
-      >   
-        <Link to={'/signup'}>SignUp</Link>
-      </Button>
-
-      <Button
-        onClick={onClose}
-        w="20"
-        colorScheme="facebook"
-        variant="link"
-        pos={'absolute'}
-        top={'3.7vh'}
-        left={'90%'}
-      >
-        <Link to={'/login'}>Login</Link>
-      </Button>
-
 </div>
       <hr className="headerHR" />
     </div>

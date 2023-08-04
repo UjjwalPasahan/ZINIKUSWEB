@@ -19,11 +19,10 @@ import Home from './components/Home';
 import Feedback from './components/Feedback.jsx';
 import Signup from './components/signup'
 import Products from './components/Products';
-import Team from './components/Team'
 import Service from './components/Service'
 import darkTheme from "./components/darkTheme";
 import Research from './components/Research';
-import termsConditions from './components/termsConditions';
+import TermsConditions from './components/TermsConditions';
 function App() {
 
   return(<div>
@@ -36,7 +35,7 @@ function App() {
       <Route path='/product' element={<Products />} />
       <Route path='/services' element={<Service />} />
       <Route path='/research' element={<Research />} />
-      <Route path='/termsConditions' element={<termsConditions />} />
+      <Route path='/termsConditions' element={<TermsConditions />} />
     </Routes>
   </Router>
   </div>);
