@@ -23,6 +23,7 @@ import Team from './components/Team'
 import Service from './components/Service'
 import darkTheme from "./components/darkTheme";
 import Research from './components/Research';
+import termsConditions from './components/termsConditions';
 function App() {
 
   return(<div>
@@ -35,6 +36,7 @@ function App() {
       <Route path='/product' element={<Products />} />
       <Route path='/services' element={<Service />} />
       <Route path='/research' element={<Research />} />
+      <Route path='/termsConditions' element={<termsConditions />} />
     </Routes>
   </Router>
   </div>);

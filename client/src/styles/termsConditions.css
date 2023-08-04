@@ -1,0 +1,12 @@
+.termsConditions{
+    height: 65rem;
+    background-color: antiquewhite;
+}
+.termsContainer{
+    height: 65rem;
+    background-color: aqua;
+}
+.termsText{
+    background-color: brown;
+    height: 65rem;
+}
