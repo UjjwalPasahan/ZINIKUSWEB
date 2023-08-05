@@ -12,8 +12,11 @@ const Feedback = () => {
           <MdKeyboardBackspace size={30} />
         </Link>
       </div>
-      <div class="login" style={{ marginBottom: '30rem' }}>
+      <div class="login" 
+      // style={{ marginBottom: '30rem' }}
+      >
         <VStack
+          className='feedbackContent'
           spacing={'1.5'}
           w={'72'}
           pos={'absolute'}
@@ -21,25 +24,38 @@ const Feedback = () => {
           left={['40vw']}
           top={'6rem'}
           justifyContent={'center'}
-          className='feedbackContent'
         >
-<h2 className='fh2'>Feedback</h2>
+          <h2 className='fh2'>Feedback</h2>
           <Input
-          variant="flushed"
-            placeholder="Name..."
+            variant="flushed"
+            placeholder="Name"
             type="text"
             colorScheme="facebook"
             required
           />
           <Input
-          variant="flushed"
-            placeholder="Email Id..."
+            variant="flushed"
+            placeholder="Email Id"
             type="email"
             colorScheme="facebook"
             required
           />
+          <Input
+            variant="flushed"
+            placeholder="Subject"
+            type='text'
+            colorScheme="facebook"
+            required
+          />
+          <Input
+            variant="flushed"
+            placeholder="Message"
+            type='textbox'
+            colorScheme="facebook"
+            required
+          />
 
-          <Button colorScheme="facebook" m={'10'} variant={'solid'}>
+          <Button colorScheme="twitter" m={'10'} variant={'solid'}>
             Submit
           </Button>
         </VStack>
