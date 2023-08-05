@@ -54,7 +54,9 @@ html{
   text-align: left;
   color: white !important;
   font-family: 'Merriweather Sans', sans-serif;
+  animation: 1.5s leftToRightH2;
 }
+
 
 .hometext h5 {
   font-size: 1rem;
@@ -63,6 +65,40 @@ html{
   margin-bottom: 1.2rem;
   color: white !important;
   font-family: 'Merriweather Sans', sans-serif;
+  animation: 1.5s leftToRightH5;
+}
+.hometext Button{
+  animation: 1.5s leftToRightButton;
+}
+@keyframes leftToRightH2 {
+  0%{
+    margin-left: -30vw;
+    opacity: 0;
+  }
+  100%{
+    margin-left: 0vw;
+    opacity: 1;
+  }
+}
+@keyframes leftToRightH5 {
+  0%{
+    margin-left: -40vw;
+    opacity: 0;
+  }
+  100%{
+    margin-left: 0vw;
+    opacity: 1;
+  }
+}
+@keyframes leftToRightButton {
+  0%{
+    margin-left: -40vw;
+    opacity: 0;
+  }
+  100%{
+    margin-left: 0vw;
+    opacity: 1;
+  }
 }
 
 .home {
@@ -71,6 +107,7 @@ html{
   background-size: contain;
   position: relative;
 }
+
 
 .gradient {
   background: url(../assets/homepage/Group\ 7.png);
