@@ -36,17 +36,17 @@ const HeaderContent = () => {
   return (
     <>
     <div><HStack className="links gap" w="100%">
-    <Button onClick={onClose} w="40" colorScheme="facebook" >
+    <Button onClick={onClose} w="40" className='linkbtn' colorScheme="gray" variant={'ghost'}>
       <Link to={'/services'}>Our Services</Link>
     </Button>
-    <Button onClick={onClose} w="40" colorScheme="facebook">
+    <Button onClick={onClose} w="40" className='linkbtn' colorScheme="facebook">
       <Link to={'/product'}>Products</Link>
     </Button>
-    <Button onClick={onClose} w="40" colorScheme="facebook">
+    <Button onClick={onClose} w="40" className='linkbtn'  colorScheme="facebook">
       <Link to={'/research'}>Research</Link>
     </Button> 
-    <Button onClick={onClose} w="40" colorScheme="facebook" className='newsbtn'>
-      <Link to={'/newsletter'}>Newsletter</Link>
+    <Button onClick={onClose} w="40" className='linkbtn newsbtn' colorScheme="facebook" variant={'unstyled'}>
+      <Link to={'/newsletter'} className='btnborder'>Newsletter</Link>
     </Button> 
   </HStack>
   
@@ -54,7 +54,7 @@ const HeaderContent = () => {
   </div>
   <div className="flex">
       <div>
-        <Link to={'/'}><Image src={img2} className="mainLogo" pos={'absolute'} top={'0.3'} left={'5%'} /></Link>
+        <Link to={'/'}><Image src={img2} className="mainLogo" pos={'absolute'} top={'0.3'} left={'3%'} /></Link>
       </div>
 </div>
       <hr className="headerHR" />

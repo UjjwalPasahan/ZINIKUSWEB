@@ -3,13 +3,17 @@
   transform: translate(17%,55%);
 }
 
-.newsbtn{
-  clip-path: polygon(70% 0, 90% 50%, 70% 100%, 10% 100%, 20% 50%, 10% 0%);
-  transition: all 0.2s;
-}
-
-.newsbtn:hover{
-  clip-path: polygon(90% 0%, 80% 50%, 90% 100%, 30% 99%, 10% 50%, 30% 0);
+.btnborder{
+  background-image: linear-gradient(to right, #6559ae, #ff7159);
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #6559ae, #ff7159) 1;
 }
 
 .links {
@@ -44,7 +48,7 @@
   position: absolute;
 
   margin-top: 2.146690518783542vh;
-  height: 9.30232558139535vh;
+  height: 7.30232558139535vh;
   cursor: pointer;
 }
 
@@ -67,3 +71,18 @@
   display: flex;
   align-items: center;
 }
+
+
+/* @keyframes gradient { 
+  0%   { background-position: 14% 0%; }
+  50%  { background-position: 87% 100%; }
+  100% { background-position: 14% 0%; } */
+/* } */
+
+/* @keyframes border {
+0% { -webkit-clip-path: polygon(0% 100%, {4px} 100%, {4px} {4px}, {220px - 4px} {4px}, {220px - 4px} {70px - 4px}, {4px} {70px - 4px}, {4px} 100%, 100% 100%, 100% 0%, 0% 0%); }
+25% { -webkit-clip-path: polygon(0% 100%, {4px} 100%, {4px} {4px}, {220px - 4px} {4px}, {220px - 4px} {70px - 4px}, {220px - 4px} {70px - 4px}, {220px - 4px} 100%, 100% 100%, 100% 0%, 0% 0%); }
+50% { -webkit-clip-path: polygon(0% 100%, {4px} 100%, {4px} {4px}, {220px - 4px} {4px}, {220px - 4px} {4px}, {220px - 4px} {4px}, {220px - 4px} {4px}, {220px - 4px} {4px}, 100% 0%, 0% 0%); }
+75% { -webkit-clip-path: polygon(0% 100%, {4px} 100%, {4px} {4px}, {4px} {4px}, {4px} {4px}, {4px} {4px}, {4px} {4px}, {4px} {4px}, {4px} 0%, 0% 0%); }
+100%  { -webkit-clip-path: polygon(0% 100%, {4px} 100%, {4px} 100%, {4px} 100%, {4px} 100%, {4px} 100%, {4px} 100%, {4px} 100%, {4px} 100%, 0% 100%); }
+} */
