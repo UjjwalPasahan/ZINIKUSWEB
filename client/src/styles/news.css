@@ -22,7 +22,9 @@
     padding: 1%;
     width: 20%;
     border-radius: 3%;
-    transform: translate(5%,30%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .newsletterContent input{
     margin-top: 10px;
