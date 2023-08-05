@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Footer.css';
 import zini from '../assets/homepage/zinikus.png';
 import {
-  AiFillGithub,
+  AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillInstagram,
   AiFillYoutube,
@@ -36,17 +36,17 @@ const Footer = () => {
         <div class="phone"><a href='tel:+91 98110031799'>+91 9810031799</a></div>
         <div className="footerIcons">
           <div className="flex margin">
-            <a href='https://www.linkedin.com/company/zinikus-ai-pvt-ltd/?viewAsMember=true'>
+            <a target='_blank' href='https://www.linkedin.com/company/zinikus-ai-pvt-ltd/?viewAsMember=true'>
               <AiFillLinkedin size={40} />
             </a>
-            <a href='https://youtube.com/@zinikus310'>
+            <a target='_blank' href='https://youtube.com/@zinikus310'>
               <AiFillYoutube size={40} />
             </a>
-            <a href=' https://instagram.com/zinikus?igshid=MzRlODBiNWFlZA=='>
+            <a target='_blank' href=' https://instagram.com/zinikus?igshid=MzRlODBiNWFlZA=='>
               <AiFillInstagram size={40} />
             </a>
-            <a href=''>
-              <AiFillGithub size={40} />
+            <a target='_blank' href='https://twitter.com/ZinikusAI'>
+              <AiFillTwitterCircle size={40} />
             </a>
           </div>
         </div>
