@@ -1,4 +1,16 @@
+.gap{
+  gap: 2%;
+  transform: translate(17%,55%);
+}
 
+.newsbtn{
+  clip-path: polygon(70% 0, 90% 50%, 70% 100%, 10% 100%, 20% 50%, 10% 0%);
+  transition: all 0.2s;
+}
+
+.newsbtn:hover{
+  clip-path: polygon(90% 0%, 80% 50%, 90% 100%, 30% 99%, 10% 50%, 30% 0);
+}
 
 .links {
   position: absolute;
@@ -30,7 +42,7 @@
 
 .mainLogo {
   position: absolute;
-  left: 44%;
+
   margin-top: 2.146690518783542vh;
   height: 9.30232558139535vh;
   cursor: pointer;

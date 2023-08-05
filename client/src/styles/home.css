@@ -55,6 +55,7 @@ html{
   color: white !important;
   font-family: 'Merriweather Sans', sans-serif;
   animation: 1.5s leftToRightH2;
+  z-index: 2;
 }
 
 
@@ -66,9 +67,11 @@ html{
   color: white !important;
   font-family: 'Merriweather Sans', sans-serif;
   animation: 1.5s leftToRightH5;
+  z-index: 2;
 }
 .hometext Button{
   animation: 1.5s leftToRightButton;
+  z-index: 2;
 }
 @keyframes leftToRightH2 {
   0%{
