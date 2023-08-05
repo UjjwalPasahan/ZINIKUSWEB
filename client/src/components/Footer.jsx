@@ -15,7 +15,7 @@ const Footer = () => {
       <hr className="defaultHR" />
       <div className="footerDivider"></div>
       <div class="container">
-        <div class="contact"><Link to={'/contact'}>Contact</Link></div>
+        <div class="contact"><Link to={'/services'}>Our Services</Link></div>
         <div class="products"><Link to={'/product'}>Products</Link></div>
         <div class="address">
           B-130, Ayurvigyan Nagar,
