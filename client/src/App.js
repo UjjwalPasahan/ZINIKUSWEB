@@ -37,7 +37,7 @@ function App() {
       <Route path='/research' element={<Research />} />
       <Route path='/newsletter' element={<News />} />
       <Route path='/termsConditions' element={<TermsConditions />} />
-      <Route path='/Error' element={<Error />} />
+      <Route path='*' element={<Error />} />
     </Routes>
   </Router>
   </div>);
