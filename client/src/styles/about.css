@@ -10,7 +10,7 @@
 
 }
 
-.faltu {
+.faltuHeading {
   text-align: center;
   font-size: 5rem;
   font-weight: 800;
@@ -18,7 +18,26 @@
   font-family: 'Merriweather Sans', 'sans-serif';
   margin-right: 2.5rem;
 }
+.faltuHeading-animation{
+    animation: 0.5s leftToRight;
+}
+.faltuText{
+}
+.faltuText-animation{
+  animation: 0.5s leftToRight;
+}
+@keyframes leftToRight {
+  0%{
+    margin-left: -50vw;
+    opacity: 0;
+  }
+  
 
+  100%{
+    margin-left: 0vw;
+    opacity: 1;
+  }
+}
 .about p {
   text-align: center;
   font-size: 1rem;
@@ -32,6 +51,34 @@
   box-shadow: rgba(0, 0, 0, 0.9) 0px 54px 55px,
     rgba(0, 0, 0, 0.9) 0px -12px 30px, rgba(0, 0, 0, 0.9) 0px 4px 6px,
     rgba(0, 0, 0, 0.9) 0px 12px 13px, rgba(0, 0, 0, 0.9) 0px -3px 5px;
+
+}
+.imgs-animation{
+  animation: 0.5s rightToLeft;
+}
+@keyframes rightToLeft {
+  0%{
+    margin-left: 50vw;
+    opacity: 0;
+    scale: 1;
+  }
+  25%{
+    opacity: 0.25;
+    scale: 1;
+  }
+  50%{
+    opacity: 0.5;
+    scale: 1;
+  }
+  75%{
+    opacity: 0.75;
+    scale: 1;
+  }
+  100%{
+    margin-left: 0;
+    opacity: 1;
+    scale: 1;
+  }
 }
 /* .upperAbout{
   display: flex;
