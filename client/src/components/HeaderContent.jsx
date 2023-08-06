@@ -47,7 +47,7 @@ const HeaderContent = () => {
       <Link to={'/research'}>Research</Link>
     </Button>  */}
           {/* <!--start button, nothing above this is necessary --> */}
-          <div className="svg-wrapper" style={{ marginLeft: '3.7vw' }}>
+          <div className="svg-wrapper" style={{ marginLeft: '1.7vw' }}>
             <Link to={'/services'}>
               <div id="text">
                 <a href="/services"><span height="40" width="150" className="spot">Services</span></a>
