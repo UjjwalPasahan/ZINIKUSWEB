@@ -57,7 +57,7 @@
 
 }
 .imgs-animation{
-  animation: 0.5s rightToLeft;
+  animation: 2s rightToLeft;
 }
 @keyframes rightToLeft {
   0%{
