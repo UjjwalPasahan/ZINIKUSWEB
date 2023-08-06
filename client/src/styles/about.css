@@ -40,11 +40,14 @@
 }
 .about p {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: white !important;
   font-weight: 400;
   font-family: 'Inter', sans-serif;
   margin-top: 1rem;
+  letter-spacing: 0.1px;
+  word-spacing: 1.5px;
+  line-height: 37px;
 }
 
 .imgs {

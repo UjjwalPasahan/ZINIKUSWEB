@@ -14,12 +14,20 @@
   padding: 10px;
   border: 2px solid transparent;
   border-image: linear-gradient(to right, #6559ae, #ff7159) 1;
+  transition: 0.9s ease-in-out;
 }
+
+.btnborder:hover {
+  background-image: linear-gradient(to right, #ff7159, #6559ae);
+  border-image: linear-gradient(to right, #ff7159, #6559ae) 1;
+}
+
 
 .links {
   position: absolute;
-  top: 25%;
+  top: 0.5%;
   left: 30%;
+  z-index: 100;
 }
 
 .ls {
@@ -101,7 +109,7 @@ span .spot {
     display: block;
     width: 156px;
     height: 46px;
-    top: 0;
+    top: 10px;
     left: 0;
     color: white;
   }
@@ -129,7 +137,7 @@ span .spot {
   */
   
   #shape {
-    stroke-width: 6px;
+    stroke-width: 4px;
     fill: transparent;
     stroke: #2b00ffc5;
     stroke-dasharray: 85 400;
@@ -148,8 +156,9 @@ span .spot {
     height: 0;
     width: 100px;
     margin-left: 25px;
+    
+    margin-top: 5px;
   }
-  
   #text a {
     color: white;
     text-decoration: none;
@@ -168,37 +177,36 @@ span .spot {
     stroke: #2b00ffc5;
   }
   div.svg-wrapper:nth-child(2) > svg:nth-child(2) {
-    margin-top: -5px;
+    margin: auto;
    }
 
 div.svg-wrapper:nth-child(1) > svg:nth-child(2) {
-  margin-top: -5px;
+  margin: auto;
 }
 
 div.svg-wrapper:nth-child(3) > svg:nth-child(2) {
-  margin-top: -5px;
+  margin: auto;
 }
 div.svg-wrapper:nth-child(4) > svg:nth-child(2) {
-  margin-top: -5px;
+  margin: auto;
  }
  
- #textNews a {
-  color: white;
-  text-decoration: none;
-  font-weight: 100;
-  font-size: 1.1em;
-}
-.svg-wrapper:hover #shapeNews {
+ /* #textNews a {
+  
+  background-image: linear-gradient(to right, #6559ae, #ff7159);
+
+} */
+/* .svg-wrapper:hover #shapeNews {
   stroke-dasharray: 50 0;
   stroke-width: 3px;
   stroke-dashoffset: 0;
   stroke: #2b00ffc5;
 }
 #shapeNews {
-  stroke-width: 6px;
+  /* stroke-width: 6px;
   fill: transparent;
   stroke: #2b00ffc5;
   stroke-dasharray: 85 400;
   stroke-dashoffset: -220;
-  transition: 1s all ease;
-}
+  transition: 1s all ease; */
+/* } */
