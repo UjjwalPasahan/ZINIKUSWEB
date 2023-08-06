@@ -7,7 +7,7 @@
   padding: 10rem;
   padding-top: 0rem !important;
   width: 100vw;
-
+  height: 175vh;
 }
 
 .faltuHeading {
@@ -28,7 +28,7 @@
 }
 @keyframes leftToRight {
   0%{
-    margin-left: -50vw;
+    margin-left: -100vw;
     opacity: 0;
   }
   
@@ -57,7 +57,7 @@
 
 }
 .imgs-animation{
-  animation: 2s rightToLeft;
+  animation: 2.5s rightToLeft;
 }
 @keyframes rightToLeft {
   /* 0%{
