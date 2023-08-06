@@ -60,7 +60,7 @@
   animation: 2s rightToLeft;
 }
 @keyframes rightToLeft {
-  0%{
+  /* 0%{
     margin-left: 50vw;
     opacity: 0;
     scale: 1;
@@ -81,6 +81,14 @@
     margin-left: 0;
     opacity: 1;
     scale: 1;
+  } */
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 /* .upperAbout{
@@ -107,7 +115,7 @@ font-family: 'Bebas Neue', sans-serif;
 .h22{
 
 font-family: 'Merriweather Sans', sans-serif;
--webkit-text-stroke: 4px white;
+/* -webkit-text-stroke: 4px white; */
 color: transparent;
 /* letter-spacing: 10px; */
 text-align: center;

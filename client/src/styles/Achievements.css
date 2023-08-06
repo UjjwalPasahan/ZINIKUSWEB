@@ -8,6 +8,7 @@
   margin-bottom: 4rem;
   margin-top: 3rem;
 }
+
 .Achieve h2 {
   text-align: center;
   font-size: 5rem;
@@ -15,4 +16,27 @@
   color: white !important;
   font-family: 'Merriweather Sans', sans-serif;
   padding: 2rem 0 -4rem 0;
+}
+
+.image{
+  width: 330px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+@keyframes enter-animation {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .achieveImage-animation {
+    animation: enter-animation 2s 1;
+  }
 }
