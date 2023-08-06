@@ -14,26 +14,26 @@ const Footer = () => {
     <div className="footer">
       <hr className="defaultHR" />
       <div className="footerDivider"></div>
-      <div class="container">
-        <div class="contact"><Link to={'/services'}>Our Services</Link></div>
-        <div class="products"><Link to={'/product'}>Products</Link></div>
-        <div class="address">
+      <div className="container">
+        <div className="contact"><Link to={'/services'}>Our Services</Link></div>
+        <div className="products"><Link to={'/product'}>Products</Link></div>
+        <div className="address">
           B-130, Ayurvigyan Nagar,
           <br />
           AIIMS Campus,
           <br />
           New Delhi-110049
         </div>
-        <div class="feedback"><Link to={'/feedback'}>Feedback</Link></div>
-        <div class="newsletter"><Link to={'/newsletter'}>Our Newsletter</Link></div>
-        <div class="email">
+        <div className="feedback"><Link to={'/feedback'}>Feedback</Link></div>
+        <div className="newsletter"><Link to={'/newsletter'}>Our Newsletter</Link></div>
+        <div className="email">
           <u>adi.zinikus@gmail.com</u>
           <br />
           <u>tanay.zinikus@gmail.com</u>
         </div>
-        <div class="footerAbout"><Link to={'/about'}>About Us</Link></div>
-        <div class="terms"><Link to={'/termsConditions'}>Terms & Conditions</Link></div>
-        <div class="phone"><a href='tel:+91 98110031799'>+91 9810031799</a></div>
+        <div className="footerAbout"><Link to={'/about'}>About Us</Link></div>
+        <div className="terms"><Link to={'/termsConditions'}>Terms & Conditions</Link></div>
+        <div className="phone"><a href='tel:+91 98110031799'>+91 9810031799</a></div>
         <div className="footerIcons">
           <div className="flex margin">
             <a target='_blank' href='https://www.linkedin.com/company/zinikus-ai-pvt-ltd/?viewAsMember=true'>

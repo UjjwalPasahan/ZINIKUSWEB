@@ -12,7 +12,7 @@ const Feedback = () => {
           <MdKeyboardBackspace size={30} />
         </Link>
       </div>
-      <div class="login" 
+      <div className="login" 
       // style={{ marginBottom: '30rem' }}
       >
         <VStack

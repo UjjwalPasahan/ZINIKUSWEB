@@ -12,7 +12,7 @@ const signup = () => {
   <MdKeyboardBackspace size={30}/>
   </Link>
   </div> 
-      <div class="news">
+      <div className="news">
         <VStack 
           className='newsletterContent'
           spacing={'1.5'}
@@ -46,7 +46,7 @@ const signup = () => {
             colorScheme="facebook"
           />
           <Button colorScheme="twitter" m={'10'} variant={'solid'}>
-            Submit
+            Subscribe
           </Button>
         </VStack>
       </div>

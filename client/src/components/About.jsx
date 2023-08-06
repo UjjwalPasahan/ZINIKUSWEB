@@ -18,10 +18,10 @@ const About = () => {
   //       s1.classList.add('faltuHeading-animation');
   //       s2.classList.add('faltuText-animation');
   //       s3.classList.add('imgs-animation');
-  //     return; // if we added the class, exit the function
+  //     return; // if we added the className, exit the function
   //     }
   
-  //     // We're not intersecting, so remove the class!
+  //     // We're not intersecting, so remove the className!
   //     // square.classList.remove('square-animation');
   //   });
   // });
@@ -36,7 +36,7 @@ const About = () => {
       entries.forEach(entry => {
         // If the element is visible
         if (entry.isIntersecting) {
-          // Add the animation class
+          // Add the animation className
           entry.target.classList.add('faltuHeading-animation');
           entry.target.classList.add('faltuText-animation');
           entry.target.classList.add('imgs-animation');
