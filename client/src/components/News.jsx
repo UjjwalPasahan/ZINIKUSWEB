@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 
 const signup = () => {
   return (
-    <div className="newspage">
+    <div className="newspage" id='newsletter'>
        <div className='back backbtn' > 
   <Link to={'/'}>
   <MdKeyboardBackspace size={30}/>

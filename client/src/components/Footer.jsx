@@ -15,8 +15,8 @@ const Footer = () => {
       <hr className="defaultHR" />
       <div className="footerDivider"></div>
       <div className="container">
-        <div className="contact"><Link to={'/services'}>Our Services</Link></div>
-        <div className="products"><Link to={'/product'}>Products</Link></div>
+        <div className="contact"><a href={'/services'}>Our Services</a></div>
+        <div className="products"><a href={'/product'}>Products</a></div>
         <div className="address">
           B-130, Ayurvigyan Nagar,
           <br />
@@ -24,15 +24,15 @@ const Footer = () => {
           <br />
           New Delhi-110049
         </div>
-        <div className="feedback"><Link to={'/feedback'}>Feedback</Link></div>
-        <div className="newsletter"><Link to={'/newsletter'}>Our Newsletter</Link></div>
+        <div className="feedback"><a href={'/feedback'}>Feedback</a></div>
+        <div className="newsletter"><a href={'/newsletter'}>Our Newsletter</a></div>
         <div className="email">
           <u>adi.zinikus@gmail.com</u>
           <br />
           <u>tanay.zinikus@gmail.com</u>
         </div>
-        <div className="footerAbout"><Link to={'/about'}>About Us</Link></div>
-        <div className="terms"><Link to={'/termsConditions'}>Terms & Conditions</Link></div>
+        <div className="footerAbout"><a href='#about'>About Us</a></div>
+        <div className="terms"><a href={'/termsConditions'}>Terms & Conditions</a></div>
         <div className="phone"><a href='tel:+91 98110031799'>+91 9810031799</a></div>
         <div className="footerIcons">
           <div className="flex margin">
@@ -54,7 +54,7 @@ const Footer = () => {
           className="footerLogo"
           style={{ paddingLeft: '55px', paddingTop: '20px' }}
         >
-          <Link to='/'><img style={{ width: '170px' }} src={zini} /></Link>
+          <a href='/'><img style={{ width: '170px' }} src={zini} /></a>
         </div>
       </div>
       <div className="footerDivider"></div>
