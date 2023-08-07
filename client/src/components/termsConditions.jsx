@@ -10,6 +10,7 @@ const termsConditions = () => {
     <Header/>
       <div className='termsContainer'>
         <div className='termsText'>
+        <h2>TERMS AND CONDITIONS</h2>
        <p> Ownership
 <br/>
 Sony India Private Limited maintains this Site (the “www.sony.co.in”) for your entertainment, information, education, and communication. Please feel free to browse the Site.
