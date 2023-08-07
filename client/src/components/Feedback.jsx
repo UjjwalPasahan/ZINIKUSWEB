@@ -3,7 +3,7 @@ import { Button, Input, VStack } from '@chakra-ui/react';
 import '../styles/feedback.css';
 import { MdKeyboardBackspace } from 'react-icons/md';
 import { Link } from 'react-router-dom';
-import {StarIcon} from '@chakra-ui/icons'
+// import {StarIcon} from '@chakra-ui/icons';
 import { useState, useEffect } from 'react';
 
 const Feedback = () => {
