@@ -44,3 +44,25 @@
   font-size: 3.5rem;
   font-weight: 700;
 }
+
+.star-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  padding: 1%;
+  color: #2b00ff;
+}
+
+.star-icon input{
+  display: none;
+}
+
+
+.star-icon input+label{
+  cursor: pointer;
+}
+
+.star-icon input:checked + label ~label{
+  color: #251b58;
+}

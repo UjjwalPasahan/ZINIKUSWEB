@@ -1,12 +1,9 @@
 .termsConditions{
-    height: 65rem;
-    background-color: antiquewhite;
+color:dimgrey;
+color: whitesmoke;
 }
-.termsContainer{
-    height: 65rem;
-    background-color: aqua;
-}
+
 .termsText{
-    background-color: brown;
-    height: 65rem;
+    padding: 3vw 10vh;
+    margin-top: 12.522361359570661vh;
 }
