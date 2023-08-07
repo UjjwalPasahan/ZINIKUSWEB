@@ -72,7 +72,7 @@ const Feedback = () => {
           style={{
             cursor: 'pointer',
             fontSize: '24px',
-            color: index < rating ? '#2b00ff' : 'black',
+            color: index < rating ? 'gold' : 'black',
           }}
           onClick={() => handleStarClick(index + 1)}
         >
