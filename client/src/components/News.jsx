@@ -46,8 +46,8 @@ const signup = () => {
             colorScheme="facebook"
           />
           <div className='checkboxText'>
-          <input value="test" type="checkbox" /><br />
-            I agree to receive emails from Zinikus pvt ltd. <br />
+          <input value="test" type="checkbox" />
+            I agree to receive emails from Zinikus pvt ltd.
             View our <a href="/TermsConditions" style={{color:"Blue"}}>terms of service.</a></div>
           <Button colorScheme="twitter" m={'10'} variant={'solid'}>
             Subscribe
