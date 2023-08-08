@@ -156,6 +156,33 @@ html{
     
 } 
 
-@media (max-width:1200px) {
-  
+@media (max-width:1050px) {
+  .hometext h2{
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .hometext h5{
+    font-size: 0.8rem;
+  }
+  .feedbackButton{
+    height: 8vh;
+    width: 28vw;
+  }
+}
+
+@media (max-width:700px) {
+  .hometext{
+    margin-left: -60%;
+  }
+  .hometext h2{
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .hometext h5{
+    font-size: 0.5rem;
+  }
+  .feedbackButton{
+    height: 4vh;
+    width: 20vw;
+  }
 }

@@ -50,7 +50,7 @@ const Home = () => {
                   Sit nostrud officia eu adipisicing
                   <br /> occaecat voluptate labore.
                 </h5>
-                <Button
+                <Button className='feedbackButton'
                   colorScheme="grey"
                   borderRadius="3xl"
                   variant="outline"

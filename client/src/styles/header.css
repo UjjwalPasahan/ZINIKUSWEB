@@ -252,3 +252,21 @@ div.svg-wrapper:nth-child(3) > a:nth-child(1) > svg:nth-child(2) {
 div.svg-wrapper:nth-child(3) {
   margin-top: -5px;
 }
+
+
+@media (max-width:1250px) {
+  div.chakra-stack:nth-child(1) {
+    margin-left: -10%;
+  }
+}
+@media (max-width:1050px) {
+  div.chakra-stack:nth-child(1) {
+    margin-left: -17.5%;
+  }
+}
+
+@media (max-width:900px) {
+  div.chakra-stack:nth-child(1) {
+    margin-left: -33%;
+  }
+}
