@@ -40,3 +40,9 @@
     animation: enter-animation 2s 1;
   }
 }
+
+@media (max-width:560px) {
+  .Achieve h2{
+    font-size: 4rem;
+  }
+}

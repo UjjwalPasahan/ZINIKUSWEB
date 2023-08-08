@@ -172,7 +172,7 @@ html{
 
 @media (max-width:700px) {
   .hometext{
-    margin-left: -60%;
+    margin-left: -40%;
   }
   .hometext h2{
     font-size: 2rem;
