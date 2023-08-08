@@ -141,6 +141,9 @@ margin-right: 2.5rem;
   .faltuText{
     font-size: 1rem;
   }
+  .about{
+    padding: 8rem;
+  }
 }
 @media (max-width:570px) {
   .h22{
@@ -156,6 +159,9 @@ margin-right: 2.5rem;
   }
   .faltuText{
     font-size: 0.8rem;
+  }
+  .about{
+    padding: 6rem;
   }
 }
 @media (max-width:510px) {
@@ -173,5 +179,8 @@ margin-right: 2.5rem;
   }
   .faltuText{
     font-size: 0.5rem;
+  }
+  .about{
+    padding: 4rem;
   }
 }

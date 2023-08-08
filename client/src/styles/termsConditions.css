@@ -1,9 +1,13 @@
 .termsConditions{
-color:dimgrey;
+/* color:dimgrey; */
+background-color: black;
 color: whitesmoke;
 }
 
 .termsText{
     padding: 3vw 10vh;
     margin-top: 12.522361359570661vh;
+}
+.termsText h2{
+    font-size: 3rem;
 }
