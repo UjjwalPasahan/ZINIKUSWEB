@@ -182,3 +182,15 @@
   background: #251b58;
   grid-area: logo;
 }
+
+@media (max-width:900px) {
+
+  div.gradC1:nth-child(13) {
+    z-index: -100;
+  }
+
+  div.gradE1:nth-child(14) {
+    z-index: -100;
+  }
+
+}

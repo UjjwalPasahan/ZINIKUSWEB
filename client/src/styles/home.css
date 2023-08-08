@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 * {
   max-width: 100vw;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
-html{
+html {
 
   overflow-x: hidden;
 }
@@ -25,12 +26,14 @@ html{
   float: left;
   border-bottom: 1px solid #d0d0d0;
 }
+
 .defaultHR {
   width: 100%;
   position: absolute;
   size: 0.8944543828264758vh;
   color: #d0d0d0;
 }
+
 .spaceMaker {
   background: linear-gradient(rgba(0, 0, 0) 1%, #251b58 99%);
   height: 14.311270125223613vh;
@@ -39,6 +42,7 @@ html{
   padding: 0%;
   box-shadow: 0 0 10px 20px black;
 }
+
 .lowerSpaceMaker {
   background-color: #251b58;
   height: 5.724508050089446vh;
@@ -69,36 +73,43 @@ html{
   animation: 2s leftToRightH5;
   z-index: 2;
 }
-.hometext Button{
+
+.hometext Button {
   animation: 2s leftToRightButton;
   z-index: 2;
 }
+
 @keyframes leftToRightH2 {
-  0%{
+  0% {
     margin-left: -80vw;
     opacity: 0;
   }
-  100%{
+
+  100% {
     margin-left: 0vw;
     opacity: 1;
   }
 }
+
 @keyframes leftToRightH5 {
-  0%{
+  0% {
     margin-left: -90vw;
     opacity: 0;
   }
-  100%{
+
+  100% {
     margin-left: 0vw;
     opacity: 1;
   }
 }
+
 @keyframes leftToRightButton {
-  0%{
+  0% {
     margin-left: -90vw;
     opacity: 0;
   }
-  100%{
+
+  100% {
     margin-left: 0vw;
     opacity: 1;
   }
@@ -142,47 +153,64 @@ html{
   left: 70vw;
 }
 
-.ourteam{
-    font-family: 'Merriweather Sans', sans-serif;
-    padding: 2rem 0 -4rem 0;
-    margin-bottom: 20px;
+.ourteam {
+  font-family: 'Merriweather Sans', sans-serif;
+  padding: 2rem 0 -4rem 0;
+  margin-bottom: 20px;
 }
 
-.teamheading{
-    text-align: center;
-    font-size: 5rem;
-    font-weight: 800;
-    color: white !important;
-    
-} 
+.teamheading {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 800;
+  color: white !important;
+
+}
 
 @media (max-width:1050px) {
-  .hometext h2{
+  .hometext h2 {
     font-size: 3rem;
     line-height: 4rem;
   }
-  .hometext h5{
+
+  .hometext h5 {
     font-size: 0.8rem;
   }
-  .feedbackButton{
+
+  .feedbackButton {
     height: 8vh;
     width: 28vw;
   }
 }
 
 @media (max-width:700px) {
-  .hometext{
+  .hometext {
     margin-left: -40%;
   }
-  .hometext h2{
+
+  .hometext h2 {
     font-size: 2rem;
     line-height: 3rem;
   }
-  .hometext h5{
+
+  .hometext h5 {
     font-size: 0.5rem;
   }
-  .feedbackButton{
+
+  .feedbackButton {
     height: 4vh;
     width: 20vw;
   }
 }
+
+/* @media (max-width:480px) {
+
+  div.gradC1:nth-child(13) {
+    z-index: -100;
+  }
+
+  div.gradE1:nth-child(14) {
+    z-index: -100;
+  }
+
+} */
