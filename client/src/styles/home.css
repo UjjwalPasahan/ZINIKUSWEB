@@ -11,7 +11,11 @@ html {
 
   overflow-x: hidden;
 }
-
+.feedbackButton{
+  height: 11vh;
+  width: 8vw;
+  font-size: 20px;
+}
 .wrapp {
   overflow-x: hidden;
   width: 100%;
@@ -178,8 +182,8 @@ html {
   }
 
   .feedbackButton {
-    height: 8vh;
-    width: 28vw;
+    height: 3vh;
+    width: 15vw;
   }
 }
 

@@ -54,9 +54,9 @@ const Home = () => {
                   colorScheme="grey"
                   borderRadius="3xl"
                   variant="outline"
-                  h="12"
-                  w="36"
-                  fontSize="2xl"
+                  // h="12"
+                  // w="36"
+                  // fontSize="2xl"
                 >
                   <Link to="/feedback">Feedback</Link>
                 </Button>

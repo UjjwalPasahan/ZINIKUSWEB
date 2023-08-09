@@ -209,3 +209,97 @@
     margin-bottom: -3%;
     flex-wrap: wrap;
   }
+
+  /* Your existing CSS code */
+
+/* Add media query for 900px breakpoint */
+@media screen and (max-width: 900px) {
+  .card {
+    margin: 15vh 2vw 15vh 3vw;
+  }
+
+  .card__title {
+    font-size: 1.8rem;
+  }
+
+  .card__description {
+    font-size: 0.9rem;
+  }
+
+  .card__content {
+    padding: 5% 0.5rem 2rem;
+  }
+
+  .card__content--container {
+    --flow-space: 1.5rem;
+  }
+
+  .card__button {
+    padding: 0.6em 0.8em;
+    font-size: 1rem;
+  }
+
+  .card__title::after {
+    width: calc(100% + 1.5rem);
+    bottom: calc((1rem - 0.5rem) * -1);
+    left: -0.75rem;
+  }
+  
+  /* Other style adjustments as needed */
+
+  .flexed {
+    margin-top: 10px;
+    margin-bottom: -5%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .card {
+    margin: 15vh 2vw 15vh 3vw;
+  }
+  .flexed {
+    margin-top: 10px;
+    margin-bottom: -5%;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .card {
+    margin: 15vh 16vw 10vh 20vw;
+  }
+  .flexed {
+    margin-top: 5px;
+    margin-bottom: -8%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    margin: 15vh 16vw 10vh 25vw;
+  }
+  .flexed {
+    margin-top: 5px;
+    margin-bottom: -8%;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .card {
+    margin: 15vh 6vw 8vh 15vw;
+  }
+  .flexed {
+    margin-top: 3px;
+    margin-bottom: -10%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    margin: 15vh 16vw 3vh 10.5vw;
+  }
+  .flexed {
+    margin-top: 2px;
+    margin-bottom: -12%;
+  }
+}
