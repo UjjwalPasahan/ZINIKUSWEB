@@ -43,7 +43,7 @@ const Research = (props) => {
                     </ul>
                 </div>
             </div> */}
-      <div className="gradC1"></div>
+      {/* <div className="gradC1"></div> */}
       <div className="gradE1"></div>
       <div id="mainContainer">
         <h1>Our Research Documents</h1>
