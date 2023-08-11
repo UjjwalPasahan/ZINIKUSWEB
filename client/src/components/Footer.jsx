@@ -37,16 +37,16 @@ const Footer = () => {
         <div className="footerIcons">
           <div className="flex margin">
             <a target='_blank' href='https://www.linkedin.com/company/zinikus-ai-pvt-ltd/?viewAsMember=true'>
-              <AiFillLinkedin size={40} />
+              <AiFillLinkedin size={40} color='white'/>
             </a>
             <a target='_blank' href='https://youtube.com/@zinikus310'>
-              <AiFillYoutube size={40} />
+              <AiFillYoutube size={40} color='white'/>
             </a>
             <a target='_blank' href=' https://instagram.com/zinikus?igshid=MzRlODBiNWFlZA=='>
-              <AiFillInstagram size={40} />
+              <AiFillInstagram size={40} color='white'/>
             </a>
             <a target='_blank' href='https://twitter.com/ZinikusAI'>
-              <AiFillTwitterCircle size={40} />
+              <AiFillTwitterCircle size={40} color='white'/>
             </a>
           </div>
         </div>
