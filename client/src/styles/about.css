@@ -185,3 +185,43 @@ margin-right: 2.5rem;
     padding: 4rem;
   }
 }
+@media (max-width:400px) {
+  .about{
+    min-width: 100vw;
+    overflow-x: hidden;
+    margin-top: -40%;
+    
+  }
+  .h22{
+    font-size: 1.1rem;
+    margin-right: 0.8rem;
+  }
+  .about p{
+    font-size: 0.5rem;
+    line-height: 15px;
+
+  }
+  .faltuHeading{
+    font-size: 1rem;
+    margin-top: -10%;
+  }
+  .faltuText{
+    font-size: 0.5rem;
+    
+  }
+  .lowerdivwrapper{
+    margin-top: -30%;
+  }
+.imgs{
+  margin-top: -30%;
+}
+
+  .about{
+    padding: 2rem;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  
+
+}

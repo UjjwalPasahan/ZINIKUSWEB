@@ -420,3 +420,34 @@ html {
     width: 20vw;
   }
 }
+
+@media (max-width: 400px) {
+  html{
+    width: 100vw;
+    margin: 3px;
+    overflow-x: hidden;
+  }
+  .wrapp{
+    min-width: 50vw;
+    overflow-x: hidden;
+  }
+  .hometext {
+    margin-left: 2%
+  }
+  .hometext h2 {
+    font-size: 2rem;
+    line-height: 2.7rem;
+  }
+  .hometext h5 {
+    font-size: 0.5rem;
+  }
+  .feedbackButton {
+    height: 4vh;
+    width: 20vw;
+  }
+
+  .gradC1,
+  .gradE1{
+    display: none;
+  }
+}

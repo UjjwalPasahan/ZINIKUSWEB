@@ -46,3 +46,17 @@
     font-size: 4rem;
   }
 }
+@media (max-width:400px) {
+  *{
+    
+    width: -150vw;
+  }
+  .Achieve h2{
+    font-size: 2.5rem;
+    margin-bottom: -40%;
+  }
+
+  .achieveImage{
+    margin-bottom: -50%;
+  }
+}

@@ -85,7 +85,7 @@ At our company, we believe in constant innovation and collaboration. We're alway
       </p></div>
       </div>
       <HStack className='lowerAboutUs' mt="40">
-        <div>
+        <div className='lowerdivwrapper'>
           <h2 className='faltuHeading faltuHeading-animation'>lorem ipsum</h2>
           <h4 className='faltuText faltuText-animation'>Occaecat esse irure et occaecat tempor.</h4>
         </div>

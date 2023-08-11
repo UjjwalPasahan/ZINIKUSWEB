@@ -59,29 +59,22 @@ const Headerbtn = () => {
                   <DrawerHeader h="container.sm">
                     <div>
                       <Image src={img2} />
-                      <Button onClick={handleClick} colorScheme="facebook">
-                        {' '}
-                        <ImSearch onClick={!handleClick} />{' '}
-                      </Button>
-                      {showInput && (
-                        <Input placeholder="Type here..." colorScheme="twitter" />
-                      )}
                     </div>
                   </DrawerHeader>
                   <VStack className="links">
-                    <Button onClick={onClose} w="40" colorScheme="facebook" >
+                    <Button onClick={onClose} top={'40'} w="40" colorScheme="facebook" >
                       <Link to={'/services'}>Our Services</Link>
                     </Button>
-                    <Button onClick={onClose} w="40" colorScheme="facebook">
+                    <Button onClick={onClose} top={'40'} w="40" colorScheme="facebook">
                       <Link to={'/product'}>Products</Link>
                     </Button>
-                    <Button onClick={onClose} w="40" colorScheme="facebook">
+                    <Button onClick={onClose} top={'40'} w="40" colorScheme="facebook">
                       <Link to={'/research'}>Research</Link>
                     </Button> 
                   </VStack>
                   
       
-                  <Stack
+                  {/* <Stack
                     direction={['column', 'row']}
                     className="ls"
                     justifyContent="space-around"
@@ -96,9 +89,9 @@ const Headerbtn = () => {
                       variant="outline"
                     >
                   
-                      <Link to={'/signup'}>SignUp</Link>
-                    </Button>
-                  </Stack>
+                      <Link to={'/signup'}>SignUp</Link> */}
+                    {/* </Button>
+                  </Stack> */}
                 </DrawerContent>
               </Drawer>
               
