@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 * {
@@ -11,11 +11,13 @@ html {
 
   overflow-x: hidden;
 }
-.feedbackButton{
+
+.feedbackButton {
   height: 11vh;
   width: 8vw;
   font-size: 20px;
 }
+
 .wrapp {
   overflow-x: hidden;
   width: 100%;
@@ -207,7 +209,7 @@ html {
   }
 }
 
-/* @media (max-width:480px) {
+@media (max-width:480px) {
 
   div.gradC1:nth-child(13) {
     z-index: -100;
@@ -216,10 +218,45 @@ html {
   div.gradE1:nth-child(14) {
     z-index: -100;
   }
+}
 
- */
+@media (max-width: 400px) {
+  html {
+    width: 100vw;
+    margin: 3px;
+    overflow-x: hidden;
+  }
 
- @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+  .wrapp {
+    min-width: 50vw;
+    overflow-x: hidden;
+  }
+
+  .hometext {
+    margin-left: 2%
+  }
+
+  .hometext h2 {
+    font-size: 2rem;
+    line-height: 2.7rem;
+  }
+
+  .hometext h5 {
+    font-size: 0.5rem;
+  }
+
+  .feedbackButton {
+    height: 4vh;
+    width: 20vw;
+  }
+
+  .gradC1,
+  .gradE1 {
+    display: none;
+  }
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 * {
@@ -451,3 +488,13 @@ html {
     display: none;
   }
 }
+ @media (max-width:480px) {
+
+  div.gradC1:nth-child(13) {
+    z-index: -100;
+  }
+
+  div.gradE1:nth-child(14) {
+    z-index: -100;
+  }
+} */

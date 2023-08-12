@@ -1,39 +1,45 @@
-.newspage{
+.newspage {
     background: url('../assets/homepage/newsletterBackground.jpg');
-    background-size:cover;
+    background-size: cover;
     width: 300vw;
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     top: 2%;
-    
+
 }
-.logintext{
+
+.logintext {
     text-decoration: none;
     text-align: center;
     font-size: 2rem;
     font-weight: 800;
 
 }
-.news{
+
+.news {
     background: red;
     width: 30%;
-        
+
 }
-.newsletterContent{
+
+.newsletterContent {
     background: rgba(218, 218, 218, 0.39);
-    margin-top: -5%;
+    margin-top: -12%;
     padding: 1%;
     width: 20%;
     border-radius: 3%;
 }
-.newsletterContent input{
+
+.newsletterContent input {
     margin-top: 10px;
     background: none;
     border-bottom: solid 0.5px rgb(77, 77, 77);
 }
-.newsletterContent input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgb(77, 77, 77);
-    opacity: 1; /* Firefox */
-  }
 
+.newsletterContent input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(77, 77, 77);
+    opacity: 1;
+    /* Firefox */
+}
