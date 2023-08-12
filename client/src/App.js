@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, BrowserRouter as Router,Routes} from 'react-router-dom'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import {
   ChakraProvider,
   Box,
@@ -24,22 +24,24 @@ import Research from './components/Research';
 import TermsConditions from './components/TermsConditions';
 import Error from './components/Error';
 import News from './components/News';
+import Clouds from './components/Clouds';
 
 function App() {
 
-  return(<div>
-  <Router>
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/feedback' element={<Feedback />} />
-      <Route path='/product' element={<Products />} />
-      <Route path='/services' element={<Service />} />
-      <Route path='/research' element={<Research />} />
-      <Route path='/newsletter' element={<News />} />
-      <Route path='/termsConditions' element={<TermsConditions />} />
-      <Route path='*' element={<Error />} />
-    </Routes>
-  </Router>
+  return (<div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/feedback' element={<Feedback />} />
+        <Route path='/product' element={<Products />} />
+        <Route path='/services' element={<Service />} />
+        <Route path='/research' element={<Research />} />
+        <Route path='/newsletter' element={<News />} />
+        <Route path='/termsConditions' element={<TermsConditions />} />
+        <Route path='/Clouds' element={<Clouds />} />
+        <Route path='*' element={<Error />} />
+      </Routes>
+    </Router>
   </div>);
 }
 
