@@ -9,6 +9,7 @@
 .onoffswitch3 {
     position: relative;
     -webkit-user-select: none;
+    user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     left: 0vw;
