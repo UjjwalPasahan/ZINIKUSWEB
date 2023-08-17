@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-.researchPage{
+.researchPage {
     background-color: #251b58;
     height: auto;
 }
+
 .onoffswitch3 {
     position: relative;
     -webkit-user-select: none;
@@ -82,8 +83,8 @@
 }
 
 .onoffswitch3-active .onoffswitch3-switch {
-   
-    background: linear-gradient(#251b58,#2b00ff);
+
+    background: linear-gradient(#251b58, #2b00ff);
     left: 0;
     width: 200px;
 }
@@ -113,7 +114,7 @@
     width: 80vw;
 }
 
-.listContainer{
+.listContainer {
 
     height: 400px;
     width: 100%;
@@ -121,19 +122,21 @@
     top: 12.5vh;
     padding: 40px;
 }
-.scroll-parent{
+
+.scroll-parent {
     height: 400px;
     width: 200px;
     margin: 40px;
     background-color: #000;
 }
 
-#mainContainer{
+#mainContainer {
     height: 0%;
     padding: 25%;
     position: relative;
 }
-#mainContainer h1{
+
+#mainContainer h1 {
     font-size: 2rem;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
@@ -142,8 +145,9 @@
     left: 33%;
     text-align: center;
 }
-#listContainer{
-    
+
+#listContainer {
+
     background: #f3f3f3ec;
     border-radius: 20px;
     position: absolute;
@@ -153,76 +157,112 @@
     overflow: hidden;
 
 }
+
 #box {
     color: #000;
     font-family: 'Inter', sans-serif;
     width: 30vw;
-    margin: 10px ;
+    margin: 10px;
     -webkit-overflow: hidden;
+    overflow: hidden;
     position: relative;
     -webkit-animation-name: move;
+    animation-name: move;
     -webkit-animation-duration: 20s;
+    animation-duration: 20s;
     -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
     -webkit-animation-direction: up;
+    animation-direction: up;
     -webkit-animation-timing-function: ease;
-    margin-top:10%;
- }
- #box:hover {
-    -webkit-animation-play-state: paused;
- }
- @keyframes move {
-    0% {
-       transform:translateY(1200%);
-    }
-    100% {
-       transform:translateY(-250%);
-    }
- } 
+    animation-timing-function: ease;
+    margin-top: 10%;
+}
 
- 
+#box:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(1200%);
+    }
+
+    100% {
+        transform: translateY(-250%);
+    }
+}
+
+
 @media (max-width:1200px) {
-    #mainContainer h1{
+    #mainContainer h1 {
         top: 20%;
         left: 30%;
     }
-    #listContainer{
+
+    #listContainer {
         top: 35%;
     }
 }
+
 @media (max-width:750px) {
-    #mainContainer h1{
+    #mainContainer h1 {
         top: 25%;
         left: 25%;
     }
-    #listContainer{
+
+    #listContainer {
         top: 45%;
         height: 55%;
     }
 }
+
 @media (max-width:570px) {
-    #mainContainer h1{
+    #mainContainer h1 {
         font-size: 1.8rem;
         top: 30%;
         left: 20%;
     }
-    #listContainer{
+
+    #listContainer {
         top: 50%;
         height: 60%;
     }
 }
+
 @media (max-width:480px) {
-    #mainContainer h1{
+    #mainContainer h1 {
         font-size: 1.2rem;
         top: 35%;
         left: 24%;
     }
-    #listContainer{
+
+    #listContainer {
         top: 50%;
         height: 60%;
     }
-    
-.footer {
-    margin-top: 4rem;
-  }
-  
+
+    .footer {
+        margin-top: 4rem;
+    }
+
+}
+
+@media (max-width:400px) {
+    #mainContainer h1 {
+        font-size: 1rem;
+        top: 50%;
+        left: 24%;
+    }
+
+    #listContainer {
+        top: 70%;
+        height: 60%;
+    }
+
+    .footer {
+        margin-top: 5rem;
+    }
+
 }
