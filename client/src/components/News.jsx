@@ -1,52 +1,49 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Box, Button, Input, VStack } from '@chakra-ui/react';
 import '../styles/news.css';
 import { MdKeyboardBackspace } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 
 const signup = () => {
-  const [user, setUser] = useState({
-    name: "",
-    email: "",
-    phone: "",
-  });
-  let name, value;
-  const getUserData = (event) => {
-    name = event.target.name;
-    value = event.target.value;
 
-    setUser({ ...user, [name]: value });
+  const [form, setForm] = useState({});
+  const handleForm = (e) => {
+    console.log(e.target.value, e.target.name);
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value
+    })
   };
 
-  const postData = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-
-    const{name,email,phone} = user;
-
-    const res = await fetch(
-      "https://testing-55e7d-default-rtdb.firebaseio.com/praticeNewsletter.json"
-      , {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name,
-          email,
-          phone,
-        }),
+    const response = await fetch("http://localhost:8080/zinikus", {
+      method: 'POST',
+      body: JSON.stringify(form),
+      headers: {
+        'Content-Type': 'application/json'
       }
-    );
-      if(res){
-        setUser({
-          name: "",
-          email: "",
-          phone: "",
-        });
-        alert("Data Stored Successfully!");
+    });
 
-      }
-  };
+    const data = await response.json();
+    console.log(data);
+
+    // Clear form fields after successful submission
+    setForm({});
+
+    // Show an alert after data is stored successfully
+    alert("Data stored successfully");
+  }
+  const getUsers = async () => {
+    const response = await fetch("http://localhost:8080/zinikus", {
+      method: 'GET'
+    })
+    const data = await response.json();
+    console.log(data);
+  }
+  useEffect(() => {
+    getUsers();
+  }, []);
 
   return (
     <div className="newspage" id='newsletter'>
@@ -56,7 +53,7 @@ const signup = () => {
         </Link>
       </div>
       <div className="news">
-        <form className='newsletterForm' method='POST'>
+        <form className='newsletterForm' onSubmit={handleSubmit}>
           <VStack
             className='newsletterContent'
             spacing={'1.5'}
@@ -71,8 +68,8 @@ const signup = () => {
               variant="flushed"
               name='name'
               placeholder="Name*"
-              value={user.name}
-              onChange={getUserData}
+              value={form.name || ''}
+              onChange={handleForm}
               type="text"
               colorScheme="facebook"
               required
@@ -82,8 +79,8 @@ const signup = () => {
               variant="flushed"
               name='email'
               placeholder="E-mail*"
-              value={user.email}
-              onChange={getUserData}
+              value={form.email || ''}
+              onChange={handleForm}
               type="email"
               colorScheme="facebook"
               required
@@ -93,8 +90,8 @@ const signup = () => {
               variant="flushed"
               name='phone'
               placeholder="Mobile Number"
-              value={user.phone}
-              onChange={getUserData}
+              value={form.phone || ''}
+              onChange={handleForm}
               type="tel "
               colorScheme="facebook"
             />
@@ -102,7 +99,7 @@ const signup = () => {
               <input value="test" type="checkbox" />
               I agree to receive emails from Zinikus pvt ltd.
               View our <a href="/TermsConditions" style={{ color: "Blue" }}>terms of service.</a></div>
-            <Button colorScheme="twitter" m={'10'} variant={'solid'} onClick={postData}>
+            <Button type='submit' colorScheme="twitter" m={'10'} variant={'solid'}>
               Subscribe
             </Button>
           </VStack>

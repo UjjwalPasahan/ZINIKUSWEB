@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 const Feedback = () => {
-
   const [rating, setRating] = useState(0);
 
   // Function to update the rating and store it in local storage
@@ -16,53 +15,45 @@ const Feedback = () => {
     localStorage.setItem('rating', selectedRating);
   };
 
-  //uploading the data to firebase
-
-  const [user, setUser] = useState({
-    name: "",
-    email: "",
-    opinions: "",
-    suggestions: "",
-  });
-  let name, value;
-  const getUserData = (event) => {
-    name = event.target.name;
-    value = event.target.value;
-
-    setUser({ ...user, [name]: value });
+  const [form, setForm] = useState({});
+  const handleForm = (e) => {
+    console.log(e.target.value, e.target.name);
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value
+    })
   };
 
-  const postData = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-
-    const { name, email,opinions,suggestions } = user;
-
-    const res = await fetch(
-      "https://testing-55e7d-default-rtdb.firebaseio.com/praticeFeedback.json"
-      , {
-        method: "POST",
-        headers: {
-          "Content-Type": "app/json",
-        },
-        body: JSON.stringify({
-          name,
-          email,
-          opinions,
-          suggestions,
-        }),
+    const response = await fetch("http://localhost:8080/zinikusFeedback", {
+      method: 'POST',
+      body: JSON.stringify(form),
+      headers: {
+        'Content-Type': 'application/json'
       }
-    );
-    if (res) {
-      setUser({
-        name: "",
-        email: "",
-        opinions: "",
-        suggestions:"",
-      });
-      alert("Data Stored Successfully!");
+    });
 
-    }
-  };
+    const data = await response.json();
+    console.log(data);
+
+    // Clear form fields after successful submission
+    setForm({});
+
+    // Show an alert after data is stored successfully
+    alert("Data stored successfully");
+  }
+  const getUsers = async () => {
+    const response = await fetch("http://localhost:8080/zinikusFeddback", {
+      method: 'GET'
+    })
+    const data = await response.json();
+    console.log(data);
+  }
+  useEffect(() => {
+    getUsers();
+  }, []);
+
   return (
     <div className="backgroundimg">
       <div className="back">
@@ -73,7 +64,7 @@ const Feedback = () => {
       <div className="login"
       // style={{ marginBottom: '30rem' }}
       >
-        <form className='feedbackForm' method='POST'>
+        <form className='feedbackForm' onSubmit={handleSubmit}>
           <VStack
             className='feedbackContent'
             spacing={'1.5'}
@@ -89,8 +80,8 @@ const Feedback = () => {
               variant="flushed"
               name='name'
               placeholder="Name"
-              value={user.name}
-              onChange={getUserData}
+              value={form.name || ''}
+              onChange={handleForm}
               type="text"
               colorScheme="facebook"
               required
@@ -99,8 +90,8 @@ const Feedback = () => {
               variant="flushed"
               name='email'
               placeholder="Email Id"
-              value={user.email}
-              onChange={getUserData}
+              value={form.email || ''}
+              onChange={handleForm}
               type="email"
               colorScheme="facebook"
               required
@@ -109,8 +100,8 @@ const Feedback = () => {
               variant="flushed"
               name='opinions'
               placeholder="What did you like the best?"
-              value={user.opinions}
-              onChange={getUserData}
+              value={form.opinions || ''}
+              onChange={handleForm}
               type='text'
               colorScheme="facebook"
               required
@@ -119,8 +110,8 @@ const Feedback = () => {
               variant="flushed"
               name='suggestions'
               placeholder="How can we improve?"
-              value={user.suggestions}
-              onChange={getUserData}
+              value={form.suggestions || ''}
+              onChange={handleForm}
               type='textbox'
               colorScheme="facebook"
               required
@@ -143,7 +134,7 @@ const Feedback = () => {
             </div>
 
 
-            <Button colorScheme="twitter" m={'10px'} variant={'solid'} onClick={postData}>
+            <Button type='submit' colorScheme="twitter" m={'10px'} variant={'solid'}>
               Submit
             </Button>
           </VStack>
