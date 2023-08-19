@@ -13,7 +13,7 @@ const Zini = () => {
   return (
     <div>
     <div className='back backbtn' >
-        <Link to={'/'}>
+        <Link to={'/product'}>
           <MdKeyboardBackspace size={30} />
         </Link>
       </div>

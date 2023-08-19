@@ -86,8 +86,8 @@ At our company, we believe in constant innovation and collaboration. We're alway
       </div>
       <HStack className='lowerAboutUs' mt="40">
         <div className='lowerdivwrapper'>
-          <h2 className='faltuHeading faltuHeading-animation'>lorem ipsum</h2>
-          <h4 className='faltuText faltuText-animation'>Occaecat esse irure et occaecat tempor.</h4>
+          <h2 className='faltuHeading faltuHeading-animation'>Dubai GITEX</h2>
+          <h4 className='faltuText faltuText-animation'>ZINIKUS at Dubai GITEX.</h4>
         </div>
         <div className="imgs imgs-animation">
           <Image src={img5} w="container.md" />

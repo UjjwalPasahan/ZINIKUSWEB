@@ -3,7 +3,7 @@ import '../data/productdata.json'
 import '../styles/cards.css'
 import { Link } from 'react-router-dom';
 import zini1 from '../assets/homepage/ZINI1.jpg'
-import zoro1 from '../assets/homepage/ZORO3.jpg'
+import zoro1 from '../assets/homepage/ZORO3.jpeg'
 
 const Card = (props) => {
   return (
@@ -25,7 +25,7 @@ const Card = (props) => {
           </p>
         </div>
         
-        <button className="card__button"><Link to={'/zini'} style={{marginTop:'-500px'}}>Read more</Link></button>
+        <button className="card__button"><Link to={'/zini'} style={{marginTop:'-50px'}}>Read more</Link></button>
       </div>
     </article>
 

@@ -20,7 +20,7 @@
 
 .carousel-container {
   width: 100%;
-  max-width: 50%; /* Adjust as needed */
+  max-width: 50%; 
   margin: 0 auto;
   max-height: 60vh;
   padding-top: 3vh;
@@ -64,8 +64,6 @@
 .product-details p {
   font-size: 16px;
 }
-
-/* Add more styling for other sections */
 
 @media (max-width: 768px) {
   .product-images {

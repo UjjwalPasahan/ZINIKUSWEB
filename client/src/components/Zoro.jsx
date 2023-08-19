@@ -2,7 +2,7 @@ import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import zoro1 from '../assets/homepage/ZORO2.jpg'
-import zoro2 from '../assets/homepage/ZORO3.jpg'
+import zoro2 from '../assets/homepage/ZORO3.jpeg'
 import zoro3 from '../assets/homepage/ZORO.mp4'
 import '../styles/zini.css'
 import '../styles/news.css';
@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom'
 const Zoro = () => {
   return (
     <div> <div className='back backbtn' >
-    <Link to={'/'}>
+    <Link to={'/product'}>
       <MdKeyboardBackspace size={30} />
     </Link>
   </div>

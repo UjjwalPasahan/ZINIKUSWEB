@@ -43,16 +43,16 @@ const Home = () => {
             <div className="gradE1"></div>
             <VStack pos="absolute" top={['32', '56']} left={['15', '56']}>
               <div className="hometext">
-                <h2>
-                  Translation by <br /> H.Rackham
+                <h2 style={{wordSpacing:'0.8rem'}}>
+                 TASTE the <br/> TECHNOLOGY
                 </h2>
                 <h5>
-                  Sit nostrud officia eu adipisicing
-                  <br /> occaecat voluptate labore.
+                  Where Innovation
+                  <br /> ignites Automation.
                 </h5>
                 <Button className='feedbackButton'
                   colorScheme="grey"
-                  borderRadius="3xl"
+                  borderRadius="2xl"
                   variant="outline"
                   // h="12"
                   // w="36"
