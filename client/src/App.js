@@ -25,6 +25,8 @@ import TermsConditions from './components/TermsConditions';
 import Error from './components/Error';
 import News from './components/News';
 import Clouds from './components/Clouds';
+import Zini from './components/Zini';
+import Zoro from './components/Zoro';
 
 function App() {
 
@@ -39,6 +41,8 @@ function App() {
         <Route path='/newsletter' element={<News />} />
         <Route path='/termsConditions' element={<TermsConditions />} />
         <Route path='/Clouds' element={<Clouds />} />
+        <Route path='/zini' element={<Zini />} />
+        <Route path='/zoro' element={<Zoro />} />
         <Route path='*' element={<Error />} />
       </Routes>
     </Router>

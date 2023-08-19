@@ -1,29 +1,76 @@
 [
 
   {
-    "id": 2,
-    "name": "Product 2",
-    "description": "Nulla facilisi. Vestibulum tincidunt, elit a feugiat.",
+    "id": 1,
+    "name": "ZINI",
+    "description": "The Reception Robot - ZINI",
     "price": 49.99,
     "category": "Home & Kitchen",
-    "image": "https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8SFVNQU5PSUR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
-  },
+    "image": "https://plus.unsplash.com/premium_photo-1692111046507-3f4574def341?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+    "video": "../assets/homepage/ZINI 360-view #1.mp4",
+    "video2": "../assets/homepage/ZINI 360-View #2.mp4",
+      "Introduction": "Welcome to the Future of Workplace Efficiency with ZINI - The Reception Robot",
+      "Company": "At ZINIKUS, we're proud to introduce our latest innovation - ZINI, the cutting-edge Reception Robot that is set to revolutionize the way businesses operate and welcome guests. ZINI isn't just a robot; it's a game-changer that embodies the perfect blend of advanced technology, sleek design, and unmatched functionality. Let's explore the exceptional features and advantages that make ZINI an indispensable asset for every modern workplace.",
+      "Advanced_Features": {
+        "1": "Intelligent Greeting System: ZINI's advanced AI algorithms enable it to recognize and greet visitors with a personalized touch, enhancing their experience from the moment they step through the door.",
+        "2": "Effortless Navigation: Equipped with state-of-the-art sensors and mapping technology, ZINI navigates seamlessly through complex environments, ensuring it can efficiently guide visitors to their desired destinations.",
+        "3": "Interactive Touchscreen: The interactive touchscreen interface on ZINI's sleek exterior allows guests to effortlessly interact with the robot, providing them with real-time information, directions, and even scheduling assistance.",
+        "4": "Multi-language Support: ZINI's language capabilities transcend borders, enabling it to communicate fluently with visitors from around the world, breaking down language barriers effortlessly.",
+        "5": "Smart Visitor Management: ZINI streamlines the check-in process with its integrated visitor management system, notifying hosts of their guests' arrival, and enhancing security by capturing photos and printing visitor badges."
+      },
+      "Advantages": {
+        "1": "First Impressions Matter: ZINI creates a lasting first impression, showcasing your commitment to innovation and efficiency as it warmly welcomes visitors and directs them with precision.",
+        "2": "Time and Resource Efficiency: By automating reception tasks, ZINI allows your human workforce to focus on high-value activities, boosting overall productivity and optimizing resource allocation.",
+        "3": "24/7 Accessibility: ZINI tirelessly serves around the clock, ensuring your business never misses a beat, even during non-operational hours.",
+        "4": "Enhanced Visitor Experience: ZINI's intuitive interaction, combined with its ability to provide instant information and directions, guarantees an elevated guest experience that reflects positively on your brand.",
+        "5": "Data-Driven Insights: ZINI's analytical capabilities gather valuable data on visitor traffic and preferences, empowering you to make informed decisions to improve workplace dynamics and layouts."
+      },
+      "Why_Need_ZINI": {
+        "Info": "In today's fast-paced business landscape, staying ahead requires embracing innovation. ZINI is not just a robot; it's an investment in the future of your company. Here's why your workplace can't afford to overlook ZINI:",
+        "1": "Modernize Your Brand: Display your company's forward-thinking ethos by introducing ZINI as the face of your organization, showcasing your commitment to cutting-edge technology.",
+        "2": "Efficiency Redefined: With ZINI at the helm of your reception, mundane tasks are automated, allowing your team to focus on strategic initiatives that drive growth.",
+        "3": "Impress and Engage: ZINI captivates visitors with its interactive features, leaving a lasting impression that sets your workplace apart.",
+        "4": "Unparalleled Convenience: ZINI seamlessly guides guests, enhancing their visit while promoting a streamlined environment that resonates with efficiency."
+      },
+      "Conclusion": "In conclusion, ZINI isn't just a receptionist; it's an embodiment of progress, sophistication, and streamlined operations. Elevate your workplace experience, captivate visitors, and embark on a journey of innovation with ZINI by your side. Contact us today to learn how ZINI can redefine your workplace dynamics and become the cornerstone of your business success."
+    }
+    ,
   {
-    "id": 3,
-    "name": "Product 3",
-    "description": "Mauris euismod mauris quis augue facilisis sodales.",
+    "id": 2,
+    "name": "ZORO-THE BUTLER ROBOT",
+    "description": "Your Ultimate Butler/Delivery Robot from ZINIKUS",
     "price": 19.99,
     "category": "Clothing",
-    "image": "https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8SFVNQU5PSUR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
-  },
-  {
-    "id": 4,
-    "name": "Product 4",
-    "description": "Etiam ultrices aliquam nibh, at efficitur nunc varius eu.",
-    "price": 14.99,
-    "category": "Books",
-    "image": "https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8SFVNQU5PSUR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+    "image": "../assets/homepage/ZORO #2.jpg",
+    "image2": "../assets/homepage/ZORO #3.jpg",
+    "video1":"../assets/homepage/ZORO.mp4",
+      "Introduction": "Introducing ZORO - Your Ultimate Butler/Delivery Robot from ZINIKUS",
+      "Company": "Welcome to the future of workplace efficiency and hospitality with ZORO, the revolutionary Butler/Delivery Robot designed to redefine how your business operates and interacts. At ZINIKUS, we're proud to present ZORO, a masterpiece of innovation, functionality, and elegance. Explore the exceptional features, advantages, and reasons why ZORO is the indispensable solution for modern workplaces.",
+      "Advanced_Features": {
+        "1": "Seamless Navigation: ZORO effortlessly navigates through dynamic environments using advanced mapping and obstacle avoidance technology, ensuring swift and secure deliveries.",
+        "2": "Versatile Cargo Space: ZORO's adaptable cargo compartment accommodates various payloads, from documents to packages, enhancing its capacity to serve multiple departments within your organization.",
+        "3": "Human Interaction: Equipped with a friendly interface, ZORO intuitively communicates with staff and guests, offering a seamless interaction experience and personalized service.",
+        "4": "Smart Routing: ZORO optimizes delivery routes in real-time, reducing delivery times and ensuring efficient allocation of resources, even in complex office layouts.",
+        "5": "Secure Access: ZORO's secure access protocols and facial recognition technology guarantee authorized access to specific areas, safeguarding sensitive information and valuable assets."
+      },
+      "Advantages": {
+        "1": "Efficiency Redefined: ZORO streamlines internal logistics and delivery processes, minimizing human error and saving valuable time and resources, resulting in improved overall productivity.",
+        "2": "Enhanced Guest Experience: Impress clients and visitors by showcasing ZORO's cutting-edge capabilities, leaving a lasting impression of innovation and sophistication.",
+        "3": "24/7 Reliability: ZORO works around the clock, ensuring consistent and timely deliveries, reducing delays, and ensuring business continuity.",
+        "4": "Resource Optimization: By delegating routine delivery tasks to ZORO, your human workforce is liberated to focus on strategic projects and high-value tasks.",
+        "5": "Data-Driven Insights: ZORO's tracking and analytics provide valuable insights into delivery patterns, helping you optimize workflows and make informed decisions."
+      },
+      "Why_Need_ZORO": {
+        "Info": "Embrace the future of workplace efficiency and elevate your business with ZORO as your trusted Butler/Delivery Robot. Here's why ZORO is an indispensable addition to your workplace:",
+        "1": "Elevate Your Image: Present your company as a forward-thinking industry leader by integrating ZORO into your operations, exemplifying your commitment to technological advancement.",
+        "2": "Time and Cost Savings: ZORO's efficient deliveries and automated processes lead to significant time and cost savings, driving operational excellence.",
+        "3": "Customer-Centric Approach: Impress clients and partners with ZORO's personalized service, showcasing your dedication to exceptional customer experiences.",
+        "4": "Enhanced Security: ZORO enhances security protocols by restricting access to authorized personnel only, safeguarding sensitive areas and information.",
+        "5": "Future-Proof Your Business: Adapt to the demands of modern workplaces by incorporating ZORO, a tangible investment that positions your business for success in a tech-driven world."
+      },
+      "Conclusion": "In conclusion, ZORO isn't just a robot; it's a paradigm shift in workplace efficiency and hospitality. Experience the future today with ZORO as your dependable Butler/Delivery Robot. Contact us now to learn how ZORO can revolutionize your workplace dynamics and elevate your business to new heights."
+    }
     
-  }
+  
   
 ]

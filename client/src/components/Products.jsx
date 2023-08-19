@@ -12,18 +12,16 @@ const Products = () => {
             <div className="gradE1"></div>
             <div className='productdiv'>
 
-        {
+        {/* {
             prodata.map((element) => {
-                return(
+                return( */}
                     <Cards
-                    key={element.key}
-                    image={element.image}
-                    name={element.name}
-                    description={element.description}
-                    price={element.price}
-                />)
-            })
-        }
+                    // key={element.key}
+                    // image={element.image}
+                    // name={element.name}
+                    // description={element.description}
+                    // price={element.price}
+                />
             </div>
         <div className="gradC1"></div>
             <div className="gradE1" style={{height:'400px'}}></div>
