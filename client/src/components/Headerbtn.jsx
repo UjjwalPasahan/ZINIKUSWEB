@@ -71,6 +71,9 @@ const Headerbtn = () => {
                     <Button onClick={onClose} top={'40'} w="40" colorScheme="facebook">
                       <Link to={'/research'}>Research</Link>
                     </Button> 
+                    <Button onClick={onClose} top={'40'} w="40" colorScheme="facebook">
+                      <Link to={'/newsletter'}>Newsletter</Link>
+                    </Button>  
                   </VStack>
                   
       

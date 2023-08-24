@@ -2,10 +2,14 @@ import React,{useRef,useEffect} from 'react';
 import {
   Image,
   HStack,
+  Button,
 } from '@chakra-ui/react';
 import img4 from '../assets/homepage/bg.png';
 import '../styles/about.css';
 import img5 from '../assets/homepage/dubai3.png';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   // const observer = new IntersectionObserver(entries => {
@@ -84,6 +88,26 @@ We are dedicated to creating cutting-edge technology that pushes the boundaries 
 At our company, we believe in constant innovation and collaboration. We're always looking for new ways to improve our products and services and are open to working with partners who share our vision. We're excited to be at the forefront of this exciting field and look forward to pushing the boundaries of what's possible in the world of A.I. and robotics.
       </p></div>
       </div>
+
+        <div>
+          <div className='headingtopabout'>
+            <h2>Here's what we have done till now...</h2>
+            <Button className='headaboutbtn' variant="unstyled"><a href={'/product'}>View More</a></Button>
+          </div>
+          <Carousel className='gallery' autoPlay={true} showArrows={false} infiniteLoop showStatus={false} showThumbs={false}>
+                <div>
+          <img src='https://img.freepik.com/free-vector/hand-drawn-japanese-illustration-cherry-tree-petals_23-2149601832.jpg?t=st=1692856256~exp=1692856856~hmac=5957f66c8678872604addc840e76d7bdea7fb92421749499ad0e0120bed07f9c' className='gallery-img'/>
+                </div>
+                <div style={{borderRadius:"5%"}}>
+          <img src='https://img.freepik.com/free-vector/hand-drawn-media-naranja-illustration_23-2150074406.jpg?t=st=1692856256~exp=1692856856~hmac=f2116a0607e75e6ad6c721439730ff8312e44f83369c18c6baa97bbde5df05f0' className='gallery-img'/>
+                 
+                </div>
+                <div>
+          <img src='https://img.freepik.com/free-vector/cute-black-bear-wearing-blanket-cartoon-vector-icon-illustration-animal-nature-icon-isolated-flat_138676-8842.jpg?size=626&ext=jpg&uid=R97150559&ga=GA1.2.809554958.1684743455&semt=sph' className='gallery-img'/> 
+                 </div>
+            </Carousel>
+        </div>
+       
       <HStack className='lowerAboutUs' mt="40">
         <div className='lowerdivwrapper'>
           <h2 className='faltuHeading faltuHeading-animation'>Dubai GITEX</h2>
