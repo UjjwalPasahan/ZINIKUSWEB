@@ -82,6 +82,7 @@
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+  cursor: default;
 }
 
 .ourServices h1 a:hover {
@@ -130,6 +131,7 @@
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+  cursor: default;
 }
 
 .gridHeading a:hover {
