@@ -33,73 +33,72 @@ const Zoro = () => {
     </Carousel>
   </div><br/><br/>
   <div className="product-details">
-    <h1 className="headtext zh">Zini</h1>
-    <p>The Reception Robot - ZINI</p><br/>
+    <h1 className="headtext zh">Zoro</h1>
+    <p>Your Ultimate Butler/Delivery Robot from ZINIKUS</p><br/>
   </div>
   <div className="product-section">
     <h2 className="headtext" >Introduction</h2>
-    <p>Welcome to the Future of Workplace Efficiency with ZINI - The Reception Robot</p>
+    <p>Welcome to the future of workplace efficiency and hospitality with ZORO, the revolutionary
+Butler/Delivery Robot designed to redefine how your business operates and interacts.</p>
   </div><br/>
   <div className="product-section">
     <h2 className="headtext" >Advanced Features</h2>
     <p>
-    1. Intelligent Greeting System: ZINI's advanced AI algorithms enable it to recognize and greet visitors
-with a personalized touch, enhancing their experience from the moment they step through the door.
+    1. Seamless Navigation: ZORO effortlessly navigates through dynamic environments using advanced
+mapping and obstacle avoidance technology, ensuring swift and secure deliveries.
 <br/>
-2. Effortless Navigation: Equipped with state-of-the-art sensors and mapping technology, ZINI
-navigates seamlessly through complex environments, ensuring it can efficiently guide visitors to their
-desired destinations.
+2. Versatile Cargo Space: ZORO's adaptable cargo compartment accommodates various payloads, from
+documents to packages, enhancing its capacity to serve multiple departments within your
+organization.
 <br/>
-3. Interactive Touchscreen: The interactive touchscreen interface on ZINI's sleek exterior allows guests
-to effortlessly interact with the robot, providing them with real-time information, directions, and even
-scheduling assistance.
+3. Human Interaction: Equipped with a friendly interface, ZORO intuitively communicates with staff
+and guests, offering a seamless interaction experience and personalized service.
 <br/>
-4. Multi-language Support: ZINI's language capabilities transcend borders, enabling it to communicate
-fluently with visitors from around the world, breaking down language barriers effortlessly.
+4. Smart Routing: ZORO optimizes delivery routes in real-time, reducing delivery times and ensuring
+efficient allocation of resources, even in complex office layouts.
 <br/>
-5. Smart Visitor Management: ZINI streamlines the check-in process with its integrated visitor
-management system, notifying hosts of their guests' arrival, and enhancing security by capturing
-photos and printing visitor badges.<br/>
+5. Secure Access: ZORO's secure access protocols and facial recognition technology guarantee
+authorized access to specific areas, safeguarding sensitive information and valuable<br/>
     </p>
   </div><br/>
   <div className="product-section">
     <h2 className="headtext" >Advantages</h2>
     <p>
-    1. First Impressions Matter: ZINI creates a lasting first impression, showcasing your commitment to
-innovation and efficiency as it warmly welcomes visitors and directs them with precision.
+    1. Efficiency Redefined: ZORO streamlines internal logistics and delivery processes, minimizing human
+error and saving valuable time and resources, resulting in improved overall productivity.
 <br/>
-2. Time and Resource Efficiency: By automating reception tasks, ZINI allows your human workforce to
-focus on high-value activities, boosting overall productivity and optimizing resource allocation.
+2. Enhanced Guest Experience: Impress clients and visitors by showcasing ZORO's cutting-edge
+capabilities, leaving a lasting impression of innovation and sophistication.
 <br/>
-3. 24/7 Accessibility: ZINI tirelessly serves around the clock, ensuring your business never misses a
-beat, even during non-operational hours.
+3. 24/7 Reliability: ZORO works around the clock, ensuring consistent and timely deliveries, reducing
+delays, and ensuring business continuity.
 <br/>
-4. Enhanced Visitor Experience: ZINI's intuitive interaction, combined with its ability to provide instant
-information and directions, guarantees an elevated guest experience that reflects positively on your
-brand.
+4. Resource Optimization: By delegating routine delivery tasks to ZORO, your human workforce is
+liberated to focus on strategic projects and high-value tasks.
 <br/>
-5. Data-Driven Insights: ZINI's analytical capabilities gather valuable data on visitor traffic and
-preferences, empowering you to make informed decisions to improve workplace dynamics and
-layouts.
+5. Data-Driven Insights: ZORO's tracking and analytics provide valuable insights into delivery patterns,
+helping you optimize workflows and make informed decisions.
     </p><br/>
   </div>
   <div className="product-section">
     <h2 className="headtext" >Why You Need ZINI</h2><br/>
-    <p>In today's fast-paced business landscape, staying ahead requires embracing innovation. ZINI is not just
-a robot; it's an investment in the future of your company. Here's why your workplace can't afford to
-overlook ZINI:
+    <p>Embrace the future of workplace efficiency and elevate your business with ZORO as your trusted
+Butler/Delivery Robot. Here's why ZORO is an indispensable addition to your workplace:
 <br/>
-1. Modernize Your Brand: Display your company's forward-thinking ethos by introducing ZINI as the
-face of your organization, showcasing your commitment to cutting-edge technology.
+1. Elevate Your Image: Present your company as a forward-thinking industry leader by integrating ZORO
+into your operations, exemplifying your commitment to technological advancement.
 <br/>
-2. Efficiency Redefined: With ZINI at the helm of your reception, mundane tasks are automated,
-allowing your team to focus on strategic initiatives that drive growth.
+2. Time and Cost Savings: ZORO's efficient deliveries and automated processes lead to significant time
+and cost savings, driving operational excellence.
 <br/>
-3. Impress and Engage: ZINI captivates visitors with its interactive features, leaving a lasting impression
-that sets your workplace apart.
+3. Customer-Centric Approach: Impress clients and partners with ZORO's personalized service,
+showcasing your dedication to exceptional customer experiences.
 <br/>
-4. Unparalleled Convenience: ZINI seamlessly guides guests, enhancing their visit while promoting a
-streamlined environment that resonates with efficiency.</p><br/>
+4. Enhanced Security: ZORO enhances security protocols by restricting access to authorized personnel
+only, safeguarding sensitive areas and information.
+<br/>
+5. Future-Proof Your Business: Adapt to the demands of modern workplaces by incorporating ZORO, a
+tangible investment that positions your business for success in a tech-driven world.</p><br/>
   </div>
   <div className="product-section">
     <h2 className="headtext" >Conclusion</h2><br/>

@@ -92,7 +92,7 @@ At our company, we believe in constant innovation and collaboration. We're alway
         <div>
           <div className='headingtopabout'>
             <h2>Here's what we have done till now...</h2>
-            <Button className='headaboutbtn' variant="unstyled"><a href={'/product'}>View More</a></Button>
+            <button className='headaboutbtn' ><a href={'/product'}>View More</a></button>
           </div>
           <Carousel className='gallery' autoPlay={true} showArrows={false} infiniteLoop showStatus={false} showThumbs={false}>
                 <div>

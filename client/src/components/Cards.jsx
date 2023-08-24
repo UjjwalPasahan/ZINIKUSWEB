@@ -40,12 +40,12 @@ const Card = (props) => {
       />
       <div className="card__content | flow">
         <div className="card__content--container | flow">
-          <h2 className="card__title">ZINI</h2>
+          <h2 className="card__title">ZORO</h2>
           <p className="card__description">
-          The Reception Robot - ZINI
+          Your Ultimate Butler/Delivery Robot from ZINIKUS
           </p>
         </div>
-        <button className="card__button"><Link to={'/zini'}>Read more</Link></button>
+        <button className="card__button"><Link to={'/zoro'}>Read more</Link></button>
       </div>
     </article>
     </div>
