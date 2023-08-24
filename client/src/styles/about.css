@@ -113,16 +113,18 @@ opacity: 0.7;
 margin-left: -50vh;
 font-family: 'Bebas Neue', sans-serif;
 } */
-.h22 {
-  font-family: 'Merriweather Sans', sans-serif;
-  /* -webkit-text-stroke: 4px white; */
-  color: transparent;
-  /* letter-spacing: 10px; */
-  text-align: center;
-  font-size: 5rem;
-  font-weight: 800;
-  color: white !important;
-  margin-right: 2.5rem;
+.h22{
+
+font-family: 'Merriweather Sans', sans-serif;
+/* -webkit-text-stroke: 4px white; */
+color: transparent;
+/* letter-spacing: 10px; */
+text-align: center;
+font-size: 5rem;
+font-weight: 800;
+color: white !important;
+margin-right: 2.5rem;
+
 }
 
 @media (max-width:774px) {
@@ -255,8 +257,8 @@ box-shadow: black 5px 5px 5px 5px;
   text-align: left;
 }
 
-.headaboutbtn {
-  background-color: #5c48c5;
+.headaboutbtn{
+  background-color: #5C48C5;
   padding: 2vh 1vw;
   border-radius: 4px;
 }
