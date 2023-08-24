@@ -9,14 +9,14 @@
   width: 100vw;
   /* height: 175vh; */
 }
-.upperAbout {
+/* .upperAbout {
   background-color: white;
   border: blur;
   box-shadow: 0 0 15px 25px white;
-}
-.whiteLowerSpaceMaker {
+} */
+/* .whiteLowerSpaceMaker {
   background-color: white;
-}
+} */
 
 .faltuHeading {
   text-align: left;
@@ -54,7 +54,7 @@
 .about p {
   text-align: center;
   font-size: 1.3rem;
-  color: rgb(37, 37, 37) !important;
+  color: white !important;
   font-weight: 400;
   font-family: 'Inter', sans-serif;
   margin-top: 1rem;
@@ -67,7 +67,7 @@
   box-shadow: rgba(0, 0, 0, 0.9) 0px 54px 55px,
     rgba(0, 0, 0, 0.9) 0px -12px 30px, rgba(0, 0, 0, 0.9) 0px 4px 6px,
     rgba(0, 0, 0, 0.9) 0px 12px 13px, rgba(0, 0, 0, 0.9) 0px -3px 5px;
-    overflow: hidden;
+  overflow: hidden;
 }
 .imgs-animation {
   animation: 2.5s rightToLeft;
@@ -133,7 +133,7 @@ font-family: 'Bebas Neue', sans-serif;
   text-align: center;
   font-size: 5rem;
   font-weight: 800;
-  color: #702fff !important;
+  color: white !important;
   margin-right: 2.5rem;
 }
 .h22 a:link {
@@ -142,11 +142,11 @@ font-family: 'Bebas Neue', sans-serif;
 
 .h22 a:visited {
   text-decoration: none;
-  color: #702fff;
+  color: white;
 }
 
 .h22 a {
-  color: #702fff;
+  color: white;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
@@ -285,13 +285,13 @@ font-family: 'Bebas Neue', sans-serif;
   text-align: left;
 }
 
-.headaboutbtn{
-  background-color:#5C48C5 ;
+.headaboutbtn {
+  background-color: #5c48c5;
   padding: 1% 4%;
   border-radius: 5px;
 }
 
-.headaboutbtn:hover{
+.headaboutbtn:hover {
   /* box-shadow: #2e65ff 5px 5px 5px 5px;
   filter: blur(10);
   */
@@ -303,10 +303,10 @@ font-family: 'Bebas Neue', sans-serif;
   transition: all 0.2s ease-in;
 }
 
-.aboutimgl{
+.aboutimgl {
   transition: all 0.25s ease-in-out;
 }
 
-.aboutimgl:hover{
+.aboutimgl:hover {
   scale: 1.1;
 }

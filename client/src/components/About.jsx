@@ -70,14 +70,14 @@ const About = () => {
   return (
     <div className="about" id="about">
       <div className="upperAbout">
-        <div className="whiteLowerSpaceMaker"></div>
+        <div className="lowerSpaceMaker"></div>
         {/* <div className='abouth2'><h2>ABOUT US</h2></div> */}
         <div className="h22">
           <h2>
             <a href="">ABOUT US</a>
           </h2>
         </div>
-        <div className="whiteLowerSpaceMaker"></div>
+        <div className="lowerSpaceMaker"></div>
         <div>
           <p className="aboutp">
             Finding Inspiration in Every Turn
