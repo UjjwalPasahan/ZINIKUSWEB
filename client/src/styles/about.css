@@ -11,8 +11,8 @@
 }
 
 .faltuHeading {
-  text-align: left;
-  font-size: 4rem;
+  text-align: center;
+  font-size: 5rem;
   font-weight: 800;
   color: white !important;
   font-family: 'Merriweather Sans', 'sans-serif';
@@ -111,18 +111,16 @@ opacity: 0.7;
 margin-left: -50vh;
 font-family: 'Bebas Neue', sans-serif;
 } */
-.h22{
-
-font-family: 'Merriweather Sans', sans-serif;
-/* -webkit-text-stroke: 4px white; */
-color: transparent;
-/* letter-spacing: 10px; */
-text-align: center;
-font-size: 5rem;
-font-weight: 800;
-color: white !important;
-margin-right: 2.5rem;
-
+.h22 {
+  font-family: 'Merriweather Sans', sans-serif;
+  /* -webkit-text-stroke: 4px white; */
+  color: transparent;
+  /* letter-spacing: 10px; */
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 800;
+  color: white !important;
+  margin-right: 2.5rem;
 }
 
 @media (max-width: 774px) {
@@ -245,39 +243,4 @@ margin-right: 2.5rem;
   font-size: 7vh;
   font-weight: 700;
   text-align: left;
-}
-
-.headaboutbtn{
-  background-color: #5C48C5;
-  padding: 2vh 1vw;
-  border-radius: 4px;
-}
-
-.headaboutbtn:hover {
-  /* background-color: #5C48C5; */
-
-  /* color: #702fff; */
-  box-shadow: 0px 0px 30px #2e65ff;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-}
-
-hr {
-  color: white 0.4px solid;
-  width: 100vw;
-  margin-top: 2%;
-  margin-left: 0;
-  padding-left: -100px;
-}
-.imgs {
-  overflow: hidden;
-}
-
-.aboutimgl {
-  transition: all 0.3s ease-in;
-}
-.aboutimgl:hover {
-  scale: 1.2;
 }

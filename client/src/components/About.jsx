@@ -1,9 +1,13 @@
-import React, { useRef, useEffect } from 'react';
-import { Image, HStack, Button } from '@chakra-ui/react';
+import React,{useRef,useEffect} from 'react';
+import {
+  Image,
+  HStack,
+  Button,
+} from '@chakra-ui/react';
 import img4 from '../assets/homepage/bg.png';
 import '../styles/about.css';
 import img5 from '../assets/homepage/dubai3.png';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { Link } from 'react-router-dom';
 
@@ -13,19 +17,19 @@ const About = () => {
   //     const s1 = entry.target.querySelector('.s1');
   //     const s2 = entry.target.querySelector('.s2');
   //     const s3 = entry.target.querySelector('.s3');
-
+  
   //     if (entry.isIntersecting) {
   //       s1.classList.add('faltuHeading-animation');
   //       s2.classList.add('faltuText-animation');
   //       s3.classList.add('imgs-animation');
   //     return; // if we added the className, exit the function
   //     }
-
+  
   //     // We're not intersecting, so remove the className!
   //     // square.classList.remove('square-animation');
   //   });
   // });
-
+  
   // observer.observe(document.querySelector('.lowerAboutUs'));
   const observerRef = useRef(null);
 
