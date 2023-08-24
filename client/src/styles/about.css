@@ -122,6 +122,32 @@ font-family: 'Bebas Neue', sans-serif;
   color: white !important;
   margin-right: 2.5rem;
 }
+.h22 a:link {
+  text-decoration: none;
+}
+
+.h22 a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.h22 a {
+  color: black;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  cursor: default;
+}
+
+.h22 a:hover {
+  color: #702fff;
+  text-shadow: 0px 0px 30px #2e65ff;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
 
 @media (max-width: 774px) {
   .h22 {
@@ -247,7 +273,7 @@ font-family: 'Bebas Neue', sans-serif;
 
 .headaboutbtn {
   background-color: #5c48c5;
-  padding: 2vh 1vw;
+  padding: 1vh 1vw;
   border-radius: 4px;
 }
 
