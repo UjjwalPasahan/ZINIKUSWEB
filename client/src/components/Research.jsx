@@ -1,13 +1,13 @@
-import React ,{Text}from 'react';
+import React, { Text } from 'react';
 import '../styles/Research.css';
 import zini from '../assets/homepage/zinikus.png';
 import Footer from './Footer.jsx';
 import data from '../data/data.json';
 import Header from './Header';
-const Research = (props) => {
+const Research = props => {
   return (
     <div className="researchPage">
-    <Header/>
+      <Header />
       <div className="onoffswitch3">
         <input
           type="checkbox"
@@ -49,26 +49,25 @@ const Research = (props) => {
         <h1>Our Research Documents</h1>
         <div id="listContainer">
           <div id="box">
-            <ul className="listing">
+            <h3>
+              <a>Coming Soon!</a>
+            </h3>
+            {/* <ul className="listing">
               <li className="elements">
                 <div>
+                  
                   {data.map(element => {
                     return (
                       <ul>
-                        <li><a>*:{element.name}</a></li>
+                        <li>
+                          <a>*:{element.name}</a>
+                        </li>
                       </ul>
                     );
-                  })}
-                  {/* <div><label>Country :</label>
-                                        <select>
-                                            {data.country.map((country) => {
-                                                return <option key={country.id} value={country.id}>{country.name}</option>
-                                            })}
-                                        </select>
-                                    </div> */}
+                  })} 
                 </div>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>
