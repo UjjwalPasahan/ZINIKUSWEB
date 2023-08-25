@@ -19,11 +19,10 @@ import Achievements from './Achievements';
 import Footer from './Footer';
 import Header from './Header';
 
-
 const Home = () => {
   return (
     <div className="wrapp">
-    <Header/>
+      <Header />
       <div className="gradient">
         <div className="home">
           <div className="glassyEffect"></div>
@@ -43,14 +42,15 @@ const Home = () => {
             <div className="gradE1"></div>
             <VStack pos="absolute" top={['32', '56']} left={['15', '56']}>
               <div className="hometext">
-                <h2 style={{wordSpacing:'0.8rem'}}>
-                 TASTE the <br/> TECHNOLOGY
+                <h2 style={{ wordSpacing: '0.8rem' }}>
+                  TASTE the <br /> TECHNOLOGY
                 </h2>
                 <h5>
                   Where Innovation
                   <br /> ignites Automation.
                 </h5>
-                <Button className='feedbackButton'
+                <Button
+                  className="feedbackButton"
                   colorScheme="grey"
                   borderRadius="2xl"
                   variant="outline"
@@ -67,9 +67,11 @@ const Home = () => {
           <div className="lowerSpaceMaker"></div>
           <div className="gradC1"></div>
           <div className="gradE1"></div>
+          <div className="gradC1"></div>
+          <div className="gradE1"></div>
           <About />
           <div className="gradC1"></div>
-            <div className="gradE1"></div>
+          <div className="gradE1"></div>
           {/* <div className="lowerSpaceMaker"></div>
           <div className="lowerSpaceMaker"></div>
           <div className="lowerSpaceMaker"></div>
@@ -82,7 +84,7 @@ const Home = () => {
           <div className="gradE1"></div>
           <Achievements />
           <div className="gradC1"></div>
-          <div className="gradE1" style={{maxHeight: '400px'}}></div>
+          <div className="gradE1" style={{ maxHeight: '400px' }}></div>
           <Footer />
         </div>
       </div>

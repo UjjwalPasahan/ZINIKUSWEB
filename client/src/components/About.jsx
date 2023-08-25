@@ -68,16 +68,16 @@ const About = () => {
   }, []);
 
   return (
-    <div className="about" id="about">
+    <div>
       <div className="upperAbout">
-        <div className="lowerSpaceMaker"></div>
+        <div className="whiteLowerSpaceMaker"></div>
         {/* <div className='abouth2'><h2>ABOUT US</h2></div> */}
         <div className="h22">
           <h2>
             <a href="">ABOUT US</a>
           </h2>
         </div>
-        <div className="lowerSpaceMaker"></div>
+        <div className="whiteLowerSpaceMaker"></div>
         <div>
           <p className="aboutp">
             Finding Inspiration in Every Turn
@@ -98,57 +98,58 @@ const About = () => {
           </p>
         </div>
       </div>
-
-      <div className="midaboutus">
-        <div className="headingtopabout">
-          <h2>Here's what we do...</h2>
-          <button className="headaboutbtn">
-            <a href={'/product'}>View More</a>
-          </button>
+      <div className="about" id="about">
+        <div className="midaboutus">
+          <div className="headingtopabout">
+            <h2>Here's what we do...</h2>
+            <button className="headaboutbtn">
+              <a href={'/product'}>View More</a>
+            </button>
+          </div>
+          <Carousel
+            className="gallery"
+            autoPlay={true}
+            showArrows={false}
+            infiniteLoop
+            showStatus={false}
+            showThumbs={false}
+          >
+            <div>
+              <img
+                src="https://img.freepik.com/free-vector/hand-drawn-japanese-illustration-cherry-tree-petals_23-2149601832.jpg?t=st=1692856256~exp=1692856856~hmac=5957f66c8678872604addc840e76d7bdea7fb92421749499ad0e0120bed07f9c"
+                className="gallery-img"
+              />
+            </div>
+            <div style={{ borderRadius: '5%' }}>
+              <img
+                src="https://img.freepik.com/free-vector/hand-drawn-media-naranja-illustration_23-2150074406.jpg?t=st=1692856256~exp=1692856856~hmac=f2116a0607e75e6ad6c721439730ff8312e44f83369c18c6baa97bbde5df05f0"
+                className="gallery-img"
+              />
+            </div>
+            <div>
+              <img
+                src="https://img.freepik.com/free-vector/cute-black-bear-wearing-blanket-cartoon-vector-icon-illustration-animal-nature-icon-isolated-flat_138676-8842.jpg?size=626&ext=jpg&uid=R97150559&ga=GA1.2.809554958.1684743455&semt=sph"
+                className="gallery-img"
+              />
+            </div>
+          </Carousel>
         </div>
-        <Carousel
-          className="gallery"
-          autoPlay={true}
-          showArrows={false}
-          infiniteLoop
-          showStatus={false}
-          showThumbs={false}
-        >
-          <div>
-            <img
-              src="https://img.freepik.com/free-vector/hand-drawn-japanese-illustration-cherry-tree-petals_23-2149601832.jpg?t=st=1692856256~exp=1692856856~hmac=5957f66c8678872604addc840e76d7bdea7fb92421749499ad0e0120bed07f9c"
-              className="gallery-img"
-            />
+
+        <HStack className="lowerAboutUs" mt="40">
+          <div className="lowerdivwrapper">
+            <h2 className="faltuHeading faltuHeading-animation">
+              <text style={{ color: '#702fff' }}>Oh!</text> <br /> And this
+              <text style={{ color: '#702fff' }}>...</text>
+            </h2>
+            <h4 className="faltuText faltuText-animation">
+              ZINIKUS at <a href="https://www.gitex.com/">Dubai GITEX.</a>
+            </h4>
           </div>
-          <div style={{ borderRadius: '5%' }}>
-            <img
-              src="https://img.freepik.com/free-vector/hand-drawn-media-naranja-illustration_23-2150074406.jpg?t=st=1692856256~exp=1692856856~hmac=f2116a0607e75e6ad6c721439730ff8312e44f83369c18c6baa97bbde5df05f0"
-              className="gallery-img"
-            />
+          <div className="imgs imgs-animation">
+            <Image src={img5} w="container.md" className="aboutimgl" />
           </div>
-          <div>
-            <img
-              src="https://img.freepik.com/free-vector/cute-black-bear-wearing-blanket-cartoon-vector-icon-illustration-animal-nature-icon-isolated-flat_138676-8842.jpg?size=626&ext=jpg&uid=R97150559&ga=GA1.2.809554958.1684743455&semt=sph"
-              className="gallery-img"
-            />
-          </div>
-        </Carousel>
+        </HStack>
       </div>
-
-      <HStack className="lowerAboutUs" mt="40">
-        <div className="lowerdivwrapper">
-          <h2 className="faltuHeading faltuHeading-animation">
-            <text style={{ color: '#702fff' }}>Oh!</text> <br /> And this
-            <text style={{ color: '#702fff' }}>...</text>
-          </h2>
-          <h4 className="faltuText faltuText-animation">
-            ZINIKUS at <a href="">Dubai GITEX.</a>
-          </h4>
-        </div>
-        <div className="imgs imgs-animation">
-          <Image src={img5} w="container.md" className="aboutimgl" />
-        </div>
-      </HStack>
     </div>
   );
 };

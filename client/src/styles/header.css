@@ -4,7 +4,7 @@
 }
 
 .btnborder {
-  background-image: linear-gradient(to right, #6559ae, #ff7159);
+  background-image: linear-gradient(to right, #702fff, #ff5e41);
   background-clip: text;
   -webkit-background-clip: text; /* For Safari */
   color: transparent;
@@ -13,13 +13,13 @@
   text-align: center;
   padding: 10px;
   border: 2px solid transparent;
-  border-image: linear-gradient(to right, #6559ae, #ff7159) 1;
+  border-image: linear-gradient(to right, #702fff, #ff5e41) 1;
   transition: 0.9s ease-in-out;
 }
 
 .btnborder:hover {
-  background-image: linear-gradient(to right, #ff7159, #6559ae);
-  border-image: linear-gradient(to right, #ff7159, #6559ae) 1;
+  background-image: linear-gradient(to right, #ff5e41, #702fff);
+  border-image: linear-gradient(to right, #ff5e41, #702fff) 1;
 }
 
 .links {
@@ -139,7 +139,7 @@ span .spot {
 #shape {
   stroke-width: 4px;
   fill: transparent;
-  stroke: #2b00ffc5;
+  stroke: #702fff;
   stroke-dasharray: 85 400;
   stroke-dashoffset: -220;
   transition: 1s all ease;

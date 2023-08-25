@@ -108,6 +108,7 @@
     'pic3   text3'
     'text4  pic4';
   grid-column-gap: 30px;
+  grid-row-gap: 30px;
 }
 
 .gridHeading {
@@ -146,8 +147,11 @@
   background-repeat: no-repeat;
   background-size: 15rem;
   background-position: top center;
-
+  transition: all 0.25s ease-in-out;
   grid-area: pic1;
+}
+.el1:hover {
+  scale: 1.4;
 }
 
 .el2 {
@@ -168,7 +172,11 @@
   background-repeat: no-repeat;
   background-size: 15rem;
   background-position: top center;
+  transition: all 0.25s ease-in-out;
   grid-area: pic2;
+}
+.el4:hover {
+  scale: 1.4;
 }
 
 .el5 {
@@ -176,7 +184,11 @@
   background-repeat: no-repeat;
   background-size: 15rem;
   background-position: top center;
+  transition: all 0.25s ease-in-out;
   grid-area: pic3;
+}
+.el5:hover {
+  scale: 1.4;
 }
 
 .el6 {
@@ -197,7 +209,11 @@
   background-repeat: no-repeat;
   background-size: 15rem;
   background-position: top center;
+  transition: all 0.25s ease-in-out;
   grid-area: pic4;
+}
+.el8:hover {
+  scale: 1.4;
 }
 
 .gradC1 {
