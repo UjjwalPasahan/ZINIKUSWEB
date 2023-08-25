@@ -6,7 +6,11 @@
   background-repeat: no-repeat;
   background-position: center; */
   top: 2%;
-  background: linear-gradient(#251b58, #702fff 35%, #2e65ff 60%);
+  background: linear-gradient(#251b58, #702fff 35%, #2e65ff);
+}
+#newsletter {
+  background: linear-gradient(#251b58, #702fff, #2e65ff);
+  height: 100vh;
 }
 
 .logintext {
@@ -22,7 +26,7 @@
 }
 
 .newsletterContent {
-  background: rgba(218, 218, 218, 0.39);
+  background: rgba(110, 110, 110, 0.39);
   margin-top: -9%;
   padding: 1%;
   width: 20%;

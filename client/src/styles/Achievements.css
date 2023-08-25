@@ -6,7 +6,7 @@
   text-align: center;
   background-position: center;
   margin-bottom: 4rem;
-  margin-top:2vh;
+  margin-top: 2vh;
 }
 
 .Achieve h2 {
@@ -18,7 +18,7 @@
   padding: 2rem 0 -4rem 0;
 }
 
-.image{
+.image {
   width: 330px;
   height: auto;
   border-radius: 8px;
@@ -41,22 +41,21 @@
   }
 }
 
-@media (max-width:560px) {
-  .Achieve h2{
+@media (max-width: 560px) {
+  .Achieve h2 {
     font-size: 4rem;
   }
 }
-@media (max-width:400px) {
-  *{
-    
+@media (max-width: 400px) {
+  * {
     width: -150vw;
   }
-  .Achieve h2{
+  .Achieve h2 {
     font-size: 2.5rem;
     margin-bottom: -40%;
   }
 
-  .achieveImage{
+  .achieveImage {
     margin-bottom: -50%;
   }
 }

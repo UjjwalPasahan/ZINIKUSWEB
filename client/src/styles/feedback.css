@@ -1,51 +1,52 @@
-.backgroundimg{
-  background-image: url('../assets/homepage/feedbackBackground.jpg');
+.backgroundimg {
+  /* background-image: url('../assets/homepage/feedbackBackground.jpg'); */
   width: 100vw;
   height: 100vh;
   background-size: cover;
   background-position: center 30%;
   background-repeat: no-repeat;
+  background: linear-gradient(#251b58, #702fff 35%, #2e65ff);
 }
 
-
-.back{
+.back {
   position: absolute;
-  top:3vh;
-  left:3vw;
+  top: 3vh;
+  left: 3vw;
   padding: 0.2vw 0.7vh 0vw;
 }
-.back:hover{
+.back:hover {
   position: absolute;
-  top:3vh;
-  left:3vw;
-  width:40px;
+  top: 3vh;
+  left: 3vw;
+  width: 40px;
   background: rgba(218, 218, 218, 0.162);
   border-radius: 7px;
   padding: 0.2vw 0.7vh 0vw;
 }
 
-.feedbackContent{
+.feedbackContent {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.feedbackContent input{
+.feedbackContent input {
   margin-top: 10px;
   background: none;
   border-bottom: solid 0.5px rgb(255, 255, 255);
 }
-.feedbackContent input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.feedbackContent input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: rgb(255, 255, 255);
   opacity: 1; /* Firefox */
 }
 
-.fh2{
+.fh2 {
   font-size: 3.5rem;
   font-weight: 700;
 }
 
-.star-icon{
+.star-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,15 +55,14 @@
   color: #2b00ff;
 }
 
-.star-icon input{
+.star-icon input {
   display: none;
 }
 
-
-.star-icon input+label{
+.star-icon input + label {
   cursor: pointer;
 }
 
-.star-icon input:checked + label ~label{
+.star-icon input:checked + label ~ label {
   color: #251b58;
 }
