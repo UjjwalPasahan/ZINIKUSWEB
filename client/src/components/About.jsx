@@ -74,7 +74,7 @@ const About = () => {
         {/* <div className='abouth2'><h2>ABOUT US</h2></div> */}
         <div className="h22">
           <h2>
-            <a href="">ABOUT US</a>
+            <a>ABOUT US</a>
           </h2>
         </div>
         <div className="whiteLowerSpaceMaker"></div>
@@ -98,7 +98,9 @@ const About = () => {
           </p>
         </div>
       </div>
+
       <div className="about" id="about">
+        <div className="lowerSpaceMaker"></div>
         <div className="midaboutus">
           <div className="headingtopabout">
             <h2>Here's what we do...</h2>

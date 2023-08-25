@@ -82,6 +82,7 @@ const Home = () => {
           <div className="lowerSpaceMaker"></div> */}
           <div className="gradC1"></div>
           <div className="gradE1"></div>
+          <div className="whiteLowerSpaceMaker"></div>
           <Achievements />
           <div className="gradC1"></div>
           <div className="gradE1" style={{ maxHeight: '400px' }}></div>

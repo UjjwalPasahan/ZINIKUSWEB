@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import '../styles/Achievements.css'
+import '../styles/Achievements.css';
 const Achievements = () => {
   const observerRef = useRef(null);
   useEffect(() => {
@@ -30,15 +30,14 @@ const Achievements = () => {
     };
   }, []);
   return (
-    <div className='Achieve'>
-      <div className='divider'></div>
-      <h2>Achievements</h2>
-      <div className='achieveImage achieveImage-animation'></div>
+    <div className="Achieve">
+      <div className="divider"></div>
+      <h2>
+        <a>Achievements</a>
+      </h2>
+      <div className="achieveImage achieveImage-animation"></div>
     </div>
-
-  )
-}
+  );
+};
 
 export default Achievements;
-
-

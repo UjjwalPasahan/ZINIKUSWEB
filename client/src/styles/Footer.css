@@ -183,8 +183,7 @@
   grid-area: logo;
 }
 
-@media (max-width:900px) {
-
+@media (max-width: 900px) {
   div.gradC1:nth-child(13) {
     z-index: -100;
   }
@@ -192,9 +191,33 @@
   div.gradE1:nth-child(14) {
     z-index: -100;
   }
-
 }
-@media (max-width:480px) {
+
+@media (max-width: 600px) {
+  .container {
+    display: block;
+  }
+  .address {
+    display: none;
+  }
+  .email {
+    display: none;
+  }
+  .phone {
+    display: none;
+  }
+  .element {
+    padding-top: 2rem;
+  }
+  .footerLogo {
+    padding-left: 30% !important;
+  }
+  .flex {
+    margin-top: 0px;
+    padding-top: 30px;
+  }
+}
+/* @media (max-width:480px) {
 
   .contact {
     background: #251b58;
@@ -331,4 +354,4 @@
     line-height: normal;
   }
 
-}
+} */

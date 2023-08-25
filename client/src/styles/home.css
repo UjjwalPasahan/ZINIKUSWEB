@@ -8,11 +8,11 @@
 }
 
 html {
-
   overflow-x: hidden;
 }
 
 .feedbackButton {
+  color: white;
   height: 11vh;
   width: 8vw;
   font-size: 20px;
@@ -68,7 +68,6 @@ html {
   z-index: 2;
 }
 
-
 .hometext h5 {
   font-size: 1rem;
   font-weight: 200;
@@ -122,12 +121,12 @@ html {
 }
 
 .home {
-  background-color: #251b58;
+  /* background-color: #251b58; */
+  background-color: white;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
 }
-
 
 .gradient {
   background: url(../assets/homepage/Group\ 7.png);
@@ -170,10 +169,9 @@ html {
   font-size: 5rem;
   font-weight: 800;
   color: white !important;
-
 }
 
-@media (max-width:1050px) {
+@media (max-width: 1050px) {
   .hometext h2 {
     font-size: 3rem;
     line-height: 4rem;
@@ -189,7 +187,7 @@ html {
   }
 }
 
-@media (max-width:700px) {
+@media (max-width: 700px) {
   .hometext {
     margin-left: -40%;
   }
@@ -209,8 +207,7 @@ html {
   }
 }
 
-@media (max-width:480px) {
-
+@media (max-width: 480px) {
   div.gradC1:nth-child(13) {
     z-index: -100;
   }
@@ -233,7 +230,7 @@ html {
   }
 
   .hometext {
-    margin-left: 2%
+    margin-left: 2%;
   }
 
   .hometext h2 {

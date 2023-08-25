@@ -306,6 +306,7 @@ font-family: 'Bebas Neue', sans-serif;
 }
 
 .headingtopabout > h2 {
+  color: white;
   font-size: 7vh;
   font-weight: 700;
   text-align: left;
@@ -313,6 +314,7 @@ font-family: 'Bebas Neue', sans-serif;
 
 .headaboutbtn {
   background-color: #5c48c5;
+  color: white;
   padding: 1% 4%;
   border-radius: 5px;
   font-weight: 600;

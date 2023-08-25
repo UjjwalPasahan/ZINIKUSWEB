@@ -46,7 +46,7 @@ const signup = () => {
 
   return (
     <div className="newspage" id="newsletter">
-      <div className="back backbtn">
+      <div className="back backbtn" style={{ color: 'white' }}>
         <Link to={'/'}>
           <MdKeyboardBackspace size={30} />
         </Link>
