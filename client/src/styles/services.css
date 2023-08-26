@@ -303,9 +303,17 @@
 @media (max-width: 500px) {
   .elementPara {
     font-size: 0.55rem;
+    width: 100%;
+    
+  }
+
+  hr{
+    display: none;
   }
   .serviceContainer {
     padding: 0px;
+    width: 40vw;
+    margin:0 90px;
   }
   .ContactspaceMaker {
     height: 65rem;

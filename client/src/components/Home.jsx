@@ -51,7 +51,8 @@ const Home = () => {
                 <Button
                   className="feedbackButton"
                   colorScheme="grey"
-                  borderRadius="2xl"
+                  // borderRadius="2xl"
+                  paddingInline={'1.5'}
                   variant="outline"
                   // h="12"
                   // w="36"
