@@ -31,9 +31,9 @@ const Service = () => {
         {/* <div className="gradC1"></div>
         <div className="gradE1"></div> */}
         <div className="serviceContainer">
-          <div className="el1"></div>
+          <div className="el1 elementImage"></div>
           <div className="el2">
-            <p>
+            <p className="elementPara">
               <span className="gridHeading">
                 <a href="">Robotics Solution</a>
               </span>{' '}
@@ -47,7 +47,7 @@ const Service = () => {
           </div>
 
           <div className="el3">
-            <p>
+            <p className="elementPara">
               <span className="gridHeading">
                 <a href="">Artificial Intelligence Integration</a>
               </span>{' '}
@@ -61,11 +61,11 @@ const Service = () => {
             </p>
           </div>
 
-          <div className="el4"></div>
+          <div className="el4 elementImage"></div>
 
-          <div className="el5"></div>
+          <div className="el5 elementImage"></div>
           <div className="el6">
-            <p>
+            <p className="elementPara">
               <span className="gridHeading">
                 <a href="">Automation Consulting</a>
               </span>{' '}
@@ -80,7 +80,7 @@ const Service = () => {
           </div>
 
           <div className="el7">
-            <p>
+            <p className="elementPara">
               <span className="gridHeading">
                 <a href="">Maintenance and Support</a>
               </span>{' '}
@@ -94,7 +94,7 @@ const Service = () => {
           </div>
           <div className="gradC1"></div>
           <div className="gradE1"></div>
-          <div className="el8"></div>
+          <div className="el8 elementImage"></div>
         </div>
       </div>
       <div className="ContactspaceMaker"></div>

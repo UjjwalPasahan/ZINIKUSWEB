@@ -241,3 +241,82 @@
   position: absolute;
   left: 70vw;
 }
+
+@media (max-width: 1000px) {
+  .elementPara {
+    font-size: 0.8rem;
+  }
+  .elementImage {
+    background-size: 12rem;
+  }
+  .serviceContainer {
+    grid-row-gap: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .elementPara {
+    font-size: 0.6rem;
+  }
+  .elementImage {
+    background-size: 8rem;
+  }
+}
+@media (max-width: 700px) {
+  .serviceContainer {
+    display: block;
+    text-align: left;
+    padding-top: 0px;
+  }
+  .elementPara {
+    font-size: 0.6rem;
+  }
+
+  .el1,
+  .el2,
+  .el3,
+  .el4,
+  .el5,
+  .el6,
+  .el7,
+  .el8 {
+    margin-top: 20%;
+  }
+  .el1,
+  .el4,
+  .el5,
+  .el8 {
+    display: none !important;
+  }
+  .ContactspaceMaker {
+    height: 55rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .elementPara {
+    font-size: 0.6rem;
+  }
+  .serviceContainer {
+    padding: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .elementPara {
+    font-size: 0.55rem;
+  }
+  .serviceContainer {
+    padding: 0px;
+  }
+  .ContactspaceMaker {
+    height: 65rem;
+  }
+  .gradC1 {
+    display: none;
+  }
+  .gradE1 {
+    display: none;
+  }
+  .ourServices h1 {
+    font-size: 40px;
+  }
+}

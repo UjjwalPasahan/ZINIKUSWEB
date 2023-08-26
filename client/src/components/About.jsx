@@ -1,14 +1,13 @@
 import React, { useRef, useEffect } from 'react';
 import { Image, HStack, Button } from '@chakra-ui/react';
-import img4 from '../assets/homepage/bg.png';
 import '../styles/about.css';
 import img5 from '../assets/homepage/dubai3.png';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import { Link } from 'react-router-dom';
-import zini2 from '../assets/homepage/ZINI1.mp4'
-import zini3 from '../assets/homepage/ZINI2.mp4'
-import zoro3 from '../assets/homepage/ZORO.mp4'
+import zini2 from '../assets/homepage/ZINI1.mp4';
+import zini3 from '../assets/homepage/ZINI2.mp4';
+import zoro3 from '../assets/homepage/ZORO.mp4';
 
 const About = () => {
   // const observer = new IntersectionObserver(entries => {
@@ -119,26 +118,37 @@ const About = () => {
             showStatus={false}
             showThumbs={false}
           >
-          {/* <div><img className='videocarousel' src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzVsdWhqYjNpdmcyZTk3YTNxM3RnazNkMWlhdG84anNib2hjdWRmcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VMCmqHJPnMn2hjARO3/giphy.gif'/></div> */}
-            <div className='videocarousel'>
-            <video width="640" height="360" className='videocarousel' preload='auto' infiniteLoop autoPlay controls>
-        <source src={zini2} type="video/mp4"/>
-    </video>
+            <div>
+              <video
+                controls
+                width="640"
+                height="360"
+                className="videocarousel"
+              >
+                <source src={zini2} type="video/mp4" />
+              </video>
             </div>
-            <div className='videocarousel'>
-            <video preload='auto' infiniteLoop autoPlay controls width="640" height="360" className='videocarousel'>
-        <source src={zini3} type="video/mp4"/>
-    </video>
+            <div className="videocarousel">
+              <video
+                controls
+                width="640"
+                height="360"
+                className="videocarousel"
+              >
+                <source src={zini3} type="video/mp4" />
+              </video>
             </div>
 
-            
-            <div className='videocarousel'>
-            <video preload='auto' infiniteLoop autoPlay controls width="640" height="360" className='videocarousel'>
-        <source src={zoro3} type="video/mp4"/>
-    </video>
+            <div className="videocarousel">
+              <video
+                controls
+                width="640"
+                height="360"
+                className="videocarousel"
+              >
+                <source src={zoro3} type="video/mp4" />
+              </video>
             </div>
-
-            
           </Carousel>
         </div>
 
