@@ -339,3 +339,11 @@ font-family: 'Bebas Neue', sans-serif;
 .aboutimgl:hover {
   scale: 1.1;
 }
+
+
+
+.videocarousel{
+  height: 60vh;
+  width: 100%;
+  object-fit: contain;
+}

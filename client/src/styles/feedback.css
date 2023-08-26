@@ -25,10 +25,16 @@
   padding: 0.2vw 0.7vh 0vw;
 }
 
+.feedbackForm{
+  /* margin: 0 auto; */
+  /* transform: translate(50%,50%); */
+}
+
 .feedbackContent {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 
 .feedbackContent input {
@@ -67,4 +73,29 @@
 
 .star-icon input:checked + label ~ label {
   color: #251b58;
+}
+
+
+@media (max-width:900px) {
+  .feedbackContent{
+    transform: translate(35%,0%);
+  }
+}
+
+@media (max-width:528px) {
+  .feedbackContent{
+    transform: translate(20%,0%);
+  }
+}
+
+@media (max-width:420px) {
+  .feedbackContent{
+    transform: translate(10%,0%);
+  }
+}
+
+@media (max-width:370px) {
+  .feedbackContent{
+    transform: translate(0%,0%);
+  }
 }
