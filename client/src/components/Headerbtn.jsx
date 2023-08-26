@@ -39,7 +39,7 @@ const Headerbtn = () => {
             <div className="header">
             
                 <Button
-                color="white"
+                color="#702fff"
                 backgroundColor="transparent"
                 variant="solid"
                 pos="fixed"

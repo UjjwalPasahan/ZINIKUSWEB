@@ -113,10 +113,11 @@ const About = () => {
           <Carousel
             className="gallery"
             autoPlay={true}
-            showArrows={false}
+            showArrows={true}
             infiniteLoop
             showStatus={false}
             showThumbs={false}
+            showIndicators={false}
           >
             <div>
               <video
