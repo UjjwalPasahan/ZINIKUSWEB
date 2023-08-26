@@ -129,7 +129,7 @@ html {
 }
 
 .gradient {
-  background: url(../assets/homepage/Group\ 7.png);
+  /* background: url(../assets/homepage/Group\ 7.png); */
   position: absolute;
   z-index: -100;
 }
