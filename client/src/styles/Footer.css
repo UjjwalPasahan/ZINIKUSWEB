@@ -196,6 +196,7 @@
 @media (max-width: 600px) {
   .container {
     display: block;
+    margin-top: 0;
   }
   .address {
     display: none;
