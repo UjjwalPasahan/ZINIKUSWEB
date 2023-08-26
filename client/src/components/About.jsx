@@ -69,7 +69,7 @@ const About = () => {
 
   return (
     <div>
-      <div className="upperAbout">
+      <div className="upperAbout" id="upperAbout">
         <div className="whiteLowerSpaceMaker"></div>
         {/* <div className='abouth2'><h2>ABOUT US</h2></div> */}
         <div className="h22">

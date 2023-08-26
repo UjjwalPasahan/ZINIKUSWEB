@@ -40,7 +40,7 @@ const Footer = () => {
           <u>tanay.zinikus@gmail.com</u>
         </div>
         <div className="footerAbout element">
-          <a href="#about">About Us</a>
+          <a href="#upperAbout">About Us</a>
         </div>
         <div className="terms element">
           <a href={'/termsConditions'}>Terms & Conditions</a>
