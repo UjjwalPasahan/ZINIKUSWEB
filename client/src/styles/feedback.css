@@ -10,6 +10,7 @@
 
 .back {
   position: absolute;
+  color: white;
   top: 3vh;
   left: 3vw;
   padding: 0.2vw 0.7vh 0vw;
@@ -44,6 +45,7 @@
 .fh2 {
   font-size: 3.5rem;
   font-weight: 700;
+  color: white;
 }
 
 .star-icon {
