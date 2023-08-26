@@ -6,6 +6,9 @@ import img5 from '../assets/homepage/dubai3.png';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import { Link } from 'react-router-dom';
+import zini2 from '../assets/homepage/ZINI1.mp4'
+import zini3 from '../assets/homepage/ZINI2.mp4'
+import zoro3 from '../assets/homepage/ZORO.mp4'
 
 const About = () => {
   // const observer = new IntersectionObserver(entries => {
@@ -117,23 +120,24 @@ const About = () => {
             showThumbs={false}
           >
             <div>
-              <img
-                src="https://img.freepik.com/free-vector/hand-drawn-japanese-illustration-cherry-tree-petals_23-2149601832.jpg?t=st=1692856256~exp=1692856856~hmac=5957f66c8678872604addc840e76d7bdea7fb92421749499ad0e0120bed07f9c"
-                className="gallery-img"
-              />
+            <video controls width="640" height="360" className='videocarousel'>
+        <source src={zini2} type="video/mp4"/>
+    </video>
             </div>
-            <div style={{ borderRadius: '5%' }}>
-              <img
-                src="https://img.freepik.com/free-vector/hand-drawn-media-naranja-illustration_23-2150074406.jpg?t=st=1692856256~exp=1692856856~hmac=f2116a0607e75e6ad6c721439730ff8312e44f83369c18c6baa97bbde5df05f0"
-                className="gallery-img"
-              />
+            <div className='videocarousel'>
+            <video controls width="640" height="360" className='videocarousel'>
+        <source src={zini3} type="video/mp4"/>
+    </video>
             </div>
-            <div>
-              <img
-                src="https://img.freepik.com/free-vector/cute-black-bear-wearing-blanket-cartoon-vector-icon-illustration-animal-nature-icon-isolated-flat_138676-8842.jpg?size=626&ext=jpg&uid=R97150559&ga=GA1.2.809554958.1684743455&semt=sph"
-                className="gallery-img"
-              />
+
+            
+            <div className='videocarousel'>
+            <video controls width="640" height="360" className='videocarousel'>
+        <source src={zoro3} type="video/mp4"/>
+    </video>
             </div>
+
+            
           </Carousel>
         </div>
 

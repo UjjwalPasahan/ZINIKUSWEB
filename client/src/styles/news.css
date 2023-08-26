@@ -7,6 +7,7 @@
   background-position: center; */
   top: 2%;
   background: linear-gradient(#251b58, #702fff 35%, #2e65ff);
+  margin: auto;
 }
 #newsletter {
   background: linear-gradient(#251b58, #702fff, #2e65ff);
@@ -46,4 +47,29 @@
   color: white;
   opacity: 1;
   /* Firefox */
+}
+
+
+@media (max-width:900px) {
+  .newsletterContent{
+    transform: translate(35%,0%);
+  }
+}
+
+@media (max-width:528px) {
+  .newsletterContent{
+    transform: translate(20%,0%);
+  }
+}
+
+@media (max-width:420px) {
+  .newsletterContent{
+    transform: translate(10%,0%);
+  }
+}
+
+@media (max-width:370px) {
+  .newsletterContent{
+    transform: translate(0%,0%);
+  }
 }
