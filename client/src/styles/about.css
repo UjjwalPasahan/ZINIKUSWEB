@@ -256,18 +256,19 @@ font-family: 'Bebas Neue', sans-serif;
     line-height: 15px;
   }
   .faltuHeading {
-    font-size: 0.7rem;
+    font-size: 1.2rem;
     margin-top: -10%;
     width: 30%;
   }
   .faltuText {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .lowerdivwrapper {
     margin-top: -30%;
   }
   .imgs {
     margin-top: -30%;
+    width: 50%;
   }
 
   .about {
@@ -340,9 +341,7 @@ font-family: 'Bebas Neue', sans-serif;
   scale: 1.1;
 }
 
-
-
-.videocarousel{
+.videocarousel {
   height: 60vh;
   width: 100%;
   object-fit: contain;
