@@ -29,7 +29,10 @@ const Feedback = () => {
     try {
       const response = await fetch('http://localhost:8080/zinikusFeedback', {
         method: 'POST',
-        body: JSON.stringify(form),
+        body: JSON.stringify({
+          ...form,
+          rating: rating,
+        }),
         headers: {
           'Content-Type': 'application/json',
         },
@@ -40,6 +43,7 @@ const Feedback = () => {
 
       // Clear form fields after successful submission
       setForm({});
+      setRating(0); // Reset the rating
       // Show an alert after data is stored successfully
       alert('Data stored successfully');
     } catch (error) {

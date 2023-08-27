@@ -48,6 +48,7 @@ const feedbackSchema = new mongoose.Schema({
   email: String,
   opinions: String,
   suggestions: String,
+  rating: Number,
 });
 
 const feedback = mongoose.model("feedback", feedbackSchema);
@@ -60,6 +61,7 @@ server.post("/zinikusFeedback", async (req, res) => {
   feed.email = req.body.email;
   feed.opinions = req.body.opinions;
   feed.suggestions = req.body.suggestions;
+  feed.rating = req.body.rating; // Include the rating from the request
 
   const doc = await feed.save();
   console.log(doc);
