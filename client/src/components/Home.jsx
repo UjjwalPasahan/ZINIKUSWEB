@@ -32,8 +32,9 @@ const Home = () => {
             display="flex"
             zIndex="-150"
             justifyContent="center"
-            backgroundPosition="60% 60%"
+            backgroundPosition="60% 45%"
             backgroundRepeat={'no-repeat'}
+            backgroundAttachment={'fixed'}
             w="100%"
             h="50rem"
           >
