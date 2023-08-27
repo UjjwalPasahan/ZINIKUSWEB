@@ -18,7 +18,7 @@ const newsletterSchema = new mongoose.Schema({
   name: String,
   email: String,
   phone: Number,
-  tick: String,
+  tick: Boolean, // This field represents the checkbox value
 });
 
 const newsletter = mongoose.model("newsletter", newsletterSchema);

@@ -8,9 +8,13 @@ const signup = () => {
   const [form, setForm] = useState({});
   const handleForm = e => {
     console.log(e.target.value, e.target.name);
+    const value =
+      e.target.type === 'checkbox' ? e.target.checked : e.target.value;
+
     setForm({
       ...form,
       [e.target.name]: e.target.value,
+      [e.target.name]: value,
     });
   };
 
@@ -102,7 +106,7 @@ const signup = () => {
               <input
                 name="tick"
                 type="checkbox"
-                value={form.checkbox || ''}
+                checked={form.tick || false} // Make sure it's controlled by the form state
                 onChange={handleForm}
                 style={{ marginRight: '2px' }}
               />
