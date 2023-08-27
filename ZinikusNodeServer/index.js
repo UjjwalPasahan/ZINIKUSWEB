@@ -18,7 +18,7 @@ const newsletterSchema = new mongoose.Schema({
   name: String,
   email: String,
   phone: Number,
-  checkbox: Boolean,
+  tick: String,
 });
 
 const newsletter = mongoose.model("newsletter", newsletterSchema);

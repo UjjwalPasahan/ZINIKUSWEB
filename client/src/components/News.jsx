@@ -29,7 +29,11 @@ const signup = () => {
 
     // Clear form fields after successful submission
     setForm({});
-
+    // Reset the checkbox directly in the DOM (uncontrolled component)
+    const checkboxElement = document.querySelector('input[name="tick"]');
+    if (checkboxElement) {
+      checkboxElement.checked = false;
+    }
     // Show an alert after data is stored successfully
     alert('Data stored successfully');
   };
@@ -98,7 +102,7 @@ const signup = () => {
               <input
                 name="tick"
                 type="checkbox"
-                value={form.checkbox || 'false'}
+                value={form.checkbox || ''}
                 onChange={handleForm}
                 style={{ marginRight: '2px' }}
               />
