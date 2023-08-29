@@ -262,6 +262,18 @@
     top: 50%;
     height: 60%;
   }
+
+  #listContainer{
+      margin-block: 10px;
+  }
+
+  #listContainer #box h3 a{
+    font-size: 50%;
+  }
+
+  .mainContainer{
+    margin-top: 10%;
+  }
 }
 
 @media (max-width: 480px) {

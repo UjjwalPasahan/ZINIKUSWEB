@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import zini2 from '../assets/homepage/ZINI1.mp4';
 import zini3 from '../assets/homepage/ZINI2.mp4';
 import zoro3 from '../assets/homepage/ZORO.mp4';
+import zini4 from '../assets/homepage/zini4.mp4'
 
 const About = () => {
   // const observer = new IntersectionObserver(entries => {
@@ -119,6 +120,17 @@ const About = () => {
             showThumbs={false}
             showIndicators={false}
           >
+
+<div>
+              <video
+                controls
+                width="640"
+                height="360"
+                className="videocarousel"
+              >
+                <source src={zini4} type="video/mp4" />
+              </video>
+            </div>
             <div>
               <video
                 controls
