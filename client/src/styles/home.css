@@ -34,7 +34,7 @@ html {
 }
 
 .glassyEffect {
-  height: 12.522361359570661vh;
+  height: 14.522361359570661vh;
   width: 100%;
   background: rgba(218, 218, 218, 0.162);
   position: absolute;
@@ -202,7 +202,7 @@ html {
     width: 15vw;
   }
   .glassyEffect {
-    height: 19.522361359570661vh;
+    height: 14.522361359570661vh !important;
   }
 }
 
