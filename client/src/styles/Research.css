@@ -130,9 +130,18 @@
 }
 
 #mainContainer {
-  height: 0%;
+  /* height: 0%;
   padding: 25%;
-  position: relative;
+  position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15vh 6%;
+  gap: 10%;
+  /* margin-inline: 10%; */
+  height: 80vh;
+
 }
 
 #mainContainer h1 {
@@ -140,29 +149,35 @@
   font-weight: 800;
   font-family: 'Montserrat', sans-serif;
   color: white;
-  position: absolute;
+  /* position: absolute;
   top: 15%;
-  left: 33%;
+  left: 33%; */
   text-align: center;
+  margin-bottom: 5%;
 }
 
 #listContainer {
   background: #f3f3f3ec;
   border-radius: 20px;
-  position: absolute;
-  top: 25%;
-  left: 33%;
-  height: 50%;
+  /* margin: -20% auto; */
+  /* height: 90%; */
   overflow: hidden;
-  padding-top: 6%;
+  padding-inline: 6%;
+  height: 35vh;
+  /* width: 100vw; */
+  /* margin-left: -5 0%; */
 }
 
 #box h3 {
   color: #000;
-  text-align: center;
+  /* text-align: center; */
   font-size: xx-large;
   font-size: 2rem;
   font-weight: 600;
+  /* transform: translate(50%,20%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #box h3 a:link {
   text-decoration: none;
@@ -229,26 +244,11 @@
 }
 
 @media (max-width: 1200px) {
-  #mainContainer h1 {
-    top: 20%;
-    left: 30%;
-  }
 
-  #listContainer {
-    top: 35%;
-  }
 }
 
 @media (max-width: 750px) {
-  #mainContainer h1 {
-    top: 25%;
-    left: 25%;
-  }
 
-  #listContainer {
-    top: 45%;
-    height: 55%;
-  }
 }
 
 @media (max-width: 570px) {
@@ -263,9 +263,7 @@
     height: 60%;
   }
 
-  #listContainer{
-      margin-block: 10px;
-  }
+
 
   #listContainer #box h3 a{
     font-size: 50%;
@@ -289,14 +287,14 @@
   }
 
   .footer {
-    margin-top: 4rem;
+    margin-top: 0rem;
   }
 }
 
 @media (max-width: 400px) {
   #mainContainer h1 {
     font-size: 1rem;
-    top: 50%;
+    top: 70%;
     left: 24%;
   }
 
@@ -306,6 +304,6 @@
   }
 
   .footer {
-    margin-top: 5rem;
+    margin-top: 0.5rem;
   }
 }

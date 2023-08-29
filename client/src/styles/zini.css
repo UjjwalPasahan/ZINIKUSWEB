@@ -35,6 +35,7 @@
 }
 
 .product-section{
+  color: white !important;
 
 }
 
@@ -59,10 +60,13 @@
 .product-details h1 {
   font-size: 24px;
   margin-bottom: 10px;
+  color: white !important;
+
 }
 
 .product-details p {
   font-size: 16px;
+  color: white !important;
 }
 
 @media (max-width: 768px) {
