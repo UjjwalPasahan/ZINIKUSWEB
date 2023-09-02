@@ -1,9 +1,9 @@
 const express = require("express");
 const server = express();
-// const cors = require("cors");
+const cors = require("cors");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
-const helmet =require("helmet")
+// const helmet =require("helmet")
 
 main().catch((err) => console.log(err));
 
@@ -25,9 +25,9 @@ const newsletterSchema = new mongoose.Schema({
 });
 
 const newsletter = mongoose.model("newsletter", newsletterSchema);
-// server.use(cors());
+server.use(cors());
 server.use(bodyParser.json());
-server.use(helmet());
+// server.use(helmet());
 
 server.post("/zinikus", async (req, res) => {
   let news = new newsletter();
@@ -56,8 +56,8 @@ const feedbackSchema = new mongoose.Schema({
 });
 
 const feedback = mongoose.model("feedback", feedbackSchema);
-// server.use(cors());
-server.use(helmet());
+server.use(cors());
+// server.use(helmet());
 server.use(bodyParser.json());
 
 server.post("/zinikusFeedback", async (req, res) => {
