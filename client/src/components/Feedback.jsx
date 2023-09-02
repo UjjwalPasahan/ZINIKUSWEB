@@ -27,7 +27,7 @@ const Feedback = () => {
   const handleSubmit = async e => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:8080/zinikusFeedback', {
+      const response = await fetch('https://zinikusweb-server.vercel.app/zinikusFeedback', {
         method: 'POST',
         body: JSON.stringify({
           ...form,
@@ -53,7 +53,7 @@ const Feedback = () => {
 
   const getUsers = async () => {
     try {
-      const response = await fetch('http://localhost:8080/zinikusFeedback', {
+      const response = await fetch('https://zinikusweb-server.vercel.app/zinikusFeedback', {
         method: 'GET',
       });
 
