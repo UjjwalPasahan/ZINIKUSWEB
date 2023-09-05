@@ -3,7 +3,7 @@ import { Image, HStack, Button } from '@chakra-ui/react';
 import '../styles/about.css';
 import img5 from '../assets/homepage/dubai3.png';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-
+import thumbnail from '../assets/homepage/thumbnail.png';
 import zoro3 from '../assets/homepage/zinikusWhatWeDo.mp4';
 // import zini4 from '../assets/homepage/zini4.mp4'
 
@@ -154,15 +154,18 @@ const About = () => {
           </Carousel> */}
 
           <div className="videocarousel">
-              <video
-                controls
-                // width="640"
-                // height="360"
-                className="videocarousel"
-              >
-                <source src={zoro3} type="video/mp4" />
-              </video>
-            </div>
+            <video
+              autoPlay
+              controls
+              muted
+              // poster={thumbnail}
+              width="640"
+              height="360"
+              className="videocarousel"
+            >
+              <source src={zoro3} type="video/mp4" />
+            </video>
+          </div>
         </div>
 
         <HStack className="lowerAboutUs" mt="40">
