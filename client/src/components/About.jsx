@@ -3,11 +3,8 @@ import { Image, HStack, Button } from '@chakra-ui/react';
 import '../styles/about.css';
 import img5 from '../assets/homepage/dubai3.png';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { Carousel } from 'react-responsive-carousel';
-import { Link } from 'react-router-dom';
-import zini2 from '../assets/homepage/ZINI1.mp4';
-import zini3 from '../assets/homepage/ZINI2.mp4';
-import zoro3 from '../assets/homepage/ZORO.mp4';
+
+import zoro3 from '../assets/homepage/zinikusWhatWeDo.mp4';
 // import zini4 from '../assets/homepage/zini4.mp4'
 
 const About = () => {
@@ -159,8 +156,8 @@ const About = () => {
           <div className="videocarousel">
               <video
                 controls
-                width="640"
-                height="360"
+                // width="640"
+                // height="360"
                 className="videocarousel"
               >
                 <source src={zoro3} type="video/mp4" />

@@ -233,6 +233,48 @@ html {
   }
 }
 
+@media (max-width: 600px) {
+  @keyframes leftToRightH2 {
+    0% {
+      /* margin-left: -80vw; */
+      opacity: 0;
+    }
+
+    100% {
+      /* margin-left: 0vw; */
+      opacity: 1;
+    }
+  }
+
+  @keyframes leftToRightH5 {
+    0% {
+      /* margin-left: -90vw; */
+      opacity: 0;
+    }
+
+    100% {
+      /* margin-left: 0vw; */
+      opacity: 1;
+    }
+  }
+
+  @keyframes leftToRightButton {
+    0% {
+      /* margin-left: -90vw; */
+      opacity: 0;
+    }
+
+    100% {
+      /* margin-left: 0vw; */
+      opacity: 1;
+    }
+  }
+  .headImage {
+    height: 35rem !important;
+  }
+
+}
+
 @media (max-width: 480px) {
   html {
     overflow-x: hidden;
