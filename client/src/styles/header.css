@@ -29,6 +29,16 @@
   z-index: 100;
 }
 
+.phoneIcon {
+  position: fixed;
+  background-color: #702fff;
+  padding: 2%;
+  border-radius: 50%;
+  bottom: 10%;
+  right: 5%;
+  display: none;
+}
+
 .ls {
   position: absolute;
   top: 90%;
@@ -270,5 +280,10 @@ div.svg-wrapper:nth-child(3) {
 @media (max-width: 900px) {
   div.chakra-stack:nth-child(1) {
     margin-left: -33%;
+  }
+}
+@media (max-width: 600px) {
+  .phoneIcon {
+    display: block;
   }
 }

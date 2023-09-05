@@ -1,6 +1,6 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { GiHamburgerMenu } from "react-icons/gi";
+import { GiHamburgerMenu } from 'react-icons/gi';
 import { ImSearch } from 'react-icons/im';
 
 import {
@@ -25,9 +25,9 @@ import '../styles/header.css';
 import img3 from '../assets/homepage/signUpButton.svg';
 import img4 from '../assets/homepage/searchIcon.svg';
 import Headerbtn from './Headerbtn';
+import { BsFillTelephoneFill } from 'react-icons/bs';
 import HeaderContent from './HeaderContent';
 import { divide } from 'lodash';
-
 
 const Header = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -47,38 +47,41 @@ const Header = () => {
   return (
     <div>
       {isMobile ? <Headerbtn /> : <HeaderContent />}
+      <div className="phoneIcon">
+        <a href="">
+          <BsFillTelephoneFill />
+        </a>
+      </div>
     </div>
   );
 };
 
-
-
-
 // const Header = () => {
-  // const { isOpen, onOpen, onClose } = useDisclosure();
-  // const [showInput, setShowInput] = useState(false);
+// const { isOpen, onOpen, onClose } = useDisclosure();
+// const [showInput, setShowInput] = useState(false);
 
-  // const handleClick = () => {
-  //   setShowInput(true);
-  //   setShowInput(!showInput);
-  // };
+// const handleClick = () => {
+//   setShowInput(true);
+//   setShowInput(!showInput);
+// };
 
-  // const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
-  
-  // useEffect(() => {
-  // const handleResize = () => {
-  //   setIsMobile(window.innerWidth <= 768);
-  // };
-  
-  // window.addEventListener('resize', handleResize);
-  
-  // return () => {
-  //   window.removeEventListener('resize', handleResize);
-  // };
-  // }, []);
-  // return (
-    // <div className='borderb' >
-      {/* <div className="headerContainer"></div>
+// const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+// useEffect(() => {
+// const handleResize = () => {
+//   setIsMobile(window.innerWidth <= 768);
+// };
+
+// window.addEventListener('resize', handleResize);
+
+// return () => {
+//   window.removeEventListener('resize', handleResize);
+// };
+// }, []);
+// return (
+// <div className='borderb' >
+{
+  /* <div className="headerContainer"></div>
       <div className="header">
 
           <Button
@@ -153,8 +156,8 @@ const Header = () => {
       </div>
 </div>
       <hr className="headerHR" />
-    </div> */}
-
+    </div> */
+}
 
 //     <div>
 //       {isMobile ? <Headerbtn /> : <HeaderContent />}
