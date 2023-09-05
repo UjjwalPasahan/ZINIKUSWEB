@@ -286,8 +286,8 @@ p {
     margin: 15vh 16vw 10vh 25vw;
   }
   .flexed {
-    margin-top: 5px;
-    margin-bottom: -8%;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
 }
 
@@ -296,8 +296,8 @@ p {
     margin: 15vh 6vw 8vh 15vw;
   }
   .flexed {
-    margin-top: 3px;
-    margin-bottom: -10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
 }
 
