@@ -170,6 +170,20 @@ font-family: 'Bebas Neue', sans-serif;
   transition: all 0.2s ease-in;
 }
 
+@media (max-width: 800px) {
+  .imgs {
+    width: 100vw;
+  }
+  .faltuHeading {
+    font-size: 4rem;
+  }
+  .faltuText {
+    font-size: large;
+  }
+  .headaboutbtn {
+    font-weight: 400;
+  }
+}
 @media (max-width: 774px) {
   .h22 {
     font-size: 4rem;
@@ -321,7 +335,7 @@ font-family: 'Bebas Neue', sans-serif;
   color: white;
   padding: 1% 4%;
   border-radius: 5px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .headaboutbtn:hover {
