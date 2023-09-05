@@ -100,7 +100,7 @@ const Service = () => {
       <div className="ContactspaceMaker"></div>
       <div className="gradC1"></div>
       <div className="gradE1" style={{ maxHeight: '400px' }}></div>
-      <Footer />
+      <Footer style={{ marginTop: 0 }} />
     </div>
   );
 };

@@ -1,13 +1,13 @@
-.productsdiv{
-    
-    transform: translateX('30%');
+.productsdiv {
+  padding-bottom: 5%;
+  transform: translateX('30%');
 }
 
-@media (max-width:900px) {
-    .productsdiv{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+@media (max-width: 900px) {
+  .productsdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -1,53 +1,55 @@
 import React from 'react';
-import '../data/productdata.json'
-import '../styles/cards.css'
+import '../data/productdata.json';
+import '../styles/cards.css';
 import { Link } from 'react-router-dom';
-import zini1 from '../assets/homepage/ZINI1.jpg'
-import zoro1 from '../assets/homepage/ZORO3.jpeg'
+import zini1 from '../assets/homepage/ZINI1.jpg';
+import zoro1 from '../assets/homepage/ZORO3.jpeg';
 
-const Card = (props) => {
+const Card = props => {
   return (
-    <div className='flexed'>
+    <div className="flexed">
+      <article className="card">
+        <img
+          className="card__background"
+          src={zini1}
+          alt=""
+          width="1920"
+          height="2193"
+        />
+        <div className="card__content | flow">
+          <div className="card__content--container | flow">
+            <h2 className="card__title">ZINI</h2>
+            <p className="card__description">The Reception Robot - ZINI</p>
+          </div>
 
-    <article className="card">
-      <img
-        className="card__background"
-        src={zini1}
-        alt=""
-        width="1920"
-        height="2193"
-      />
-      <div className="card__content | flow">
-        <div className="card__content--container | flow">
-          <h2 className="card__title">ZINI</h2>
-          <p className="card__description">
-          The Reception Robot - ZINI
-          </p>
+          <button className="card__button">
+            <Link to={'/zini'} style={{ marginTop: '-50px' }}>
+              Read more
+            </Link>
+          </button>
         </div>
-        
-        <button className="card__button"><Link to={'/zini'} style={{marginTop:'-50px'}}>Read more</Link></button>
-      </div>
-    </article>
+      </article>
 
-    
-    <article className="card">
-      <img
-        className="card__background"
-        src={zoro1}
-        alt=""
-        width="1920"
-        height="2193"
-      />
-      <div className="card__content | flow">
-        <div className="card__content--container | flow">
-          <h2 className="card__title">ZORO</h2>
-          <p className="card__description">
-          Your Ultimate Butler/Delivery Robot from ZINIKUS
-          </p>
+      <article className="card">
+        <img
+          className="card__background"
+          src={zoro1}
+          alt=""
+          width="1920"
+          height="2193"
+        />
+        <div className="card__content | flow">
+          <div className="card__content--container | flow">
+            <h2 className="card__title">ZORO</h2>
+            <p className="card__description">
+              Your Ultimate Butler/Delivery Robot from ZINIKUS
+            </p>
+          </div>
+          <button className="card__button">
+            <Link to={'/zoro'}>Read more</Link>
+          </button>
         </div>
-        <button className="card__button"><Link to={'/zoro'}>Read more</Link></button>
-      </div>
-    </article>
+      </article>
     </div>
   );
 };
