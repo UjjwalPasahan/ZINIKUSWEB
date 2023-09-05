@@ -22,11 +22,11 @@ const Footer = () => {
           <a href={'./product'}>Products</a>
         </div>
         <div className="address element">
-          B-130, Ayurvigyan Nagar,
+          Second Floor,
           <br />
-          AIIMS Campus,
+          Greenfield Colony,
           <br />
-          New Delhi-110049
+          Faridabad-121010
         </div>
         <div className="feedback element">
           <a href={'./feedback'}>Feedback</a>
@@ -47,6 +47,8 @@ const Footer = () => {
         </div>
         <div className="phone element">
           <a href="tel:+91 98110031799">+91 9810031799</a>
+          <br />
+          <a href="tel:+91 7011995400">+91 7011995400</a>
         </div>
         <div className="footerIcons">
           <div className="flex margin">
@@ -70,10 +72,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div
-          className="footerLogo"
-          style={{ paddingLeft: '55px', paddingTop: '20px' }}
-        >
+        <div className="footerLogo" style={{ paddingTop: '20px' }}>
           <a href="/">
             <img style={{ width: '170px' }} src={zini} />
           </a>

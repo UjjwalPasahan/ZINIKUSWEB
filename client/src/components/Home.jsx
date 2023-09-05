@@ -65,7 +65,7 @@ const Home = () => {
             </VStack>
           </Box>
           <div className="spaceMaker"></div>
-          <div className="lowerSpaceMaker"></div>
+          {/* <div className="lowerSpaceMaker"></div> */}
           <div className="gradC1"></div>
           <div className="gradE1"></div>
           <div className="gradC1"></div>

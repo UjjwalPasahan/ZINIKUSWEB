@@ -211,7 +211,9 @@
     padding-top: 2rem;
   }
   .footerLogo {
-    padding-left: 18% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .flex {
     margin-top: 0px;
