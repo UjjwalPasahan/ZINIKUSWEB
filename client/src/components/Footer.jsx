@@ -16,10 +16,10 @@ const Footer = () => {
       <div className="footerDivider"></div>
       <div className="container">
         <div className="contact element">
-          <a href={'/services'}>Our Services</a>
+          <a href={'./services'}>Our Services</a>
         </div>
         <div className="products element">
-          <a href={'/product'}>Products</a>
+          <a href={'./product'}>Products</a>
         </div>
         <div className="address element">
           B-130, Ayurvigyan Nagar,
@@ -29,10 +29,10 @@ const Footer = () => {
           New Delhi-110049
         </div>
         <div className="feedback element">
-          <a href={'/feedback'}>Feedback</a>
+          <a href={'./feedback'}>Feedback</a>
         </div>
         <div className="newsletter element">
-          <a href={'/newsletter'}>Our Newsletter</a>
+          <a href={'./newsletter'}>Our Newsletter</a>
         </div>
         <div className="email element">
           <u>adi.zinikus@gmail.com</u>
@@ -43,7 +43,7 @@ const Footer = () => {
           <a href="#upperAbout">About Us</a>
         </div>
         <div className="terms element">
-          <a href={'/termsConditions'}>Terms & Conditions</a>
+          <a href={'./termsConditions'}>Terms & Conditions</a>
         </div>
         <div className="phone element">
           <a href="tel:+91 98110031799">+91 9810031799</a>
