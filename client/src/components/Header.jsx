@@ -28,6 +28,16 @@ import Headerbtn from './Headerbtn';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import HeaderContent from './HeaderContent';
 import { divide } from 'lodash';
+import {
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalBody,
+  ModalCloseButton
+} from '@chakra-ui/react'
+import { BsFillChatDotsFill } from "react-icons/bs";
 
 const Header = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -44,15 +54,52 @@ const Header = () => {
     };
   }, []);
 
-  return (
-    <div>
+
+    const { isOpen, onOpen, onClose } = useDisclosure()
+  
+
+    return (
+      <div>
       {isMobile ? <Headerbtn /> : <HeaderContent />}
       <div className="phoneIcon">
-        <a href="">
-          <BsFillTelephoneFill />
-        </a>
+        
+        {/* <VerticallyCenter/> */}
+        <button onClick={onOpen}><BsFillChatDotsFill size={"4vh"}/></button>
       </div>
-    </div>
+  <div>
+    
+
+<Modal onClose={onClose} isOpen={isOpen}>
+          <ModalOverlay />
+          <ModalContent>
+            <ModalHeader>Contact Us</ModalHeader>
+            <ModalCloseButton />
+            <ModalBody>
+              <div>
+                <a href='mailto:adi.zinikus@gmail.com'>adi.zinikus@gmail.com</a>
+          <br />
+          <a href='mailto:tanay.zinikus@gmail.com'>tanay.zinikus@gmail.com</a>
+        </div>
+        <br/>
+        <hr/>
+        <br/>
+        <div >
+          <a href="tel:+91 98110031799">+91 9810031799</a>
+          <br />
+          <a href="tel:+91 7011995400">+91 7011995400</a>
+        </div>
+              
+            </ModalBody>
+            <ModalFooter>
+              <Button onClick={onClose}>Close</Button>
+            </ModalFooter>
+          </ModalContent>
+        </Modal>
+
+        
+  </div>
+      </div>
+    
   );
 };
 

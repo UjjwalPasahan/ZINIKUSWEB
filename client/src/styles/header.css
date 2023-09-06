@@ -32,11 +32,21 @@
 .phoneIcon {
   position: fixed;
   background-color: #702fff;
-  padding: 2%;
   border-radius: 50%;
-  bottom: 10%;
-  right: 5%;
+  bottom: 8%;
+  right: 10%;
   display: none;
+}
+
+.modalCont{
+  background-color: white;
+}
+
+@media (max-width:600px) {
+  .phoneIcon {
+    padding: 2%;
+    display: inline-block;
+  }
 }
 
 .ls {

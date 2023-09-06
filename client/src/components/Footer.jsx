@@ -35,9 +35,10 @@ const Footer = () => {
           <a href={'./newsletter'}>Our Newsletter</a>
         </div>
         <div className="email element">
-          <u>adi.zinikus@gmail.com</u>
+        <a href='mailto:adi.zinikus@gmail.com'>adi.zinikus@gmail.com</a>
           <br />
-          <u>tanay.zinikus@gmail.com</u>
+          <a href='mailto:tanay.zinikus@gmail.com'>tanay.zinikus@gmail.com</a>
+        
         </div>
         <div className="footerAbout element">
           <a href="#upperAbout">About Us</a>
