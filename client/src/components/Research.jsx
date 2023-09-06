@@ -20,14 +20,15 @@ const Research = props => {
           <span className="onoffswitch3-inner">
             <span className="onoffswitch3-active">
               <marquee className="scroll-text">
-                ******ZINIKUS will do great!******{' '}
-                <span className="glyphicon glyphicon-forward"></span> ZINIKUS
-                showcases its reception robot in dubai tech expo.{' '}
-                <span className="glyphicon glyphicon-forward"></span> ZINIKUS
-                strikes a deal with a MNC in dubai.
+                ******Upcoming research & Updates promise new Frontiers in
+                Science and Technology******{' '}
+                <span className="glyphicon glyphicon-forward"></span> Coming
+                Soon******{' '}
+                {/* <span className="glyphicon glyphicon-forward"></span> ZINIKUS
+                strikes a deal with a MNC in dubai. */}
               </marquee>
               <span className="onoffswitch3-switch">
-                HEADLINE
+                Anticipating Breakthroughs
                 {/* <span className="glyphicon glyphicon-remove"></span> */}
               </span>
             </span>

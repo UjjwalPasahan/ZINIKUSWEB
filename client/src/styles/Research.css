@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 .researchPage {
@@ -84,9 +85,9 @@
 }
 
 .onoffswitch3-active .onoffswitch3-switch {
-  background: linear-gradient(#251b58, #2b00ff);
+  background: linear-gradient(#702fff, #2e65ff);
   left: 0;
-  width: 200px;
+  width: 280px;
 }
 
 .onoffswitch3-inactive {
@@ -112,6 +113,7 @@
 .scroll-text {
   color: #000;
   width: 80vw;
+  font-weight: 500;
 }
 
 .listContainer {
@@ -144,8 +146,8 @@
 }
 
 #mainContainer h1 {
-  font-size: 2rem;
-  font-weight: 800;
+  font-size: 3rem;
+  font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   color: white;
   /* position: absolute;
@@ -246,6 +248,14 @@
 }
 
 @media (max-width: 750px) {
+  #mainContainer h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 615px) {
+  #mainContainer h1 {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 570px) {
@@ -259,6 +269,9 @@
     top: 50%;
     height: 60%;
   }
+  #box h3 {
+    font-size: 3rem;
+  }
 
   #listContainer #box h3 a {
     font-size: 50%;
@@ -270,10 +283,25 @@
 }
 
 @media (max-width: 480px) {
+  .onoffswitch3-active .onoffswitch3-switch {
+    width: 0px;
+    display: none;
+  }
+
+  .onoffswitch3-inner .onoffswitch3-active {
+    padding-left: 0px;
+  }
+
+  .scroll-text {
+    width: 100vw;
+  }
   #mainContainer h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     top: 35%;
     left: 24%;
+  }
+  #box h3 {
+    font-size: 3rem;
   }
 
   #listContainer {
@@ -288,7 +316,7 @@
 
 @media (max-width: 400px) {
   #mainContainer h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     top: 70%;
     left: 24%;
   }

@@ -96,7 +96,7 @@
 
 .serviceContainer {
   margin: 0px 150px 100px 150px;
-  margin-top: 4rem;
+  margin-top: 3rem;
   padding: 60px;
   position: absolute;
   z-index: 1000;
@@ -247,7 +247,8 @@
     font-size: 0.8rem;
   }
   .elementImage {
-    background-size: 12rem;
+    background-size: 13rem;
+    margin-top: 20%;
   }
   .serviceContainer {
     grid-row-gap: 20px;
@@ -260,6 +261,13 @@
   .elementImage {
     background-size: 8rem;
   }
+  .serviceContainer {
+    grid-row-gap: 20px;
+    grid-template-rows: 15rem 15rem 15rem 15rem;
+  }
+  .ContactspaceMaker {
+    height: 75rem;
+  }
 }
 @media (max-width: 700px) {
   .serviceContainer {
@@ -268,7 +276,8 @@
     padding-top: 0px;
   }
   .elementPara {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
+    text-align: center;
   }
 
   .el1,
@@ -288,13 +297,13 @@
     display: none !important;
   }
   .ContactspaceMaker {
-    height: 55rem;
+    height: 80rem;
   }
 }
 
 @media (max-width: 600px) {
   .elementPara {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
   .serviceContainer {
     padding: 0px;
@@ -302,29 +311,49 @@
 }
 @media (max-width: 500px) {
   .elementPara {
-    font-size: 0.55rem;
+    font-size: 0.7rem;
     width: 100%;
-    
   }
 
-  hr{
+  hr {
     display: none;
   }
   .serviceContainer {
     padding: 0px;
-    width: 40vw;
-    margin:0 90px;
+    width: 60vw;
+    margin: auto 90px;
+  }
+  .ContactspaceMaker {
+    height: 60rem;
+  }
+  .ourServices h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 440px) {
+  .serviceContainer {
+    width: 50vw;
   }
   .ContactspaceMaker {
     height: 65rem;
   }
-  .gradC1 {
-    display: none;
+}
+@media (max-width: 360px) {
+  .elementPara {
+    font-size: 0.6rem;
   }
-  .gradE1 {
-    display: none;
+  .ContactspaceMaker {
+    height: 60rem;
+  }
+}
+@media (max-width: 300px) {
+  .serviceContainer {
+    width: 40vw;
+  }
+  .elementPara {
+    font-size: 0.5rem;
   }
   .ourServices h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
