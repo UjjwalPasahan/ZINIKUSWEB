@@ -278,7 +278,7 @@ font-family: 'Bebas Neue', sans-serif;
     padding: 8rem;
   }
 }
-@media (max-width: 570px) {
+@media (max-width: 600px) {
   .h22 {
     font-size: 3rem;
     margin-right: 2rem;
